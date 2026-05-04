@@ -10,7 +10,7 @@ export interface AppNavigationItem {
 export const DEFAULT_APP_MODE: AppMode = 'practice'
 
 export const APP_INFO = {
-  badge: 'Тренажёр официанта',
+  badge: 'KutLang',
   heading: 'English -> Turkish: сервисные диалоги',
   description:
     'Тренируйте скорость, чёткость и реальные ситуации с гостями в формате быстрых повторений.',
