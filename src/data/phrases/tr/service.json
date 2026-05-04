@@ -24,7 +24,8 @@
         "One moment please"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 76,
@@ -51,7 +52,8 @@
         "One moment please"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 81,
@@ -78,7 +80,8 @@
         "I am speeding up the order"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 82,
@@ -105,7 +108,8 @@
         "I will serve it immediately"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 83,
@@ -132,7 +136,8 @@
         "I am setting them up now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 84,
@@ -159,7 +164,8 @@
         "I am warning the kitchen now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 85,
@@ -186,7 +192,8 @@
         "I will take the plates out myself"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Runner"
   },
   {
     "id": 86,
@@ -213,7 +220,8 @@
         "I am informing the bar immediately"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 87,
@@ -240,7 +248,8 @@
         "I am splitting it in POS right now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 88,
@@ -267,7 +276,8 @@
         "I am organizing the payment queue"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Cashier"
   },
   {
     "id": 89,
@@ -294,7 +304,8 @@
         "I am briefing the team for the surprise"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 90,
@@ -321,7 +332,8 @@
         "I am passing the note to the kitchen now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 91,
@@ -348,7 +360,8 @@
         "I am taking a new one right away"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Waiter"
   },
   {
     "id": 92,
@@ -375,7 +388,8 @@
         "One moment, I am coming with the device"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 93,
@@ -402,7 +416,8 @@
         "I am fixing coordination immediately"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Kitchen"
   },
   {
     "id": 94,
@@ -429,7 +444,8 @@
         "I will verify all notes again"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 95,
@@ -456,7 +472,8 @@
         "I will let you know as soon as it is ready"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 96,
@@ -483,7 +500,8 @@
         "I will transfer notes without missing anything"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 125,
@@ -510,7 +528,8 @@
         "As soon as it is ready, I will start service"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Hot Station"
   },
   {
     "id": 126,
@@ -537,7 +556,8 @@
         "I will send them out within three minutes"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Cold Station"
   },
   {
     "id": 127,
@@ -564,7 +584,8 @@
         "I will resend it with the same plating standard"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Pastry Chef"
   },
   {
     "id": 128,
@@ -591,7 +612,8 @@
         "I am sending them out with the runner now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 129,
@@ -618,7 +640,8 @@
         "I am holding other pickups for one minute"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Runner"
   },
   {
     "id": 130,
@@ -645,7 +668,8 @@
         "I will do a final check before service"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 131,
@@ -672,7 +696,8 @@
         "There will be no confusion during payment"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Cashier"
   },
   {
     "id": 132,
@@ -699,7 +724,8 @@
         "We proceed by reservation time first"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Hostess"
   },
   {
     "id": 133,
@@ -726,7 +752,8 @@
         "I will restock without stopping service"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Steward"
   },
   {
     "id": 134,
@@ -753,7 +780,8 @@
         "I am slowing the pace to prevent wrong sends"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Expediter"
   },
   {
     "id": 135,
@@ -780,7 +808,8 @@
         "I am sorting orders by cooking time"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 136,
@@ -807,7 +836,8 @@
         "I will refill the bar station within two minutes"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Barback"
   },
   {
     "id": 137,
@@ -834,7 +864,8 @@
         "I am informing the team about the new time"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Kitchen"
   },
   {
     "id": 138,
@@ -861,7 +892,8 @@
         "I will reassign tables and confirm"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Floor Lead"
   },
   {
     "id": 139,
@@ -888,6 +920,7 @@
         "I am announcing to the team that late-night menu is over"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   }
 ]

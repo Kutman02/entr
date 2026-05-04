@@ -20,7 +20,8 @@
         "Привет"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 2,
@@ -43,7 +44,8 @@
         "Добро пожаловать"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 3,
@@ -66,7 +68,8 @@
         "Добро пожаловать в наш ресторан"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 4,
@@ -89,6 +92,7 @@
         "Очень хорошо, спасибо"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   }
 ]

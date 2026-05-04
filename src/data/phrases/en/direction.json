@@ -20,7 +20,8 @@
         "Вон там"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 42,
@@ -43,7 +44,8 @@
         "Он рядом с бассейном"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Bartender"
   },
   {
     "id": 43,
@@ -66,7 +68,8 @@
         "Я могу показать вам"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 44,
@@ -89,7 +92,8 @@
         "Идите прямо к главному холлу"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 45,
@@ -112,6 +116,7 @@
         "Да, справа от вас"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   }
 ]

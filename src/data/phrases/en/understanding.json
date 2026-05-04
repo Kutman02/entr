@@ -20,7 +20,8 @@
         "Я буду говорить медленно"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 56,
@@ -43,7 +44,8 @@
         "Разумеется"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 57,
@@ -66,7 +68,8 @@
         "Я повторю"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 58,
@@ -89,7 +92,8 @@
         "Да, я могу помочь на турецком"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 59,
@@ -112,7 +116,8 @@
         "Да, конечно"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 60,
@@ -135,7 +140,8 @@
         "Я могу объяснить простыми словами"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 61,
@@ -158,6 +164,7 @@
         "Одну минуту, сейчас запишу"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   }
 ]

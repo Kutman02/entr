@@ -155,6 +155,7 @@ function GuestMessage({ text }: GuestMessageProps) {
 			hintRu={phrase.guestHintRu}
 			emotion={phrase.guestEmotion}
 			language={phrase.language}
+			role={phrase.guestRole}
 			onSpeak={() => speak(text, getSpeechLocaleByLanguage(phrase.language))}
 			containerClassName="mt-2"
 			textClassName="text-lg font-semibold text-slate-900 sm:text-xl"

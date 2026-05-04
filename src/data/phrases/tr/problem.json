@@ -24,7 +24,8 @@
         "I will bring a hot one"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 108,
@@ -51,7 +52,8 @@
         "I am asking the kitchen for priority and speeding it up"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 109,
@@ -78,7 +80,8 @@
         "Sorry, I am reorganizing the order now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 110,
@@ -105,7 +108,8 @@
         "I am sending a reheating note to the kitchen"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 111,
@@ -132,7 +136,8 @@
         "I will apologize and solve the issue right now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 112,
@@ -159,7 +164,8 @@
         "I will re-serve it with a safe glass"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 113,
@@ -186,7 +192,8 @@
         "I will check the reason in the kitchen right away"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 160,
@@ -213,7 +220,8 @@
         "At the same time I will check POS with technical support"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 161,
@@ -240,7 +248,8 @@
         "I am reporting the error code to IT immediately"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 162,
@@ -267,7 +276,8 @@
         "Meanwhile I will track orders manually"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 163,
@@ -294,7 +304,8 @@
         "I am taking back the wrong plate and informing kitchen"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 164,
@@ -321,7 +332,8 @@
         "I will not serve before allergen confirmation"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 165,
@@ -348,7 +360,8 @@
         "If needed, I will switch to an alternative oven"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Pastry Chef"
   },
   {
     "id": 166,
@@ -375,7 +388,8 @@
         "I am not sending anything below quality standard"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Cold Station"
   },
   {
     "id": 167,
@@ -402,7 +416,8 @@
         "I am setting repeat priority for kitchen and bar"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Runner"
   },
   {
     "id": 168,
@@ -429,7 +444,8 @@
         "I will also verify accounting record at the same time"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 169,
@@ -456,6 +472,7 @@
         "I am reapplying the packing checklist"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   }
 ]

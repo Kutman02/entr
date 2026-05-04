@@ -42,6 +42,7 @@ export default function PhraseCard({
 					hintRu={phrase.guestHintRu}
 					emotion={phrase.guestEmotion}
 					language={phrase.language}
+					role={phrase.guestRole}
 					textClassName="text-2xl font-bold text-slate-900"
 					onSpeak={() => speak(phrase.guest, speechLocale)}
 				/>

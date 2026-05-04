@@ -24,7 +24,8 @@
         "Enjoy your meal"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 80,
@@ -51,7 +52,8 @@
         "Thank you"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 123,
@@ -78,7 +80,8 @@
         "I will bring notes and join the meeting"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 124,
@@ -105,7 +108,8 @@
         "I am finishing closing preparation now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 179,
@@ -132,7 +136,8 @@
         "I will note missing items for shift handover"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 180,
@@ -159,6 +164,7 @@
         "I will leave clear handover info for morning team"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   }
 ]

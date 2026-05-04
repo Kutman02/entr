@@ -24,7 +24,8 @@
         "Fresh bread is coming"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 79,
@@ -51,7 +52,8 @@
         "I am glad you liked it"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 97,
@@ -78,7 +80,8 @@
         "I am clearly communicating the doneness to the kitchen"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 98,
@@ -105,7 +108,8 @@
         "I am passing the note to the kitchen now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 99,
@@ -132,7 +136,8 @@
         "I am adding a separate-sauce note for the kitchen"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 100,
@@ -159,7 +164,8 @@
         "I am clarifying the allergen information"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 101,
@@ -186,7 +192,8 @@
         "I am updating the order with a salad option"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 102,
@@ -213,7 +220,8 @@
         "I am informing the kitchen about vegan preparation"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 103,
@@ -240,7 +248,8 @@
         "I am sending a dietary sensitivity note to the kitchen"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 104,
@@ -267,7 +276,8 @@
         "I am tracking the timing for proper service"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 140,
@@ -294,7 +304,8 @@
         "I am updating the floor with cook time"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Hot Station"
   },
   {
     "id": 141,
@@ -321,7 +332,8 @@
         "I will also suggest a temporary menu alternative"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Cold Station"
   },
   {
     "id": 142,
@@ -348,7 +360,8 @@
         "I will clearly share ingredient details"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Pastry Chef"
   },
   {
     "id": 143,
@@ -375,7 +388,8 @@
         "I will fix the miss and send it to the table"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 144,
@@ -402,7 +416,8 @@
         "I am passing a special prep instruction to kitchen"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 145,
@@ -429,7 +444,8 @@
         "I will add a suitable side dish"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 146,
@@ -456,7 +472,8 @@
         "I am adding an extra note for the kitchen"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 147,
@@ -483,7 +500,8 @@
         "I am sending the note to fish station now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 148,
@@ -510,7 +528,8 @@
         "I am doing a final vegan-standard check"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 149,
@@ -537,7 +556,8 @@
         "I am preparing service utensils together with it"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 150,
@@ -564,7 +584,8 @@
         "I will inform in advance if there is a price difference"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   },
   {
     "id": 151,
@@ -591,6 +612,7 @@
         "I will send them together with the soup"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff Member"
   }
 ]

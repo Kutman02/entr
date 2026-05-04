@@ -20,7 +20,8 @@
         "Следуйте за мной"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 6,
@@ -43,7 +44,8 @@
         "Пожалуйста, проходите сюда"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 7,
@@ -66,7 +68,8 @@
         "Я подготовлю столик снаружи"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 8,
@@ -89,7 +92,8 @@
         "Я проверю и покажу вам"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 9,
@@ -112,7 +116,8 @@
         "Одну минуту, пожалуйста"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 10,
@@ -135,6 +140,7 @@
         "Пожалуйста, следуйте за мной"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   }
 ]

@@ -24,6 +24,7 @@
         "Okay, I am moving the table now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   }
 ]

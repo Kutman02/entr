@@ -20,7 +20,8 @@
         "Без проблем"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 63,
@@ -43,7 +44,8 @@
         "Всегда рады вам"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 64,
@@ -66,7 +68,8 @@
         "Рад, что вам понравилось"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 65,
@@ -89,7 +92,8 @@
         "Спасибо"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 66,
@@ -112,7 +116,8 @@
         "Хорошего вечера"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 67,
@@ -135,7 +140,8 @@
         "Будем рады вас обслужить"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   },
   {
     "id": 68,
@@ -158,6 +164,7 @@
         "Хорошего дня"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff"
   }
 ]

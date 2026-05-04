@@ -10,6 +10,7 @@ interface GuestLineProps {
   hintRu: string
   emotion: GuestEmotion
   language?: PhraseLanguage
+  role?: string
   textClassName?: string
   hintClassName?: string
   containerClassName?: string
@@ -21,6 +22,7 @@ export default function GuestLine({
   hintRu,
   emotion,
   language,
+  role,
   textClassName,
   hintClassName,
   containerClassName,
@@ -32,6 +34,11 @@ export default function GuestLine({
 
   return (
     <div className={containerClassName}>
+      {role ? (
+        <p className="mb-1 text-xs font-bold uppercase tracking-[0.12em] text-amber-700">
+          {role}
+        </p>
+      ) : null}
       <div className="flex items-start gap-2">
         <p className={`min-w-0 flex-1 ${textClassName ?? 'text-2xl font-bold text-slate-900'}`}>
           {text}

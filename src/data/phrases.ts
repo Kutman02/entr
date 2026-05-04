@@ -15,6 +15,7 @@ type RawPhrase = {
   guest: string
   guestHintRu: string
   guestEmotion?: string
+  guestRole?: string
   answers?: string[]
   translations?: {
     ru?: string[]
@@ -182,6 +183,7 @@ export const phrases: Phrase[] = rawPhrases.map(({ phrase, source }) => {
     guest: guestText,
     guestHintRu,
     guestEmotion,
+    ...(phrase.guestRole ? { guestRole: phrase.guestRole } : {}),
     answers: normalizedAnswers,
     translations: {
       ru: ruTranslations,

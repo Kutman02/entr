@@ -24,7 +24,8 @@
         "Over there, turn right"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 119,
@@ -51,7 +52,8 @@
         "Turn left and you will see the kitchen exit"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Kitchen"
   },
   {
     "id": 120,
@@ -78,7 +80,8 @@
         "Take the right corridor and you will reach the storage room"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 176,
@@ -105,7 +108,8 @@
         "We label and arrange them by FIFO order"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 177,
@@ -132,7 +136,8 @@
         "I will hand over after finishing stock count"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 178,
@@ -159,6 +164,7 @@
         "I will take you there and show the setup"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   }
 ]

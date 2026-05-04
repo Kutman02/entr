@@ -100,6 +100,7 @@ export default function PracticeTrainer({
           hintRu={current.guestHintRu}
           emotion={current.guestEmotion}
           language={current.language}
+          role={current.guestRole}
           onSpeak={() => speak(current.guest, speechLocale)}
           textClassName="mt-3 text-3xl font-bold text-slate-900 sm:text-5xl"
         />

@@ -24,7 +24,8 @@
         "Of course"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 114,
@@ -51,7 +52,8 @@
         "I will explain more clearly"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 115,
@@ -78,7 +80,8 @@
         "I am recording it in a clear way"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 116,
@@ -105,7 +108,8 @@
         "Let us update the order note together"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 117,
@@ -132,7 +136,8 @@
         "I will check the sequence and tell you"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 118,
@@ -159,7 +164,8 @@
         "Let us enter it together and verify"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   },
   {
     "id": 170,
@@ -186,7 +192,8 @@
         "To avoid mistakes, I am also showing the note"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 171,
@@ -213,7 +220,8 @@
         "I am updating the pickup list on the board"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Hot Station"
   },
   {
     "id": 172,
@@ -240,7 +248,8 @@
         "I am sharing the standard recipe card now"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 173,
@@ -267,7 +276,8 @@
         "We will confirm the amount together before finalizing"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Cashier"
   },
   {
     "id": 174,
@@ -294,7 +304,8 @@
         "We will check rim cleanliness and portion together"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Pastry Chef"
   },
   {
     "id": 175,
@@ -321,6 +332,7 @@
         "Third step is final confirmation before service"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Staff"
   }
 ]

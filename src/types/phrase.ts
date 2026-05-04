@@ -28,6 +28,7 @@ export interface Phrase {
   guest: string
   guestHintRu: string
   guestEmotion: GuestEmotion
+  guestRole?: string
   answers: string[]
   translations: {
     ru: string[]

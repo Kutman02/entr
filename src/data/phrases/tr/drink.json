@@ -24,7 +24,8 @@
         "Sure, two teas"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 71,
@@ -51,7 +52,8 @@
         "I am bringing water right away"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 105,
@@ -78,7 +80,8 @@
         "I am prioritizing those drinks"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 106,
@@ -105,7 +108,8 @@
         "I am sending a non-alcoholic note to the bar"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 107,
@@ -132,7 +136,8 @@
         "I am sending the order to the bar with no-ice note"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 152,
@@ -159,7 +164,8 @@
         "I will keep the taste and serve it as a mocktail"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 153,
@@ -186,7 +192,8 @@
         "I am reconfirming with the bar"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 154,
@@ -213,7 +220,8 @@
         "I marked the correct milk choice in the ticket"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 155,
@@ -240,7 +248,8 @@
         "I am briefing the bar on send-out order"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Chef"
   },
   {
     "id": 156,
@@ -267,7 +276,8 @@
         "I will specifically check the milk temperature"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 157,
@@ -294,7 +304,8 @@
         "I will send it fast to avoid service gaps"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 158,
@@ -321,7 +332,8 @@
         "I am sending the drinks on a tray right away"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   },
   {
     "id": 159,
@@ -348,6 +360,7 @@
         "I am confirming the timestamp with the ticket"
       ]
     },
-    "language": "tr"
+    "language": "tr",
+    "guestRole": "Bartender"
   }
 ]

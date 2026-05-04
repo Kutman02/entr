@@ -20,7 +20,8 @@
         "Также есть томатный суп"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 23,
@@ -43,7 +44,8 @@
         "Немного острое"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 24,
@@ -66,7 +68,8 @@
         "Я принесу курицу или рыбу"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 25,
@@ -89,7 +92,8 @@
         "Говядина, пожалуйста"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 26,
@@ -112,7 +116,8 @@
         "Да, есть запеченная рыба"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 27,
@@ -135,7 +140,8 @@
         "Конечно, один салат"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 28,
@@ -158,7 +164,8 @@
         "Я уточню на кухне"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 29,
@@ -181,7 +188,8 @@
         "Я принесу еще хлеб"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 30,
@@ -204,6 +212,7 @@
         "Сейчас принесу меню десертов"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   }
 ]

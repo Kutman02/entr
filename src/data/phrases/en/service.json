@@ -20,7 +20,8 @@
         "Я принесу меню"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 32,
@@ -43,7 +44,8 @@
         "Конечно, пожалуйста, говорите"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 33,
@@ -66,7 +68,8 @@
         "Одну минуту, пожалуйста"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 34,
@@ -89,7 +92,8 @@
         "Я принесу салфетки"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 35,
@@ -112,7 +116,8 @@
         "Я принесу еще"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 36,
@@ -135,7 +140,8 @@
         "Иду"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 37,
@@ -158,7 +164,8 @@
         "Конечно, одну минуту"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 38,
@@ -181,7 +188,8 @@
         "Сейчас заберу тарелки"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 39,
@@ -204,7 +212,8 @@
         "Номер 1205, понял"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   },
   {
     "id": 40,
@@ -227,6 +236,7 @@
         "Одну минуту, пожалуйста"
       ]
     },
-    "language": "en"
+    "language": "en",
+    "guestRole": "Staff Member"
   }
 ]
