@@ -27,20 +27,20 @@
     "id": 56,
     "scenario": "understanding",
     "level": "medium",
-    "guest": "Speak slowly please",
-    "guestHintRu": "Говорите медленнее, пожалуйста",
+    "guest": "Could you speak more slowly, please?",
+    "guestHintRu": "Не могли бы вы говорить чуть медленнее, пожалуйста?",
     "guestEmotion": "confused",
     "answers": [
-      "Sure, I will speak slowly",
+      "Sure, I will speak more slowly",
       "Of course"
     ],
     "translations": {
       "tr": [
-        "Tabii, yavas konusacagim",
+        "Tabii, daha yavas konusacagim",
         "Elbette"
       ],
       "ru": [
-        "Конечно, я буду говорить медленно",
+        "Конечно, я буду говорить медленнее",
         "Разумеется"
       ]
     },
@@ -51,12 +51,12 @@
     "id": 57,
     "scenario": "understanding",
     "level": "medium",
-    "guest": "Can you repeat?",
-    "guestHintRu": "Можете повторить?",
+    "guest": "Could you say that again, please?",
+    "guestHintRu": "Можете повторить это еще раз, пожалуйста?",
     "guestEmotion": "confused",
     "answers": [
       "Yes, of course",
-      "I will repeat"
+      "I will repeat it"
     ],
     "translations": {
       "tr": [
@@ -147,8 +147,8 @@
     "id": 61,
     "scenario": "understanding",
     "level": "hard",
-    "guest": "Please write it",
-    "guestHintRu": "Пожалуйста, напишите это",
+    "guest": "Could you write it down, please?",
+    "guestHintRu": "Не могли бы вы это записать, пожалуйста?",
     "guestEmotion": "confused",
     "answers": [
       "Sure, I will write it down",
@@ -162,6 +162,30 @@
       "ru": [
         "Конечно, я это запишу",
         "Одну минуту, сейчас запишу"
+      ]
+    },
+    "language": "en",
+    "guestRole": "Staff"
+  },
+  {
+    "id": 185,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "Could you explain it in simple words?",
+    "guestHintRu": "Не могли бы вы объяснить это простыми словами?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Of course, I will explain it simply",
+      "Sure, I can give you an easy example"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, basitce aciklayacagim",
+        "Elbette, kolay bir ornek verebilirim"
+      ],
+      "ru": [
+        "Конечно, объясню это просто",
+        "Хорошо, могу привести простой пример"
       ]
     },
     "language": "en",

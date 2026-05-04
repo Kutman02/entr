@@ -90,7 +90,7 @@ export default function PracticeTrainer({
 
       <div className="glass-card study-card rounded-2xl p-5 sm:p-6">
         <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-500">
-          Гость
+          Клиент говорит вам
         </p>
         <GuestLine
           key={current.id}
@@ -113,7 +113,7 @@ export default function PracticeTrainer({
       {showAnswer ? (
         <div className="glass-card study-card rounded-2xl border-cyan-200/80 p-5 sm:p-6">
           <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-cyan-700">
-            Официант
+            Ваш ответ клиенту
           </p>
 
           <div className="mt-3 flex items-start gap-2">

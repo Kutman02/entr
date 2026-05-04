@@ -94,5 +94,29 @@
     },
     "language": "en",
     "guestRole": "Staff"
+  },
+  {
+    "id": 181,
+    "scenario": "greeting",
+    "level": "easy",
+    "guest": "Hi, do you have a table for two?",
+    "guestHintRu": "Здравствуйте, у вас есть столик на двоих?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Hi, yes, we have a table for two",
+      "Good evening, please come this way"
+    ],
+    "translations": {
+      "tr": [
+        "Merhaba, evet iki kisilik masamiz var",
+        "Iyi aksamlar, lutfen bu taraftan"
+      ],
+      "ru": [
+        "Здравствуйте, да, у нас есть столик на двоих",
+        "Добрый вечер, пожалуйста, проходите сюда"
+      ]
+    },
+    "language": "en",
+    "guestRole": "Staff"
   }
 ]

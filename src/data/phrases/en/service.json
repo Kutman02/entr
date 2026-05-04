@@ -3,21 +3,21 @@
     "id": 31,
     "scenario": "service",
     "level": "easy",
-    "guest": "Bring menu",
-    "guestHintRu": "Принесите меню",
-    "guestEmotion": "neutral",
+    "guest": "Could we have the menu, please?",
+    "guestHintRu": "Можно нам меню, пожалуйста?",
+    "guestEmotion": "polite",
     "answers": [
-      "One moment",
-      "I will bring menu"
+      "Of course, here is the menu",
+      "Sure, I will bring it right away"
     ],
     "translations": {
       "tr": [
-        "Bir dakika",
-        "Menu getiriyorum"
+        "Tabii, menu burada",
+        "Elbette, hemen getirecegim"
       ],
       "ru": [
-        "Одну минуту",
-        "Я принесу меню"
+        "Конечно, вот меню",
+        "Хорошо, сейчас принесу"
       ]
     },
     "language": "en",
@@ -27,21 +27,21 @@
     "id": 32,
     "scenario": "service",
     "level": "easy",
-    "guest": "Can we order now?",
+    "guest": "Could we order now?",
     "guestHintRu": "Можем заказать сейчас?",
-    "guestEmotion": "neutral",
+    "guestEmotion": "polite",
     "answers": [
-      "Yes, I am ready",
-      "Of course, please tell me"
+      "Yes, I am ready to take your order",
+      "Of course, please go ahead"
     ],
     "translations": {
       "tr": [
-        "Evet, hazirim",
-        "Tabii, lutfen soyleyin"
+        "Evet, siparisinizi almaya hazirim",
+        "Tabii, lutfen buyurun"
       ],
       "ru": [
-        "Да, я готов",
-        "Конечно, пожалуйста, говорите"
+        "Да, я готов принять заказ",
+        "Конечно, пожалуйста, начинайте"
       ]
     },
     "language": "en",
@@ -55,16 +55,16 @@
     "guestHintRu": "Можно вилку?",
     "guestEmotion": "polite",
     "answers": [
-      "Sure, I will bring a fork",
+      "Sure, I will bring you a fork",
       "One moment please"
     ],
     "translations": {
       "tr": [
-        "Tabii, catal getirecegim",
+        "Tabii, size bir catal getirecegim",
         "Bir dakika lutfen"
       ],
       "ru": [
-        "Конечно, принесу вилку",
+        "Конечно, принесу вам вилку",
         "Одну минуту, пожалуйста"
       ]
     },
@@ -80,16 +80,16 @@
     "guestEmotion": "polite",
     "answers": [
       "Yes, here you are",
-      "I will bring napkins"
+      "I will bring more napkins right away"
     ],
     "translations": {
       "tr": [
         "Evet, buyurun",
-        "Pecete getirecegim"
+        "Hemen daha fazla pecete getirecegim"
       ],
       "ru": [
         "Да, пожалуйста",
-        "Я принесу салфетки"
+        "Сейчас принесу еще салфеток"
       ]
     },
     "language": "en",
@@ -99,21 +99,21 @@
     "id": 35,
     "scenario": "service",
     "level": "easy",
-    "guest": "More water",
-    "guestHintRu": "Еще воды",
-    "guestEmotion": "neutral",
+    "guest": "Could we have more water, please?",
+    "guestHintRu": "Можно нам еще воды, пожалуйста?",
+    "guestEmotion": "polite",
     "answers": [
-      "Okay, one moment",
-      "I will bring more"
+      "Of course, I will bring more water",
+      "Sure, one moment please"
     ],
     "translations": {
       "tr": [
-        "Tamam, bir dakika",
-        "Daha fazla getirecegim"
+        "Tabii, daha fazla su getirecegim",
+        "Elbette, bir dakika lutfen"
       ],
       "ru": [
-        "Хорошо, одну минуту",
-        "Я принесу еще"
+        "Конечно, я принесу еще воды",
+        "Хорошо, одну минуту, пожалуйста"
       ]
     },
     "language": "en",
@@ -123,21 +123,21 @@
     "id": 36,
     "scenario": "service",
     "level": "easy",
-    "guest": "Call waiter",
-    "guestHintRu": "Позовите официанта",
-    "guestEmotion": "neutral",
+    "guest": "Could you send a waiter, please?",
+    "guestHintRu": "Не могли бы вы позвать официанта, пожалуйста?",
+    "guestEmotion": "polite",
     "answers": [
-      "Yes, I am here",
-      "Coming"
+      "Certainly, I will call a waiter right now",
+      "Of course, someone will come in a moment"
     ],
     "translations": {
       "tr": [
-        "Evet, buradayim",
-        "Geliyorum"
+        "Elbette, hemen bir garson cagiracagim",
+        "Tabii, birazdan biri gelecek"
       ],
       "ru": [
-        "Да, я здесь",
-        "Иду"
+        "Конечно, сейчас позову официанта",
+        "Хорошо, кто-то подойдет через минуту"
       ]
     },
     "language": "en",
@@ -151,17 +151,17 @@
     "guestHintRu": "Можете убрать стол?",
     "guestEmotion": "neutral",
     "answers": [
-      "Of course, I will clean it now",
+      "Of course, I will clean it right now",
       "Sure, one moment"
     ],
     "translations": {
       "tr": [
-        "Tabii, simdi temizleyecegim",
-        "Tabii, bir dakika"
+        "Tabii, hemen temizleyecegim",
+        "Elbette, bir dakika"
       ],
       "ru": [
         "Конечно, сейчас уберу",
-        "Конечно, одну минуту"
+        "Хорошо, одну минуту"
       ]
     },
     "language": "en",
@@ -175,16 +175,16 @@
     "guestHintRu": "Пожалуйста, уберите тарелки",
     "guestEmotion": "neutral",
     "answers": [
-      "Sure, I will clear them",
+      "Sure, I will clear them right away",
       "I will take the plates now"
     ],
     "translations": {
       "tr": [
-        "Tabii, kaldiracagim",
+        "Tabii, hemen kaldiracagim",
         "Tabaklari simdi alacagim"
       ],
       "ru": [
-        "Конечно, я уберу их",
+        "Конечно, сейчас уберу",
         "Сейчас заберу тарелки"
       ]
     },
@@ -234,6 +234,54 @@
       "ru": [
         "Конечно, я принесу счет",
         "Одну минуту, пожалуйста"
+      ]
+    },
+    "language": "en",
+    "guestRole": "Staff Member"
+  },
+  {
+    "id": 182,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Can we pay by card?",
+    "guestHintRu": "Можно оплатить картой?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Yes, card payment is available",
+      "Of course, I will bring the card machine"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, kartla odeme yapabilirsiniz",
+        "Tabii, kart cihazini getirecegim"
+      ],
+      "ru": [
+        "Да, можно оплатить картой",
+        "Конечно, я принесу терминал"
+      ]
+    },
+    "language": "en",
+    "guestRole": "Staff Member"
+  },
+  {
+    "id": 183,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Could we split the bill?",
+    "guestHintRu": "Можно разделить счет?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Of course, I can split it",
+      "Sure, how would you like to divide it?"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, hesabi bolebilirim",
+        "Elbette, nasil bolmek istersiniz?"
+      ],
+      "ru": [
+        "Конечно, я могу разделить счет",
+        "Хорошо, как вам удобно разделить?"
       ]
     },
     "language": "en",

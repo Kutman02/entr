@@ -1,11 +1,9 @@
 import { useState } from 'react'
-import { FiInfo } from 'react-icons/fi'
 import type { GuestEmotion, PhraseLanguage } from '../types/phrase'
 import { getGuestRoleLabelRu } from '../utils/guestRole'
 import { getEmotionMeta } from '../utils/guestEmotion'
 import { getPhraseLanguageMeta } from '../utils/phraseLanguage'
 import SpeakIconButton from './SpeakIconButton'
-import Button from './ui/Button'
 
 interface GuestLineProps {
   text: string
@@ -39,18 +37,30 @@ export default function GuestLine({
     <div className={containerClassName}>
       {roleLabel ? (
         <p className="mb-1 text-xs font-bold uppercase tracking-[0.12em] text-amber-700">
-          Обращение к: {roleLabel}
+          Клиент обращается к: {roleLabel}
         </p>
       ) : null}
       <div className="flex flex-col gap-2 sm:flex-row sm:items-start">
         <div className="flex min-w-0 flex-1 items-start gap-2">
-          <p
+          <button
+            type="button"
+            onClick={() => setShowHint((previousState) => !previousState)}
+            aria-label={
+              showHint
+                ? 'Скрыть перевод реплики клиента'
+                : 'Показать перевод реплики клиента'
+            }
+            title={
+              showHint
+                ? 'Скрыть перевод реплики клиента'
+                : 'Показать перевод реплики клиента'
+            }
             className={`readable-copy min-w-0 flex-1 ${
               textClassName ?? 'text-xl font-bold text-slate-900 sm:text-2xl'
-            }`}
+            } cursor-pointer text-left transition hover:text-slate-700`}
           >
             {text}
-          </p>
+          </button>
 
           {onSpeak ? (
             <SpeakIconButton
@@ -71,29 +81,15 @@ export default function GuestLine({
           <span className="text-2xl leading-none" aria-hidden="true">
             {emotionView.emoji}
           </span>
-
-          <Button
-            onClick={() => setShowHint((previousState) => !previousState)}
-            size="icon"
-            className="h-8 w-8 border-amber-300 bg-amber-100 text-amber-800 hover:border-amber-400 hover:bg-amber-200 hover:text-amber-900"
-            aria-label={
-              showHint
-                ? 'Скрыть подсказку на русском'
-                : 'Показать подсказку на русском'
-            }
-            title={
-              showHint
-                ? 'Скрыть подсказку на русском'
-                : 'Показать подсказку на русском'
-            }
-          >
-            <FiInfo className="h-4 w-4" aria-hidden="true" />
-          </Button>
         </div>
       </div>
 
       <p className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
         Тон клиента: {emotionView.labelRu}
+      </p>
+
+      <p className="mt-1 text-xs text-slate-500">
+        Нажмите на реплику клиента, чтобы показать или скрыть перевод.
       </p>
 
       {showHint ? (

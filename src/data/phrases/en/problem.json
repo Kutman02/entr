@@ -3,21 +3,21 @@
     "id": 46,
     "scenario": "problem",
     "level": "medium",
-    "guest": "This is cold",
-    "guestHintRu": "Это холодное",
+    "guest": "This dish is cold.",
+    "guestHintRu": "Это блюдо холодное.",
     "guestEmotion": "conflict",
     "answers": [
-      "Sorry, I will change it",
-      "I will bring a hot one"
+      "I am sorry, I will replace it right away",
+      "Sorry about that, I will bring a hot one"
     ],
     "translations": {
       "tr": [
-        "Uzgunum, degistirecegim",
-        "Sicak olanini getirecegim"
+        "Uzgunum, hemen degistirecegim",
+        "Ozur dilerim, sicak olanini getirecegim"
       ],
       "ru": [
-        "Извините, я заменю",
-        "Я принесу горячее"
+        "Извините, я сразу заменю",
+        "Прошу прощения, принесу горячее"
       ]
     },
     "language": "en",
@@ -123,21 +123,21 @@
     "id": 51,
     "scenario": "problem",
     "level": "easy",
-    "guest": "No beer?",
-    "guestHintRu": "Нет пива?",
+    "guest": "Is there no beer left?",
+    "guestHintRu": "Пиво закончилось?",
     "guestEmotion": "conflict",
     "answers": [
-      "Sorry, it is finished",
-      "No more beer at the moment"
+      "I am sorry, we are out of beer right now",
+      "Sorry, we can offer wine instead"
     ],
     "translations": {
       "tr": [
-        "Uzgunum, bitti",
-        "Su an bira kalmadi"
+        "Uzgunum, su an biramiz kalmadi",
+        "Ozur dilerim, isterseniz sarap onerebilirim"
       ],
       "ru": [
-        "Извините, закончилось",
-        "Сейчас пива больше нет"
+        "Извините, сейчас пива нет",
+        "Извините, можем предложить вино"
       ]
     },
     "language": "en",
@@ -171,21 +171,21 @@
     "id": 53,
     "scenario": "problem",
     "level": "medium",
-    "guest": "There is no spoon",
-    "guestHintRu": "Нет ложки",
+    "guest": "There is no spoon here.",
+    "guestHintRu": "Здесь нет ложки.",
     "guestEmotion": "neutral",
     "answers": [
-      "I will bring a spoon now",
-      "Sorry, one moment please"
+      "I am sorry, I will bring one right away",
+      "Of course, one moment please"
     ],
     "translations": {
       "tr": [
-        "Simdi kasik getirecegim",
-        "Ozur dilerim, bir dakika lutfen"
+        "Ozur dilerim, hemen bir kasik getirecegim",
+        "Tabii, bir dakika lutfen"
       ],
       "ru": [
-        "Я сейчас принесу ложку",
-        "Извините, одну минуту"
+        "Извините, сейчас принесу",
+        "Конечно, одну минуту, пожалуйста"
       ]
     },
     "language": "en",

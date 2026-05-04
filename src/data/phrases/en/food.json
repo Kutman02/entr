@@ -195,21 +195,21 @@
     "id": 30,
     "scenario": "food",
     "level": "medium",
-    "guest": "Dessert menu please",
-    "guestHintRu": "Меню десертов, пожалуйста",
+    "guest": "Can I see the dessert menu, please?",
+    "guestHintRu": "Можно посмотреть меню десертов, пожалуйста?",
     "guestEmotion": "polite",
     "answers": [
       "Sure, here is the dessert menu",
-      "I will bring dessert menu now"
+      "Of course, I will bring it right now"
     ],
     "translations": {
       "tr": [
         "Tabii, tatli menusu burada",
-        "Tatli menusunu simdi getirecegim"
+        "Elbette, simdi getirecegim"
       ],
       "ru": [
         "Конечно, вот меню десертов",
-        "Сейчас принесу меню десертов"
+        "Конечно, сейчас принесу"
       ]
     },
     "language": "en",

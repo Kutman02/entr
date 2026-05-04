@@ -42,7 +42,7 @@ export default function PhraseCard({
 
 			<div className="mt-3 space-y-2">
 				<p className="text-sm font-semibold uppercase tracking-[0.12em] text-slate-500">
-					Гость
+					Клиент говорит вам
 				</p>
 				<GuestLine
 					text={phrase.guest}
@@ -57,7 +57,7 @@ export default function PhraseCard({
 
 			<div className="mt-4 space-y-2">
 				<p className="text-sm font-semibold uppercase tracking-[0.12em] text-cyan-700">
-					Официант
+					Ваш ответ клиенту
 				</p>
 				<div className="flex items-start gap-2">
 					<p className="readable-copy text-lg font-semibold text-slate-900 sm:text-xl">

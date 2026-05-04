@@ -3,21 +3,21 @@
     "id": 11,
     "scenario": "drink",
     "level": "easy",
-    "guest": "Beer please",
-    "guestHintRu": "Пиво, пожалуйста",
+    "guest": "Could I have a beer, please?",
+    "guestHintRu": "Можно пиво, пожалуйста?",
     "guestEmotion": "polite",
     "answers": [
-      "One beer right away",
-      "Sure, one beer"
+      "Of course, one beer coming right up",
+      "Sure, I will bring it in a minute"
     ],
     "translations": {
       "tr": [
-        "Bir bira hemen geliyor",
-        "Tabii, bir bira"
+        "Tabii, bir bira hemen geliyor",
+        "Elbette, bir dakika icinde getirecegim"
       ],
       "ru": [
-        "Одно пиво, сейчас",
-        "Конечно, одно пиво"
+        "Конечно, одно пиво сейчас будет",
+        "Хорошо, принесу через минуту"
       ]
     },
     "language": "en",
@@ -27,21 +27,21 @@
     "id": 12,
     "scenario": "drink",
     "level": "easy",
-    "guest": "Two beers",
-    "guestHintRu": "Два пива",
-    "guestEmotion": "neutral",
+    "guest": "Could we get two beers, please?",
+    "guestHintRu": "Можно нам два пива, пожалуйста?",
+    "guestEmotion": "polite",
     "answers": [
-      "Two beers coming",
-      "Sure, two beers"
+      "Sure, two beers coming up",
+      "Of course, I will bring them right away"
     ],
     "translations": {
       "tr": [
-        "Iki bira geliyor",
-        "Tabii, iki bira"
+        "Tabii, iki bira geliyor",
+        "Elbette, hemen getirecegim"
       ],
       "ru": [
-        "Два пива, сейчас",
-        "Конечно, два пива"
+        "Конечно, два пива сейчас будут",
+        "Хорошо, сейчас принесу"
       ]
     },
     "language": "en",
@@ -51,21 +51,21 @@
     "id": 13,
     "scenario": "drink",
     "level": "easy",
-    "guest": "Red wine",
-    "guestHintRu": "Красное вино",
+    "guest": "Could I have a glass of red wine?",
+    "guestHintRu": "Можно бокал красного вина?",
     "guestEmotion": "polite",
     "answers": [
-      "One glass of red wine",
-      "Would you like dry or sweet?"
+      "Of course, one glass of red wine",
+      "Sure, would you like dry or sweet?"
     ],
     "translations": {
       "tr": [
-        "Bir kadeh kirmizi sarap",
-        "Sek mi tatli mi istersiniz?"
+        "Tabii, bir kadeh kirmizi sarap",
+        "Elbette, sek mi tatli mi istersiniz?"
       ],
       "ru": [
-        "Один бокал красного вина",
-        "Сухое или сладкое?"
+        "Конечно, один бокал красного вина",
+        "Хорошо, сухое или сладкое?"
       ]
     },
     "language": "en",
@@ -75,21 +75,21 @@
     "id": 14,
     "scenario": "drink",
     "level": "easy",
-    "guest": "White wine",
-    "guestHintRu": "Белое вино",
+    "guest": "Could I have a glass of white wine?",
+    "guestHintRu": "Можно бокал белого вина?",
     "guestEmotion": "polite",
     "answers": [
-      "One glass of white wine",
-      "Dry or sweet white wine?"
+      "Of course, one glass of white wine",
+      "Sure, dry or sweet?"
     ],
     "translations": {
       "tr": [
-        "Bir kadeh beyaz sarap",
-        "Sek mi tatli beyaz sarap mi?"
+        "Tabii, bir kadeh beyaz sarap",
+        "Elbette, sek mi tatli mi?"
       ],
       "ru": [
-        "Один бокал белого вина",
-        "Сухое или сладкое белое?"
+        "Конечно, один бокал белого вина",
+        "Хорошо, сухое или сладкое?"
       ]
     },
     "language": "en",
@@ -99,21 +99,21 @@
     "id": 15,
     "scenario": "drink",
     "level": "easy",
-    "guest": "Sparkling water",
-    "guestHintRu": "Газированная вода",
+    "guest": "Could I have sparkling water?",
+    "guestHintRu": "Можно газированную воду?",
     "guestEmotion": "polite",
     "answers": [
-      "Sparkling water, sure",
-      "I will bring sparkling water"
+      "Sure, sparkling water",
+      "Of course, I will bring it right away"
     ],
     "translations": {
       "tr": [
-        "Gazli su, tabii",
-        "Gazli su getirecegim"
+        "Tabii, gazli su",
+        "Elbette, hemen getirecegim"
       ],
       "ru": [
-        "Газированная вода, конечно",
-        "Я принесу газированную воду"
+        "Конечно, газированная вода",
+        "Хорошо, сейчас принесу"
       ]
     },
     "language": "en",
@@ -123,21 +123,21 @@
     "id": 16,
     "scenario": "drink",
     "level": "easy",
-    "guest": "Still water",
-    "guestHintRu": "Вода без газа",
+    "guest": "Could I have still water?",
+    "guestHintRu": "Можно воду без газа?",
     "guestEmotion": "polite",
     "answers": [
-      "Still water, okay",
-      "I will bring still water"
+      "Sure, still water",
+      "Of course, I will bring it right away"
     ],
     "translations": {
       "tr": [
-        "Gazsiz su, tamam",
-        "Gazsiz su getirecegim"
+        "Tabii, gazsiz su",
+        "Elbette, hemen getirecegim"
       ],
       "ru": [
-        "Вода без газа, хорошо",
-        "Я принесу воду без газа"
+        "Конечно, вода без газа",
+        "Хорошо, сейчас принесу"
       ]
     },
     "language": "en",
@@ -147,21 +147,21 @@
     "id": 17,
     "scenario": "drink",
     "level": "easy",
-    "guest": "No ice",
-    "guestHintRu": "Без льда",
+    "guest": "No ice, please.",
+    "guestHintRu": "Без льда, пожалуйста.",
     "guestEmotion": "polite",
     "answers": [
-      "No ice, got it",
-      "Okay, no ice"
+      "No ice, understood",
+      "Sure, I will make it without ice"
     ],
     "translations": {
       "tr": [
-        "Buz yok, anladim",
-        "Tamam, buz yok"
+        "Buzsuz, anladim",
+        "Tabii, buzsuz hazirlayacagim"
       ],
       "ru": [
         "Без льда, понял",
-        "Хорошо, без льда"
+        "Хорошо, приготовлю без льда"
       ]
     },
     "language": "en",
@@ -171,21 +171,21 @@
     "id": 18,
     "scenario": "drink",
     "level": "easy",
-    "guest": "Orange juice",
-    "guestHintRu": "Апельсиновый сок",
+    "guest": "Could I have orange juice?",
+    "guestHintRu": "Можно апельсиновый сок?",
     "guestEmotion": "polite",
     "answers": [
-      "One orange juice",
-      "Fresh orange juice, right?"
+      "Sure, one orange juice",
+      "Of course, fresh orange juice"
     ],
     "translations": {
       "tr": [
-        "Bir portakal suyu",
-        "Taze portakal suyu, dogru mu?"
+        "Tabii, bir portakal suyu",
+        "Elbette, taze portakal suyu"
       ],
       "ru": [
-        "Один апельсиновый сок",
-        "Свежевыжатый апельсиновый сок, верно?"
+        "Конечно, один апельсиновый сок",
+        "Хорошо, свежий апельсиновый сок"
       ]
     },
     "language": "en",
@@ -195,21 +195,21 @@
     "id": 19,
     "scenario": "drink",
     "level": "easy",
-    "guest": "Turkish tea",
-    "guestHintRu": "Турецкий чай",
+    "guest": "Could I get Turkish tea?",
+    "guestHintRu": "Можно турецкий чай?",
     "guestEmotion": "polite",
     "answers": [
-      "One Turkish tea",
-      "Tea is coming"
+      "Of course, one Turkish tea",
+      "Sure, I will bring it hot"
     ],
     "translations": {
       "tr": [
-        "Bir Turk cayi",
-        "Cay geliyor"
+        "Tabii, bir Turk cayi",
+        "Elbette, sicak olarak getirecegim"
       ],
       "ru": [
-        "Один турецкий чай",
-        "Чай сейчас будет"
+        "Конечно, один турецкий чай",
+        "Хорошо, подам горячим"
       ]
     },
     "language": "en",
@@ -219,21 +219,21 @@
     "id": 20,
     "scenario": "drink",
     "level": "easy",
-    "guest": "Coffee with milk",
-    "guestHintRu": "Кофе с молоком",
+    "guest": "Could I have coffee with milk?",
+    "guestHintRu": "Можно кофе с молоком?",
     "guestEmotion": "polite",
     "answers": [
-      "Coffee with milk, sure",
-      "I will bring it now"
+      "Sure, one coffee with milk",
+      "Of course, I will bring it now"
     ],
     "translations": {
       "tr": [
-        "Sutlu kahve, tabii",
-        "Simdi getirecegim"
+        "Tabii, bir sutlu kahve",
+        "Elbette, simdi getirecegim"
       ],
       "ru": [
-        "Кофе с молоком, конечно",
-        "Сейчас принесу"
+        "Конечно, один кофе с молоком",
+        "Хорошо, сейчас принесу"
       ]
     },
     "language": "en",
@@ -243,21 +243,45 @@
     "id": 21,
     "scenario": "drink",
     "level": "medium",
-    "guest": "One more coffee",
-    "guestHintRu": "Еще один кофе",
-    "guestEmotion": "neutral",
+    "guest": "Could I have one more coffee?",
+    "guestHintRu": "Можно еще один кофе?",
+    "guestEmotion": "polite",
     "answers": [
       "Of course, one more coffee",
-      "No problem, coming now"
+      "Sure, it will be ready in a moment"
     ],
     "translations": {
       "tr": [
         "Tabii, bir kahve daha",
-        "Sorun degil, hemen geliyor"
+        "Elbette, birazdan hazir olacak"
       ],
       "ru": [
         "Конечно, еще один кофе",
-        "Без проблем, сейчас будет"
+        "Хорошо, будет готов через минуту"
+      ]
+    },
+    "language": "en",
+    "guestRole": "Bartender"
+  },
+  {
+    "id": 184,
+    "scenario": "drink",
+    "level": "easy",
+    "guest": "Could I have an Americano, please?",
+    "guestHintRu": "Можно американо, пожалуйста?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Sure, one Americano",
+      "Of course, would you like milk with it?"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, bir Americano",
+        "Elbette, yaninda sut ister misiniz?"
+      ],
+      "ru": [
+        "Конечно, один американо",
+        "Хорошо, добавить молоко?"
       ]
     },
     "language": "en",
