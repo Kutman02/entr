@@ -10,7 +10,6 @@ import {
 	createInitialPracticeProgress,
 	getNeedsReviewPhraseIds,
 } from '../../utils/practiceProgress'
-import { speak } from '../../utils/speech'
 
 type LearnFilter = 'all' | Scenario
 
@@ -78,26 +77,7 @@ export default function LearnPage() {
 
 			<div className="grid gap-4 sm:grid-cols-2">
 				{visiblePhrases.map((phrase) => (
-					<div key={phrase.id} className="space-y-2">
-						<PhraseCard phrase={phrase} />
-
-						<div className="flex flex-wrap gap-2">
-							<button
-								type="button"
-								onClick={() => speak(phrase.guest, 'en-US')}
-								className="rounded-full border border-slate-300 bg-white px-3 py-1 text-sm font-semibold text-slate-700 transition hover:border-cyan-400 hover:text-cyan-700"
-							>
-								Play Guest
-							</button>
-							<button
-								type="button"
-								onClick={() => speak(phrase.answers[0] ?? '', 'en-US')}
-								className="rounded-full border border-slate-300 bg-white px-3 py-1 text-sm font-semibold text-slate-700 transition hover:border-cyan-400 hover:text-cyan-700"
-							>
-								Play Waiter
-							</button>
-						</div>
-					</div>
+					<PhraseCard key={phrase.id} phrase={phrase} />
 				))}
 			</div>
 		</div>

@@ -1,5 +1,7 @@
 import type { Phrase } from '../types/phrase'
+import { speak } from '../utils/speech'
 import GuestLine from './GuestLine'
+import SpeakIconButton from './SpeakIconButton'
 
 interface PhraseCardProps {
 	phrase: Phrase
@@ -33,6 +35,7 @@ export default function PhraseCard({
 					hintRu={phrase.guestHintRu}
 					emotion={phrase.guestEmotion}
 					textClassName="text-2xl font-bold text-slate-900"
+					onSpeak={() => speak(phrase.guest, 'en-US')}
 				/>
 			</div>
 
@@ -40,7 +43,13 @@ export default function PhraseCard({
 				<p className="text-sm font-semibold uppercase tracking-[0.12em] text-cyan-700">
 					Waiter
 				</p>
-				<p className="text-xl font-semibold text-slate-900">{primaryAnswer}</p>
+				<div className="flex items-start gap-2">
+					<p className="text-xl font-semibold text-slate-900">{primaryAnswer}</p>
+					<SpeakIconButton
+						onSpeak={() => speak(primaryAnswer, 'en-US')}
+						label="Play waiter phrase"
+					/>
+				</div>
 
 				{alternativeAnswers.length > 0 ? (
 					<div className="flex flex-wrap gap-2">

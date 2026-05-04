@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import GuestLine from '../../components/GuestLine'
+import SpeakIconButton from '../../components/SpeakIconButton'
 import { getPhraseByGuestText } from '../../data/phrases'
 import { dialogues } from '../../data/dialogues'
 import { speak } from '../../utils/speech'
@@ -83,20 +84,14 @@ export default function SimulationPage() {
 								{isGuest ? (
 									<GuestMessage text={turn.text} />
 								) : (
-									<p className="mt-2 text-lg font-semibold sm:text-xl">{turn.text}</p>
+									<div className="mt-2 flex items-start gap-2">
+										<p className="text-lg font-semibold sm:text-xl">{turn.text}</p>
+										<SpeakIconButton
+											onSpeak={() => speak(turn.text, 'en-US')}
+											label="Play waiter line"
+										/>
+									</div>
 								)}
-
-								<button
-									type="button"
-									onClick={() => speak(turn.text, 'en-US')}
-									className={`mt-3 rounded-full border px-3 py-1 text-xs font-semibold transition ${
-										isGuest
-											? 'border-slate-300 bg-slate-100 text-slate-700 hover:border-cyan-400 hover:text-cyan-700'
-											: 'border-cyan-200 bg-cyan-600 text-white hover:bg-cyan-500'
-									}`}
-								>
-									Play line
-								</button>
 							</div>
 						)
 					})}
@@ -142,7 +137,15 @@ function GuestMessage({ text }: GuestMessageProps) {
 	const phrase = getPhraseByGuestText(text)
 
 	if (!phrase) {
-		return <p className="mt-2 text-lg font-semibold sm:text-xl">{text}</p>
+		return (
+			<div className="mt-2 flex items-start gap-2">
+				<p className="text-lg font-semibold sm:text-xl">{text}</p>
+				<SpeakIconButton
+					onSpeak={() => speak(text, 'en-US')}
+					label="Play guest line"
+				/>
+			</div>
+		)
 	}
 
 	return (
@@ -150,6 +153,7 @@ function GuestMessage({ text }: GuestMessageProps) {
 			text={text}
 			hintRu={phrase.guestHintRu}
 			emotion={phrase.guestEmotion}
+			onSpeak={() => speak(text, 'en-US')}
 			containerClassName="mt-2"
 			textClassName="text-lg font-semibold text-slate-900 sm:text-xl"
 			hintClassName="mt-2 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm font-medium text-amber-900"
