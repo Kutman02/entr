@@ -3,7 +3,7 @@ import type { DialogueScenario } from '../types/phrase'
 export const dialogues: DialogueScenario[] = [
   {
     id: 1,
-    title: 'Greeting at Bar',
+    title: 'Приветствие у бара',
     scenario: 'greeting',
     turns: [
       { speaker: 'guest', text: 'Hello' },
@@ -14,7 +14,7 @@ export const dialogues: DialogueScenario[] = [
   },
   {
     id: 2,
-    title: 'Table Seating',
+    title: 'Посадка за стол',
     scenario: 'seating',
     turns: [
       { speaker: 'guest', text: 'Table for two' },
@@ -25,7 +25,7 @@ export const dialogues: DialogueScenario[] = [
   },
   {
     id: 3,
-    title: 'Problem Handling',
+    title: 'Работа с жалобой',
     scenario: 'problem',
     turns: [
       { speaker: 'guest', text: 'This is cold' },
@@ -36,7 +36,7 @@ export const dialogues: DialogueScenario[] = [
   },
   {
     id: 4,
-    title: 'Service and Closing',
+    title: 'Сервис и завершение',
     scenario: 'service',
     turns: [
       { speaker: 'guest', text: 'Bring menu' },

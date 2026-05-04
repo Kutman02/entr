@@ -10,30 +10,30 @@ export interface AppNavigationItem {
 export const DEFAULT_APP_MODE: AppMode = 'practice'
 
 export const APP_INFO = {
-  badge: 'Hotel Waiter Language Trainer',
-  heading: 'English to Turkish Service Drill',
+  badge: 'Тренажёр официанта',
+  heading: 'English -> Turkish: сервисные диалоги',
   description:
-    'Focus on speed, clarity, and real guest situations in an all-inclusive restaurant.',
+    'Тренируйте скорость, чёткость и реальные ситуации с гостями в формате быстрых повторений.',
 }
 
 export const APP_NAV_ITEMS: AppNavigationItem[] = [
   {
     mode: 'learn',
-    label: 'Learn',
+    label: 'Изучение',
     path: '/learn',
-    description: 'Review all phrases by scenario and difficulty level.',
+    description: 'Просмотр всех фраз по сценариям и уровням сложности.',
   },
   {
     mode: 'practice',
-    label: 'Practice',
+    label: 'Практика',
     path: '/practice',
-    description: 'Main drill: react in 2-3 seconds before answers are shown.',
+    description: 'Основная тренировка: реакция за 2-3 секунды до показа ответа.',
   },
   {
     mode: 'simulation',
-    label: 'Simulation',
+    label: 'Симуляция',
     path: '/simulation',
-    description: 'Run through short multi-step hotel service dialogues.',
+    description: 'Короткие многошаговые диалоги обслуживания в отеле.',
   },
 ]
 

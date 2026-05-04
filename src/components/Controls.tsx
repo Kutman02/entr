@@ -1,3 +1,5 @@
+import Button from './ui/Button'
+
 export interface ControlOption<T extends string | number> {
 	value: T
 	label: string
@@ -17,23 +19,21 @@ export default function Controls<T extends string | number>({
 	onChange,
 }: ControlsProps<T>) {
 	return (
-		<div className="flex flex-wrap items-center gap-2" aria-label={label}>
+		<div className="grid grid-cols-1 gap-2 sm:flex sm:flex-wrap" aria-label={label}>
 			{options.map((option) => {
 				const active = option.value === value
 
 				return (
-					<button
+					<Button
 						key={String(option.value)}
-						type="button"
 						onClick={() => onChange(option.value)}
-						className={`rounded-full border px-4 py-2 text-sm font-semibold transition ${
-							active
-								? 'border-cyan-600 bg-cyan-600 text-white'
-								: 'border-slate-300 bg-white text-slate-700 hover:border-cyan-400 hover:text-cyan-700'
-						}`}
+						tone={active ? 'primary' : 'secondary'}
+						size="md"
+						fullOnMobile
+						className="justify-center"
 					>
 						{option.label}
-					</button>
+					</Button>
 				)
 			})}
 		</div>

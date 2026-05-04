@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
-import { FiDownload, FiMenu, FiX } from 'react-icons/fi'
+import { FiMenu, FiX } from 'react-icons/fi'
 import AppBurgerMenu from '../components/AppBurgerMenu'
+import Button from '../components/ui/Button'
 import {
   APP_INFO,
   APP_NAV_ITEMS,
@@ -27,67 +28,59 @@ export default function AppLayout() {
     return getModeByPath(location.pathname)
   }, [location.pathname])
 
-  const activeItem = useMemo(() => {
-    return APP_NAV_ITEMS.find((item) => item.mode === activeMode)
-  }, [activeMode])
-
   useEffect(() => {
     if (storedMode !== activeMode) {
       setStoredMode(activeMode)
     }
   }, [activeMode, setStoredMode, storedMode])
 
+  useEffect(() => {
+    if (!isMenuOpen) {
+      return
+    }
+
+    const previousOverflow = document.body.style.overflow
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsMenuOpen(false)
+      }
+    }
+
+    document.body.style.overflow = 'hidden'
+    window.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      document.body.style.overflow = previousOverflow
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [isMenuOpen])
+
   return (
-    <main className="min-h-screen px-4 py-6 sm:px-6 lg:px-10">
+    <main className="min-h-screen px-3 py-4 sm:px-6 lg:px-10">
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-4">
-        <header className="rounded-3xl border border-white/70 bg-white/85 p-5 shadow-xl shadow-slate-900/5 backdrop-blur-sm sm:p-7">
-          <div className="flex items-start justify-between gap-3">
+        <header className="glass-panel sticky top-3 z-40 rounded-3xl p-4 sm:p-5">
+          <div className="flex items-center justify-between gap-3">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-700">
               {APP_INFO.badge}
             </p>
 
             <div className="flex items-center gap-2">
-              {canInstall ? (
-                <button
-                  type="button"
-                  onClick={() => {
-                    install().catch(() => {
-                      return undefined
-                    })
-                  }}
-                  className="inline-flex items-center gap-2 rounded-full border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-sm font-semibold text-emerald-800 transition hover:border-emerald-400 hover:bg-emerald-100"
-                  aria-label="Install app"
-                >
-                  <FiDownload className="h-4 w-4" aria-hidden="true" />
-                  Install
-                </button>
-              ) : null}
-
-              <button
-                type="button"
+              <Button
                 onClick={() => setIsMenuOpen((previousState) => !previousState)}
-                className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 transition hover:border-cyan-400 hover:text-cyan-700"
-                aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+                tone="secondary"
+                size="icon"
+                aria-label={isMenuOpen ? 'Закрыть меню' : 'Открыть меню'}
+                title={isMenuOpen ? 'Закрыть меню' : 'Открыть меню'}
               >
                 {isMenuOpen ? (
                   <FiX className="h-4 w-4" aria-hidden="true" />
                 ) : (
                   <FiMenu className="h-4 w-4" aria-hidden="true" />
                 )}
-                Menu
-              </button>
+              </Button>
             </div>
           </div>
-
-          <h1 className="mt-3 text-3xl font-extrabold text-slate-900 sm:text-4xl">
-            {APP_INFO.heading}
-          </h1>
-
-          <p className="mt-2 max-w-2xl text-base text-slate-600 sm:text-lg">
-            {APP_INFO.description}
-          </p>
-
-          <p className="mt-4 text-sm text-slate-500">{activeItem?.description}</p>
         </header>
 
         {isMenuOpen ? (
@@ -95,10 +88,21 @@ export default function AppLayout() {
             items={APP_NAV_ITEMS}
             activeMode={activeMode}
             onNavigate={() => setIsMenuOpen(false)}
+            onClose={() => setIsMenuOpen(false)}
+            canInstall={canInstall}
+            onInstall={() => {
+              if (!canInstall) {
+                return
+              }
+
+              install().catch(() => {
+                return undefined
+              })
+            }}
           />
         ) : null}
 
-        <section className="rounded-3xl border border-white/70 bg-white/85 p-4 shadow-xl shadow-slate-900/5 backdrop-blur-sm sm:p-6">
+        <section className="glass-panel rounded-3xl p-4 sm:p-6">
           <Outlet />
         </section>
       </div>

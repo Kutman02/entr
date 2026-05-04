@@ -1,8 +1,13 @@
 import { useMemo, useState } from 'react'
+import Balancer from 'react-wrap-balancer'
+import CollapsibleFilters from '../../components/CollapsibleFilters'
 import GuestLine from '../../components/GuestLine'
 import SpeakIconButton from '../../components/SpeakIconButton'
+import Button from '../../components/ui/Button'
+import { STORAGE_KEYS } from '../../constants/storageKeys'
 import { getPhraseByGuestText } from '../../data/phrases'
 import { dialogues } from '../../data/dialogues'
+import { getScenarioLabelRu } from '../../utils/phraseMeta'
 import { getSpeechLocaleByLanguage } from '../../utils/phraseLanguage'
 import { speak } from '../../utils/speech'
 
@@ -41,30 +46,37 @@ export default function SimulationPage() {
 
 	return (
 		<div className="space-y-5">
-			<div className="flex flex-wrap items-center justify-between gap-3">
-				<h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">Simulation Mode</h2>
+			<div className="flex flex-wrap items-start justify-between gap-3">
+				<h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">
+					<Balancer>Режим симуляции</Balancer>
+				</h2>
 				<p className="rounded-full bg-cyan-50 px-3 py-1 text-sm font-semibold text-cyan-700">
-					{scenario.scenario}
+					{getScenarioLabelRu(scenario.scenario)}
 				</p>
 			</div>
 
-			<label className="flex flex-col gap-2 text-sm font-semibold text-slate-600">
-				Dialogue scenario
-				<select
-					value={scenarioIndex}
-					onChange={(event) => handleScenarioChange(Number(event.target.value))}
-					className="w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-base text-slate-800 sm:w-auto"
-				>
-					{dialogues.map((dialogue, index) => (
-						<option key={dialogue.id} value={index}>
-							{dialogue.title}
-						</option>
-					))}
-				</select>
-			</label>
+			<CollapsibleFilters
+				storageKey={STORAGE_KEYS.simulationFiltersOpen}
+				summary={`Текущий диалог: ${scenario.title}`}
+			>
+				<label className="flex flex-col gap-2 text-sm font-semibold text-slate-600">
+					Сценарий диалога
+					<select
+						value={scenarioIndex}
+						onChange={(event) => handleScenarioChange(Number(event.target.value))}
+						className="w-full rounded-xl border border-slate-300 bg-white/80 px-3 py-2 text-base text-slate-800 sm:w-auto"
+					>
+						{dialogues.map((dialogue, index) => (
+							<option key={dialogue.id} value={index}>
+								{dialogue.title}
+							</option>
+						))}
+					</select>
+				</label>
+			</CollapsibleFilters>
 
-			<div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 sm:p-5">
-				<p className="mb-4 text-lg font-semibold text-slate-900">{scenario.title}</p>
+			<div className="glass-card study-card rounded-2xl p-4 sm:p-5">
+				<p className="readable-copy mb-4 text-lg font-semibold text-slate-900">{scenario.title}</p>
 
 				<div className="space-y-3">
 					{shownTurns.map((turn, index) => {
@@ -73,23 +85,25 @@ export default function SimulationPage() {
 						return (
 							<div
 								key={`${turn.speaker}-${index}`}
-								className={`max-w-[92%] rounded-2xl px-4 py-3 shadow-sm ${
+								className={`max-w-[96%] rounded-2xl px-4 py-3 shadow-sm sm:max-w-[92%] ${
 									isGuest
-										? 'mr-auto bg-white text-slate-900'
+										? 'mr-auto bg-white/90 text-slate-900'
 										: 'ml-auto bg-cyan-700 text-white'
 								}`}
 							>
 								<p className="text-[11px] font-semibold uppercase tracking-[0.18em] opacity-75">
-									{isGuest ? 'Guest' : 'Waiter'}
+									{isGuest ? 'Гость' : 'Официант'}
 								</p>
 								{isGuest ? (
 									<GuestMessage text={turn.text} />
 								) : (
 									<div className="mt-2 flex items-start gap-2">
-										<p className="text-lg font-semibold sm:text-xl">{turn.text}</p>
+										<p className="readable-copy text-lg font-semibold sm:text-xl">
+											{turn.text}
+										</p>
 										<SpeakIconButton
 											onSpeak={() => speak(turn.text, 'en-US')}
-											label="Play waiter line"
+											label="Озвучить реплику официанта"
 										/>
 									</div>
 								)}
@@ -99,32 +113,32 @@ export default function SimulationPage() {
 				</div>
 			</div>
 
-			<div className="flex flex-wrap gap-2">
+			<div className="grid grid-cols-1 gap-2 sm:flex sm:flex-wrap">
 				{!scenarioFinished ? (
-					<button
-						type="button"
+					<Button
 						onClick={nextTurn}
-						className="rounded-full border border-cyan-600 bg-cyan-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-cyan-700"
+						tone="primary"
+						fullOnMobile
 					>
-						Next line
-					</button>
+						Следующая реплика
+					</Button>
 				) : (
-					<button
-						type="button"
+					<Button
 						onClick={nextScenario}
-						className="rounded-full border border-cyan-600 bg-cyan-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-cyan-700"
+						tone="primary"
+						fullOnMobile
 					>
-						Next dialogue
-					</button>
+						Следующий диалог
+					</Button>
 				)}
 
-				<button
-					type="button"
+				<Button
 					onClick={restartScenario}
-					className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-cyan-400 hover:text-cyan-700"
+					tone="secondary"
+					fullOnMobile
 				>
-					Restart dialogue
-				</button>
+					Начать заново
+				</Button>
 			</div>
 		</div>
 	)
@@ -140,10 +154,10 @@ function GuestMessage({ text }: GuestMessageProps) {
 	if (!phrase) {
 		return (
 			<div className="mt-2 flex items-start gap-2">
-				<p className="text-lg font-semibold sm:text-xl">{text}</p>
+				<p className="readable-copy text-lg font-semibold sm:text-xl">{text}</p>
 				<SpeakIconButton
 					onSpeak={() => speak(text, 'en-US')}
-					label="Play guest line"
+					label="Озвучить реплику гостя"
 				/>
 			</div>
 		)

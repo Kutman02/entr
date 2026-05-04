@@ -1,9 +1,11 @@
 import GuestLine from '../../../components/GuestLine'
 import SpeakIconButton from '../../../components/SpeakIconButton'
 import Timer from '../../../components/Timer'
+import Button from '../../../components/ui/Button'
 import { usePractice } from '../../../hooks/usePractice'
 import type { Phrase } from '../../../types/phrase'
 import type { PracticeResult } from '../../../types/progress'
+import { getLevelLabelRu, getScenarioLabelRu } from '../../../utils/phraseMeta'
 import { getSpeechLocaleByLanguage } from '../../../utils/phraseLanguage'
 import { speak } from '../../../utils/speech'
 
@@ -43,8 +45,8 @@ export default function PracticeTrainer({
 
   if (!current) {
     return (
-      <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center text-slate-600">
-        There are no phrases for this scenario and level.
+      <div className="glass-card study-card rounded-2xl p-6 text-center text-slate-600">
+        Для выбранных фильтров фразы не найдены.
       </div>
     )
   }
@@ -64,35 +66,31 @@ export default function PracticeTrainer({
     <div className="space-y-5">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="rounded-full bg-cyan-50 px-3 py-1 text-sm font-semibold text-cyan-700">
-          Card {currentRound}/{totalRounds}
+          Карточка {currentRound}/{totalRounds}
         </p>
         <div className="flex flex-wrap gap-2">
           <span className="rounded-full border border-slate-300 bg-white px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate-700">
-            {current.scenario}
+            {getScenarioLabelRu(current.scenario)}
           </span>
           <span className="rounded-full border border-slate-300 bg-white px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate-700">
-            {current.level}
+            {getLevelLabelRu(current.level)}
           </span>
         </div>
       </div>
 
       <div className="flex flex-wrap gap-2">
-        <button
-          type="button"
+        <Button
           onClick={toggleRandomOrder}
-          className={`rounded-full border px-3 py-1 text-sm font-semibold transition ${
-            randomOrder
-              ? 'border-cyan-600 bg-cyan-600 text-white'
-              : 'border-slate-300 bg-white text-slate-700 hover:border-cyan-400 hover:text-cyan-700'
-          }`}
+          tone={randomOrder ? 'primary' : 'secondary'}
+          size="sm"
         >
-          Random {randomOrder ? 'ON' : 'OFF'}
-        </button>
+          Случайный порядок: {randomOrder ? 'ВКЛ' : 'ВЫКЛ'}
+        </Button>
       </div>
 
-      <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5 sm:p-6">
+      <div className="glass-card study-card rounded-2xl p-5 sm:p-6">
         <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-500">
-          Guest
+          Гость
         </p>
         <GuestLine
           key={current.id}
@@ -102,7 +100,7 @@ export default function PracticeTrainer({
           language={current.language}
           role={current.guestRole}
           onSpeak={() => speak(current.guest, speechLocale)}
-          textClassName="mt-3 text-3xl font-bold text-slate-900 sm:text-5xl"
+          textClassName="readable-copy mt-3 text-2xl font-bold text-slate-900 sm:text-4xl lg:text-5xl"
         />
       </div>
 
@@ -113,16 +111,18 @@ export default function PracticeTrainer({
       />
 
       {showAnswer ? (
-        <div className="rounded-2xl border border-cyan-200 bg-cyan-50 p-5 sm:p-6">
+        <div className="glass-card study-card rounded-2xl border-cyan-200/80 p-5 sm:p-6">
           <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-cyan-700">
-            Waiter
+            Официант
           </p>
 
           <div className="mt-3 flex items-start gap-2">
-            <p className="text-2xl font-bold text-slate-900 sm:text-4xl">{primaryAnswer}</p>
+            <p className="readable-copy text-xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
+              {primaryAnswer}
+            </p>
             <SpeakIconButton
               onSpeak={() => speak(primaryAnswer, speechLocale)}
-              label="Play waiter phrase"
+              label="Озвучить фразу официанта"
             />
           </div>
 
@@ -155,53 +155,53 @@ export default function PracticeTrainer({
           </div>
         </div>
       ) : (
-        <p className="text-lg font-medium text-slate-600">
-          Think first. Answer appears in {revealAfterSeconds} seconds.
+        <p className="readable-copy text-base font-medium text-slate-600 sm:text-lg">
+          Сначала подумайте. Ответ появится через {revealAfterSeconds} сек.
         </p>
       )}
 
-      <div className="flex flex-wrap gap-2">
+      <div className="grid grid-cols-1 gap-2 sm:flex sm:flex-wrap">
         {!showAnswer ? (
-          <button
-            type="button"
+          <Button
             onClick={revealNow}
-            className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-cyan-400 hover:text-cyan-700"
+            tone="secondary"
+            fullOnMobile
           >
-            Reveal Now
-          </button>
+            Показать ответ
+          </Button>
         ) : null}
 
         {showAnswer ? (
           <>
-            <button
-              type="button"
+            <Button
               onClick={() => moveNext('confident')}
-              className="rounded-full border border-emerald-600 bg-emerald-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-700"
+              tone="success"
+              fullOnMobile
             >
-              Confident + Next
-            </button>
+              Знаю + дальше
+            </Button>
 
-            <button
-              type="button"
+            <Button
               onClick={() => moveNext('needsReview')}
-              className="rounded-full border border-amber-500 bg-amber-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-600"
+              tone="warning"
+              fullOnMobile
             >
-              Repeat + Next
-            </button>
+              Повторить + дальше
+            </Button>
           </>
         ) : null}
 
-        <button
-          type="button"
+        <Button
           onClick={() => moveNext('unrated')}
-          className="rounded-full border border-cyan-600 bg-cyan-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-cyan-700"
+          tone="primary"
+          fullOnMobile
         >
-          Next
-        </button>
+          Дальше
+        </Button>
       </div>
 
       <p className="text-sm text-slate-500">
-        Settings and progress are saved automatically in your browser.
+        Настройки и прогресс автоматически сохраняются в браузере.
       </p>
     </div>
   )

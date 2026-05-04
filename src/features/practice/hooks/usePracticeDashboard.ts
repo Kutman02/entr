@@ -17,6 +17,7 @@ import {
   getNeedsReviewPhraseCount,
   registerPracticeResult,
 } from '../../../utils/practiceProgress'
+import { getLevelLabelRu, getScenarioLabelRu } from '../../../utils/phraseMeta'
 
 export type ReactionWindow = 2 | 3
 export type ScenarioFilter = 'all' | Scenario
@@ -24,12 +25,12 @@ export type LevelFilter = 'all' | DifficultyLevel
 export type LanguageFilter = 'all' | PhraseLanguage
 
 const languageLabels: Record<PhraseLanguage, string> = {
-  en: 'English 🇬🇧',
-  tr: 'Turkish 🇹🇷',
+  en: 'Английский 🇬🇧',
+  tr: 'Турецкий 🇹🇷',
 }
 
 export const languageOptions: Array<{ value: LanguageFilter; label: string }> = [
-  { value: 'all', label: 'All languages' },
+  { value: 'all', label: 'Все языки' },
   ...phraseLanguages.map((language) => ({
     value: language,
     label: languageLabels[language],
@@ -37,24 +38,24 @@ export const languageOptions: Array<{ value: LanguageFilter; label: string }> = 
 ]
 
 export const scenarioOptions: Array<{ value: ScenarioFilter; label: string }> = [
-  { value: 'all', label: 'All scenarios' },
+  { value: 'all', label: 'Все сценарии' },
   ...scenarios.map((scenario) => ({
     value: scenario,
-    label: scenario,
+    label: getScenarioLabelRu(scenario),
   })),
 ]
 
 export const levelOptions: Array<{ value: LevelFilter; label: string }> = [
-  { value: 'all', label: 'All levels' },
+  { value: 'all', label: 'Все уровни' },
   ...levels.map((level) => ({
     value: level,
-    label: level,
+    label: getLevelLabelRu(level),
   })),
 ]
 
 export const reactionOptions: Array<{ value: ReactionWindow; label: string }> = [
-  { value: 2, label: '2 sec' },
-  { value: 3, label: '3 sec' },
+  { value: 2, label: '2 сек' },
+  { value: 3, label: '3 сек' },
 ]
 
 export const usePracticeDashboard = () => {

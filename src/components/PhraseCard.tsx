@@ -1,4 +1,5 @@
 import type { Phrase } from '../types/phrase'
+import { getLevelLabelRu, getScenarioLabelRu } from '../utils/phraseMeta'
 import { getSpeechLocaleByLanguage } from '../utils/phraseLanguage'
 import { speak } from '../utils/speech'
 import GuestLine from './GuestLine'
@@ -23,19 +24,25 @@ export default function PhraseCard({
 			: phrase.translations.tr
 
 	return (
-		<article className="rounded-2xl border border-slate-200 bg-slate-50 p-4 sm:p-5">
-			<div className="flex flex-wrap items-center gap-2">
-				<p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-500">
-					{phrase.scenario}
-				</p>
-				<span className="rounded-full border border-slate-300 bg-white px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.16em] text-slate-600">
-					{phrase.level}
+		<article className="glass-card study-card rounded-2xl p-4 sm:p-5">
+			<div className="flex flex-wrap items-center justify-between gap-2">
+				<div className="flex flex-wrap items-center gap-2">
+					<p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-500">
+						{getScenarioLabelRu(phrase.scenario)}
+					</p>
+					<span className="rounded-full border border-slate-300 bg-white px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.16em] text-slate-600">
+						{getLevelLabelRu(phrase.level)}
+					</span>
+				</div>
+
+				<span className="rounded-full border border-cyan-200 bg-cyan-50 px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-cyan-700">
+					Карточка
 				</span>
 			</div>
 
 			<div className="mt-3 space-y-2">
 				<p className="text-sm font-semibold uppercase tracking-[0.12em] text-slate-500">
-					Guest
+					Гость
 				</p>
 				<GuestLine
 					text={phrase.guest}
@@ -43,20 +50,22 @@ export default function PhraseCard({
 					emotion={phrase.guestEmotion}
 					language={phrase.language}
 					role={phrase.guestRole}
-					textClassName="text-2xl font-bold text-slate-900"
+					textClassName="readable-copy text-xl font-bold text-slate-900 sm:text-2xl"
 					onSpeak={() => speak(phrase.guest, speechLocale)}
 				/>
 			</div>
 
 			<div className="mt-4 space-y-2">
 				<p className="text-sm font-semibold uppercase tracking-[0.12em] text-cyan-700">
-					Waiter
+					Официант
 				</p>
 				<div className="flex items-start gap-2">
-					<p className="text-xl font-semibold text-slate-900">{primaryAnswer}</p>
+					<p className="readable-copy text-lg font-semibold text-slate-900 sm:text-xl">
+						{primaryAnswer}
+					</p>
 					<SpeakIconButton
 						onSpeak={() => speak(primaryAnswer, speechLocale)}
-						label="Play waiter phrase"
+						label="Озвучить фразу официанта"
 					/>
 				</div>
 
@@ -75,7 +84,7 @@ export default function PhraseCard({
 			</div>
 
 			{showTranslations ? (
-				<div className="mt-4 grid gap-2 rounded-xl border border-slate-200 bg-white p-3 text-sm text-slate-600">
+				<div className="mt-4 grid gap-2 rounded-xl border border-slate-200 bg-white/80 p-3 text-sm text-slate-600">
 					<p>
 						RU:{' '}
 						<span className="font-medium text-slate-800">

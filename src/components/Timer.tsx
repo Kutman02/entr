@@ -14,10 +14,10 @@ export default function Timer({
 		: ((totalSeconds - secondsLeft) / totalSeconds) * 100
 
 	return (
-		<div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+		<div className="glass-card rounded-2xl p-4">
 			<div className="mb-2 flex items-center justify-between text-sm font-semibold text-slate-600">
-				<span>{isRevealed ? 'Answer is visible' : 'Auto reveal in'}</span>
-				<span>{isRevealed ? '0s' : `${secondsLeft}s`}</span>
+				<span>{isRevealed ? 'Ответ показан' : 'Автопоказ через'}</span>
+				<span>{isRevealed ? '0с' : `${secondsLeft}с`}</span>
 			</div>
 
 			<progress

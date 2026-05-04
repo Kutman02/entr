@@ -6,6 +6,10 @@ export const STORAGE_KEYS = {
   practiceReactionWindow: 'waiter-trainer:practice-reaction-window',
   practiceRandomOrder: 'waiter-trainer:practice-random-order',
   practiceProgress: 'waiter-trainer:practice-progress',
+  practiceProgressOpen: 'waiter-trainer:practice-progress-open',
+  practiceFiltersOpen: 'waiter-trainer:practice-filters-open',
   learnLanguage: 'waiter-trainer:learn-language',
   learnReviewOnly: 'waiter-trainer:learn-review-only',
+  learnFiltersOpen: 'waiter-trainer:learn-filters-open',
+  simulationFiltersOpen: 'waiter-trainer:simulation-filters-open',
 } as const

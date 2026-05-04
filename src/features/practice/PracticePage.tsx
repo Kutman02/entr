@@ -1,6 +1,9 @@
 import { useMemo } from 'react'
+import Balancer from 'react-wrap-balancer'
+import CollapsibleFilters from '../../components/CollapsibleFilters'
 import Controls from '../../components/Controls'
 import PracticeProgressPanel from '../../components/PracticeProgressPanel'
+import { STORAGE_KEYS } from '../../constants/storageKeys'
 import PracticeTrainer from './components/PracticeTrainer'
 import {
   languageOptions,
@@ -35,9 +38,41 @@ export default function PracticePage() {
     return `${ids}-${reactionWindow}`
   }, [filteredPhrases, reactionWindow])
 
+  const selectedLanguageLabel = useMemo(() => {
+    return (
+      languageOptions.find((option) => option.value === activeLanguage)?.label ??
+      'Все языки'
+    )
+  }, [activeLanguage])
+
+  const selectedScenarioLabel = useMemo(() => {
+    return (
+      scenarioOptions.find((option) => option.value === activeScenario)?.label ??
+      'Все сценарии'
+    )
+  }, [activeScenario])
+
+  const selectedLevelLabel = useMemo(() => {
+    return (
+      levelOptions.find((option) => option.value === activeLevel)?.label ??
+      'Все уровни'
+    )
+  }, [activeLevel])
+
+  const selectedReactionLabel = useMemo(() => {
+    return (
+      reactionOptions.find((option) => option.value === reactionWindow)?.label ??
+      `${reactionWindow} сек`
+    )
+  }, [reactionWindow])
+
+  const filtersSummary = `${selectedLanguageLabel} • ${selectedScenarioLabel} • ${selectedLevelLabel} • ${selectedReactionLabel}`
+
   return (
     <div className="space-y-5">
-      <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">Practice Mode</h2>
+      <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">
+        <Balancer>Режим практики</Balancer>
+      </h2>
 
       <PracticeProgressPanel
         progress={progress}
@@ -46,53 +81,58 @@ export default function PracticePage() {
         onResetProgress={resetProgress}
       />
 
-      <div className="space-y-2">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
-          Language
-        </p>
-        <Controls
-          label="Filter practice language"
-          options={languageOptions}
-          value={activeLanguage}
-          onChange={setActiveLanguage}
-        />
-      </div>
+      <CollapsibleFilters
+        storageKey={STORAGE_KEYS.practiceFiltersOpen}
+        summary={filtersSummary}
+      >
+        <div className="space-y-2">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+            Язык
+          </p>
+          <Controls
+            label="Фильтр практики по языку"
+            options={languageOptions}
+            value={activeLanguage}
+            onChange={setActiveLanguage}
+          />
+        </div>
 
-      <div className="space-y-2">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
-          Scenario
-        </p>
-        <Controls
-          label="Filter practice scenario"
-          options={scenarioOptions}
-          value={activeScenario}
-          onChange={setActiveScenario}
-        />
-      </div>
+        <div className="space-y-2">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+            Сценарий
+          </p>
+          <Controls
+            label="Фильтр практики по сценарию"
+            options={scenarioOptions}
+            value={activeScenario}
+            onChange={setActiveScenario}
+          />
+        </div>
 
-      <div className="space-y-2">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
-          Level
-        </p>
-        <Controls
-          label="Filter practice level"
-          options={levelOptions}
-          value={activeLevel}
-          onChange={setActiveLevel}
-        />
-      </div>
+        <div className="space-y-2">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+            Уровень
+          </p>
+          <Controls
+            label="Фильтр практики по уровню"
+            options={levelOptions}
+            value={activeLevel}
+            onChange={setActiveLevel}
+          />
+        </div>
 
-      <div className="space-y-2">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
-          Reaction window
-        </p>
-        <Controls
-          label="Select reaction window"
-          options={reactionOptions}
-          value={reactionWindow}
-          onChange={setReactionWindow}
-        />
-      </div>
+        <div className="space-y-2">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+            Окно реакции
+          </p>
+          <Controls
+            label="Выбор времени реакции"
+            options={reactionOptions}
+            value={reactionWindow}
+            onChange={setReactionWindow}
+          />
+        </div>
+      </CollapsibleFilters>
 
       <PracticeTrainer
         key={practiceKey}
