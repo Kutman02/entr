@@ -1,0 +1,232 @@
+[
+  {
+    "id": 31,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Bring menu",
+    "guestHintRu": "Принесите меню",
+    "guestEmotion": "neutral",
+    "answers": [
+      "One moment",
+      "I will bring menu"
+    ],
+    "translations": {
+      "tr": [
+        "Bir dakika",
+        "Menu getiriyorum"
+      ],
+      "ru": [
+        "Одну минуту",
+        "Я принесу меню"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 32,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Can we order now?",
+    "guestHintRu": "Можем заказать сейчас?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Yes, I am ready",
+      "Of course, please tell me"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, hazirim",
+        "Tabii, lutfen soyleyin"
+      ],
+      "ru": [
+        "Да, я готов",
+        "Конечно, пожалуйста, говорите"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 33,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Can I have a fork?",
+    "guestHintRu": "Можно вилку?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Sure, I will bring a fork",
+      "One moment please"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, catal getirecegim",
+        "Bir dakika lutfen"
+      ],
+      "ru": [
+        "Конечно, принесу вилку",
+        "Одну минуту, пожалуйста"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 34,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Can I have a napkin?",
+    "guestHintRu": "Можно салфетку?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Yes, here you are",
+      "I will bring napkins"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, buyurun",
+        "Pecete getirecegim"
+      ],
+      "ru": [
+        "Да, пожалуйста",
+        "Я принесу салфетки"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 35,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "More water",
+    "guestHintRu": "Еще воды",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Okay, one moment",
+      "I will bring more"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, bir dakika",
+        "Daha fazla getirecegim"
+      ],
+      "ru": [
+        "Хорошо, одну минуту",
+        "Я принесу еще"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 36,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Call waiter",
+    "guestHintRu": "Позовите официанта",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Yes, I am here",
+      "Coming"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, buradayim",
+        "Geliyorum"
+      ],
+      "ru": [
+        "Да, я здесь",
+        "Иду"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 37,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Could you clean the table?",
+    "guestHintRu": "Можете убрать стол?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Of course, I will clean it now",
+      "Sure, one moment"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, simdi temizleyecegim",
+        "Tabii, bir dakika"
+      ],
+      "ru": [
+        "Конечно, сейчас уберу",
+        "Конечно, одну минуту"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 38,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Please clear the plates",
+    "guestHintRu": "Пожалуйста, уберите тарелки",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Sure, I will clear them",
+      "I will take the plates now"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, kaldiracagim",
+        "Tabaklari simdi alacagim"
+      ],
+      "ru": [
+        "Конечно, я уберу их",
+        "Сейчас заберу тарелки"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 39,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "We are in room 1205",
+    "guestHintRu": "Мы из номера 1205",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Thank you, I noted your room number",
+      "Room 1205, understood"
+    ],
+    "translations": {
+      "tr": [
+        "Tesekkurler, oda numaranizi not ettim",
+        "1205 numara, anladim"
+      ],
+      "ru": [
+        "Спасибо, я записал ваш номер",
+        "Номер 1205, понял"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 40,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Can you bring the bill?",
+    "guestHintRu": "Можете принести счет?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Sure, I will bring the bill",
+      "One moment please"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, hesabi getirecegim",
+        "Bir dakika lutfen"
+      ],
+      "ru": [
+        "Конечно, я принесу счет",
+        "Одну минуту, пожалуйста"
+      ]
+    },
+    "language": "en"
+  }
+]

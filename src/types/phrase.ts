@@ -11,6 +11,8 @@ export type Scenario =
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard'
 
+export type PhraseLanguage = 'en' | 'tr'
+
 export type GuestEmotion =
   | 'polite'
   | 'neutral'
@@ -22,6 +24,7 @@ export interface Phrase {
   id: number
   scenario: Scenario
   level: DifficultyLevel
+  language: PhraseLanguage
   guest: string
   guestHintRu: string
   guestEmotion: GuestEmotion
@@ -29,6 +32,7 @@ export interface Phrase {
   translations: {
     ru: string[]
     tr: string[]
+    en?: string[]
   }
 }
 

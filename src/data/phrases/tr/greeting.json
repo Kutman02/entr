@@ -1,0 +1,29 @@
+[
+  {
+    "id": 69,
+    "scenario": "greeting",
+    "level": "hard",
+    "guest": "Merhaba, bir masa mumkun mu?",
+    "guestHintRu": "Здравствуйте, можно столик?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Evet, buyurun",
+      "Tabii, sizi alayim"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, buyurun",
+        "Tabii, sizi alayim"
+      ],
+      "ru": [
+        "Да, пожалуйста",
+        "Конечно, я вас провожу"
+      ],
+      "en": [
+        "Yes, please come in",
+        "Of course, let me seat you"
+      ]
+    },
+    "language": "tr"
+  }
+]

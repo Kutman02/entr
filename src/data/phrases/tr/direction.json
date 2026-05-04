@@ -1,0 +1,29 @@
+[
+  {
+    "id": 73,
+    "scenario": "direction",
+    "level": "hard",
+    "guest": "Tuvalet nerede?",
+    "guestHintRu": "Где туалет?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Bu tarafta",
+      "Orada, saga donun"
+    ],
+    "translations": {
+      "tr": [
+        "Bu tarafta",
+        "Orada, saga donun"
+      ],
+      "ru": [
+        "Сюда",
+        "Вон там, поверните направо"
+      ],
+      "en": [
+        "This way",
+        "Over there, turn right"
+      ]
+    },
+    "language": "tr"
+  }
+]

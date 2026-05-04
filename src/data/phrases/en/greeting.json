@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "scenario": "greeting",
+    "level": "easy",
+    "guest": "Hello",
+    "guestHintRu": "Здравствуйте",
+    "guestEmotion": "polite",
+    "answers": [
+      "Hello",
+      "Hi"
+    ],
+    "translations": {
+      "tr": [
+        "Merhaba",
+        "Selam"
+      ],
+      "ru": [
+        "Здравствуйте",
+        "Привет"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 2,
+    "scenario": "greeting",
+    "level": "easy",
+    "guest": "Good morning",
+    "guestHintRu": "Доброе утро",
+    "guestEmotion": "polite",
+    "answers": [
+      "Good morning",
+      "Welcome"
+    ],
+    "translations": {
+      "tr": [
+        "Gunaydin",
+        "Hos geldiniz"
+      ],
+      "ru": [
+        "Доброе утро",
+        "Добро пожаловать"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 3,
+    "scenario": "greeting",
+    "level": "easy",
+    "guest": "Good evening",
+    "guestHintRu": "Добрый вечер",
+    "guestEmotion": "polite",
+    "answers": [
+      "Good evening",
+      "Welcome to our restaurant"
+    ],
+    "translations": {
+      "tr": [
+        "Iyi aksamlar",
+        "Restoranimiza hos geldiniz"
+      ],
+      "ru": [
+        "Добрый вечер",
+        "Добро пожаловать в наш ресторан"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 4,
+    "scenario": "greeting",
+    "level": "easy",
+    "guest": "How are you?",
+    "guestHintRu": "Как дела?",
+    "guestEmotion": "polite",
+    "answers": [
+      "I am fine, thank you",
+      "Very well, thank you"
+    ],
+    "translations": {
+      "tr": [
+        "Iyiyim, tesekkur ederim",
+        "Cok iyiyim, tesekkurler"
+      ],
+      "ru": [
+        "У меня все хорошо, спасибо",
+        "Очень хорошо, спасибо"
+      ]
+    },
+    "language": "en"
+  }
+]

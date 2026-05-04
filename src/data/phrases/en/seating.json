@@ -1,0 +1,140 @@
+[
+  {
+    "id": 5,
+    "scenario": "seating",
+    "level": "easy",
+    "guest": "Table for two",
+    "guestHintRu": "Столик на двоих",
+    "guestEmotion": "polite",
+    "answers": [
+      "This way please",
+      "Follow me"
+    ],
+    "translations": {
+      "tr": [
+        "Buyurun",
+        "Benimle gelin"
+      ],
+      "ru": [
+        "Сюда, пожалуйста",
+        "Следуйте за мной"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 6,
+    "scenario": "seating",
+    "level": "easy",
+    "guest": "Table for four",
+    "guestHintRu": "Столик на четверых",
+    "guestEmotion": "polite",
+    "answers": [
+      "Yes, I have a table for four",
+      "Please come this way"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, dort kisilik masamiz var",
+        "Lutfen bu tarafa"
+      ],
+      "ru": [
+        "Да, у нас есть стол на четверых",
+        "Пожалуйста, проходите сюда"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 7,
+    "scenario": "seating",
+    "level": "easy",
+    "guest": "Can we sit outside?",
+    "guestHintRu": "Можно сесть снаружи?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Yes, of course",
+      "I will prepare an outside table"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, tabii",
+        "Disarida bir masa hazirlayacagim"
+      ],
+      "ru": [
+        "Да, конечно",
+        "Я подготовлю столик снаружи"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 8,
+    "scenario": "seating",
+    "level": "medium",
+    "guest": "Is there a free table near the window?",
+    "guestHintRu": "Есть свободный столик у окна?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Yes, one moment please",
+      "I will check and show you"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, bir dakika lutfen",
+        "Kontrol edip size gosterecegim"
+      ],
+      "ru": [
+        "Да, одну минуту, пожалуйста",
+        "Я проверю и покажу вам"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 9,
+    "scenario": "seating",
+    "level": "easy",
+    "guest": "Baby chair please",
+    "guestHintRu": "Детский стульчик, пожалуйста",
+    "guestEmotion": "polite",
+    "answers": [
+      "Sure, I will bring a baby chair",
+      "One moment please"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, bebek sandalyesi getirecegim",
+        "Bir dakika lutfen"
+      ],
+      "ru": [
+        "Конечно, принесу детский стульчик",
+        "Одну минуту, пожалуйста"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 10,
+    "scenario": "seating",
+    "level": "medium",
+    "guest": "We need a quiet table",
+    "guestHintRu": "Нам нужен тихий столик",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Of course, I will find a quiet table",
+      "Please follow me"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, sessiz bir masa bulacagim",
+        "Lutfen beni takip edin"
+      ],
+      "ru": [
+        "Конечно, я найду тихий столик",
+        "Пожалуйста, следуйте за мной"
+      ]
+    },
+    "language": "en"
+  }
+]

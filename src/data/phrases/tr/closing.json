@@ -1,0 +1,56 @@
+[
+  {
+    "id": 78,
+    "scenario": "closing",
+    "level": "hard",
+    "guest": "Tesekkur ederim",
+    "guestHintRu": "Спасибо",
+    "guestEmotion": "grateful",
+    "answers": [
+      "Rica ederim",
+      "Afiyet olsun"
+    ],
+    "translations": {
+      "tr": [
+        "Rica ederim",
+        "Afiyet olsun"
+      ],
+      "ru": [
+        "Пожалуйста",
+        "Приятного аппетита"
+      ],
+      "en": [
+        "You are welcome",
+        "Enjoy your meal"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 80,
+    "scenario": "closing",
+    "level": "hard",
+    "guest": "Biz bitirdik",
+    "guestHintRu": "Мы закончили",
+    "guestEmotion": "grateful",
+    "answers": [
+      "Tamam, masayi toplayacagim",
+      "Tesekkur ederiz"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, masayi toplayacagim",
+        "Tesekkur ederiz"
+      ],
+      "ru": [
+        "Хорошо, я уберу стол",
+        "Спасибо вам"
+      ],
+      "en": [
+        "Okay, I will clear the table",
+        "Thank you"
+      ]
+    },
+    "language": "tr"
+  }
+]

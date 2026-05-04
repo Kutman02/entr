@@ -3,6 +3,7 @@ import Controls from '../../components/Controls'
 import PracticeProgressPanel from '../../components/PracticeProgressPanel'
 import PracticeTrainer from './components/PracticeTrainer'
 import {
+  languageOptions,
   levelOptions,
   reactionOptions,
   scenarioOptions,
@@ -15,6 +16,8 @@ export default function PracticePage() {
     setActiveScenario,
     activeLevel,
     setActiveLevel,
+    activeLanguage,
+    setActiveLanguage,
     reactionWindow,
     setReactionWindow,
     randomOrderPref,
@@ -42,6 +45,18 @@ export default function PracticePage() {
         needsReviewPhrases={needsReviewPhrases}
         onResetProgress={resetProgress}
       />
+
+      <div className="space-y-2">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+          Language
+        </p>
+        <Controls
+          label="Filter practice language"
+          options={languageOptions}
+          value={activeLanguage}
+          onChange={setActiveLanguage}
+        />
+      </div>
 
       <div className="space-y-2">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">

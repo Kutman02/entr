@@ -1,0 +1,56 @@
+[
+  {
+    "id": 75,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Biraz daha ekmek lutfen",
+    "guestHintRu": "Еще немного хлеба, пожалуйста",
+    "guestEmotion": "polite",
+    "answers": [
+      "Tabii, hemen ekmek getirecegim",
+      "Taze ekmek geliyor"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, hemen ekmek getirecegim",
+        "Taze ekmek geliyor"
+      ],
+      "ru": [
+        "Конечно, сейчас принесу хлеб",
+        "Свежий хлеб сейчас будет"
+      ],
+      "en": [
+        "Sure, I will bring more bread right away",
+        "Fresh bread is coming"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 79,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Cok lezzetli",
+    "guestHintRu": "Очень вкусно",
+    "guestEmotion": "grateful",
+    "answers": [
+      "Tesekkur ederim",
+      "Begendiginize sevindim"
+    ],
+    "translations": {
+      "tr": [
+        "Tesekkur ederim",
+        "Begendiginize sevindim"
+      ],
+      "ru": [
+        "Спасибо",
+        "Рад, что вам понравилось"
+      ],
+      "en": [
+        "Thank you",
+        "I am glad you liked it"
+      ]
+    },
+    "language": "tr"
+  }
+]

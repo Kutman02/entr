@@ -1,0 +1,163 @@
+[
+  {
+    "id": 55,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "I don't understand",
+    "guestHintRu": "Я не понимаю",
+    "guestEmotion": "confused",
+    "answers": [
+      "No problem, I can explain",
+      "I will speak slowly"
+    ],
+    "translations": {
+      "tr": [
+        "Sorun yok, aciklayabilirim",
+        "Yavas konusacagim"
+      ],
+      "ru": [
+        "Без проблем, я могу объяснить",
+        "Я буду говорить медленно"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 56,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "Speak slowly please",
+    "guestHintRu": "Говорите медленнее, пожалуйста",
+    "guestEmotion": "confused",
+    "answers": [
+      "Sure, I will speak slowly",
+      "Of course"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, yavas konusacagim",
+        "Elbette"
+      ],
+      "ru": [
+        "Конечно, я буду говорить медленно",
+        "Разумеется"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 57,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "Can you repeat?",
+    "guestHintRu": "Можете повторить?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Yes, of course",
+      "I will repeat"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, tabii",
+        "Tekrar edecegim"
+      ],
+      "ru": [
+        "Да, конечно",
+        "Я повторю"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 58,
+    "scenario": "understanding",
+    "level": "easy",
+    "guest": "Do you speak Turkish?",
+    "guestHintRu": "Вы говорите по-турецки?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Yes, a little",
+      "Yes, I can help in Turkish"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, biraz",
+        "Evet, Turkce yardim edebilirim"
+      ],
+      "ru": [
+        "Да, немного",
+        "Да, я могу помочь на турецком"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 59,
+    "scenario": "understanding",
+    "level": "easy",
+    "guest": "Do you speak English?",
+    "guestHintRu": "Вы говорите по-английски?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Yes, I speak English",
+      "Yes, of course"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, Ingilizce konusuyorum",
+        "Evet, tabii"
+      ],
+      "ru": [
+        "Да, я говорю по-английски",
+        "Да, конечно"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 60,
+    "scenario": "understanding",
+    "level": "hard",
+    "guest": "What does this mean?",
+    "guestHintRu": "Что это значит?",
+    "guestEmotion": "confused",
+    "answers": [
+      "It means today's special dish",
+      "I can explain in simple words"
+    ],
+    "translations": {
+      "tr": [
+        "Bugunun ozel yemegi demek",
+        "Basit kelimelerle aciklayabilirim"
+      ],
+      "ru": [
+        "Это означает фирменное блюдо дня",
+        "Я могу объяснить простыми словами"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 61,
+    "scenario": "understanding",
+    "level": "hard",
+    "guest": "Please write it",
+    "guestHintRu": "Пожалуйста, напишите это",
+    "guestEmotion": "confused",
+    "answers": [
+      "Sure, I will write it down",
+      "One moment, I will note it"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, yazacagim",
+        "Bir dakika, not edecegim"
+      ],
+      "ru": [
+        "Конечно, я это запишу",
+        "Одну минуту, сейчас запишу"
+      ]
+    },
+    "language": "en"
+  }
+]

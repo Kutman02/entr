@@ -2,9 +2,9 @@ import { useMemo, useState } from 'react'
 import Controls from '../../components/Controls'
 import PhraseCard from '../../components/PhraseCard'
 import { STORAGE_KEYS } from '../../constants/storageKeys'
-import { phrases, scenarios } from '../../data/phrases'
+import { phraseLanguages, phrases, scenarios } from '../../data/phrases'
 import { useLocalStorageState } from '../../hooks/useLocalStorageState'
-import type { Scenario } from '../../types/phrase'
+import type { PhraseLanguage, Scenario } from '../../types/phrase'
 import type { PracticeProgressState } from '../../types/progress'
 import {
 	createInitialPracticeProgress,
@@ -12,6 +12,20 @@ import {
 } from '../../utils/practiceProgress'
 
 type LearnFilter = 'all' | Scenario
+type LearnLanguageFilter = 'all' | PhraseLanguage
+
+const languageLabels: Record<PhraseLanguage, string> = {
+	en: 'English 🇬🇧',
+	tr: 'Turkish 🇹🇷',
+}
+
+const languageOptions: Array<{ value: LearnLanguageFilter; label: string }> = [
+	{ value: 'all', label: 'All languages' },
+	...phraseLanguages.map((language) => ({
+		value: language,
+		label: languageLabels[language],
+	})),
+]
 
 const filterOptions: Array<{ value: LearnFilter; label: string }> = [
 	{ value: 'all', label: 'All' },
@@ -23,6 +37,10 @@ const filterOptions: Array<{ value: LearnFilter; label: string }> = [
 
 export default function LearnPage() {
 	const [activeFilter, setActiveFilter] = useState<LearnFilter>('all')
+	const [activeLanguage, setActiveLanguage] = useLocalStorageState<LearnLanguageFilter>(
+		STORAGE_KEYS.learnLanguage,
+		'all',
+	)
 	const [reviewOnly, setReviewOnly] = useLocalStorageState<boolean>(
 		STORAGE_KEYS.learnReviewOnly,
 		false,
@@ -40,11 +58,13 @@ export default function LearnPage() {
 		return phrases.filter((phrase) => {
 			const scenarioMatches =
 				activeFilter === 'all' || phrase.scenario === activeFilter
+			const languageMatches =
+				activeLanguage === 'all' || phrase.language === activeLanguage
 			const reviewMatches = !reviewOnly || needsReviewIds.has(phrase.id)
 
-			return scenarioMatches && reviewMatches
+			return scenarioMatches && languageMatches && reviewMatches
 		})
-	}, [activeFilter, reviewOnly, needsReviewIds])
+	}, [activeFilter, activeLanguage, reviewOnly, needsReviewIds])
 
 	return (
 		<div className="space-y-5">
@@ -67,6 +87,13 @@ export default function LearnPage() {
 					</button>
 				</div>
 			</div>
+
+			<Controls
+				label="Filter phrase language"
+				options={languageOptions}
+				value={activeLanguage}
+				onChange={setActiveLanguage}
+			/>
 
 			<Controls
 				label="Filter phrase scenario"

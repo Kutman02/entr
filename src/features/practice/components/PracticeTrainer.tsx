@@ -4,6 +4,7 @@ import Timer from '../../../components/Timer'
 import { usePractice } from '../../../hooks/usePractice'
 import type { Phrase } from '../../../types/phrase'
 import type { PracticeResult } from '../../../types/progress'
+import { getSpeechLocaleByLanguage } from '../../../utils/phraseLanguage'
 import { speak } from '../../../utils/speech'
 
 interface PracticeTrainerProps {
@@ -38,6 +39,7 @@ export default function PracticeTrainer({
 
   const primaryAnswer = current?.answers[0] ?? ''
   const alternativeAnswers = current?.answers.slice(1) ?? []
+  const speechLocale = current ? getSpeechLocaleByLanguage(current.language) : 'en-US'
 
   if (!current) {
     return (
@@ -51,6 +53,12 @@ export default function PracticeTrainer({
     onRegisterResult(current.id, result)
     next()
   }
+
+  const secondaryTranslationLabel = current.language === 'tr' ? 'EN' : 'TR'
+  const secondaryTranslations =
+    current.language === 'tr'
+      ? (current.translations.en ?? current.translations.tr)
+      : current.translations.tr
 
   return (
     <div className="space-y-5">
@@ -91,7 +99,8 @@ export default function PracticeTrainer({
           text={current.guest}
           hintRu={current.guestHintRu}
           emotion={current.guestEmotion}
-          onSpeak={() => speak(current.guest, 'en-US')}
+          language={current.language}
+          onSpeak={() => speak(current.guest, speechLocale)}
           textClassName="mt-3 text-3xl font-bold text-slate-900 sm:text-5xl"
         />
       </div>
@@ -111,7 +120,7 @@ export default function PracticeTrainer({
           <div className="mt-3 flex items-start gap-2">
             <p className="text-2xl font-bold text-slate-900 sm:text-4xl">{primaryAnswer}</p>
             <SpeakIconButton
-              onSpeak={() => speak(primaryAnswer, 'en-US')}
+              onSpeak={() => speak(primaryAnswer, speechLocale)}
               label="Play waiter phrase"
             />
           </div>
@@ -137,9 +146,9 @@ export default function PracticeTrainer({
               </span>
             </p>
             <p>
-              TR:{' '}
+              {secondaryTranslationLabel}:{' '}
               <span className="font-medium text-slate-800">
-                {current.translations.tr.join(' / ')}
+                {secondaryTranslations.join(' / ')}
               </span>
             </p>
           </div>

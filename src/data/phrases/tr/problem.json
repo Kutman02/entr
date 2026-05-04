@@ -1,0 +1,29 @@
+[
+  {
+    "id": 74,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Bu soguk",
+    "guestHintRu": "Это холодное",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Uzgunum, hemen degistirecegim",
+      "Sicak olanini getirecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Uzgunum, hemen degistirecegim",
+        "Sicak olanini getirecegim"
+      ],
+      "ru": [
+        "Извините, сразу заменю",
+        "Я принесу горячее"
+      ],
+      "en": [
+        "I am sorry, I will replace it right away",
+        "I will bring a hot one"
+      ]
+    },
+    "language": "tr"
+  }
+]

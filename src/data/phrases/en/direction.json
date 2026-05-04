@@ -1,0 +1,117 @@
+[
+  {
+    "id": 41,
+    "scenario": "direction",
+    "level": "easy",
+    "guest": "Where is the toilet?",
+    "guestHintRu": "Где туалет?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "This way",
+      "It is over there"
+    ],
+    "translations": {
+      "tr": [
+        "Bu tarafta",
+        "Orada"
+      ],
+      "ru": [
+        "Сюда",
+        "Вон там"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 42,
+    "scenario": "direction",
+    "level": "medium",
+    "guest": "Where is the pool bar?",
+    "guestHintRu": "Где бар у бассейна?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Go straight and turn right",
+      "It is next to the pool"
+    ],
+    "translations": {
+      "tr": [
+        "Duz gidin ve saga donun",
+        "Havuzun yaninda"
+      ],
+      "ru": [
+        "Идите прямо и поверните направо",
+        "Он рядом с бассейном"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 43,
+    "scenario": "direction",
+    "level": "medium",
+    "guest": "Where is the kids area?",
+    "guestHintRu": "Где детская зона?",
+    "guestEmotion": "polite",
+    "answers": [
+      "It is on the left side",
+      "I can show you"
+    ],
+    "translations": {
+      "tr": [
+        "Sol tarafta",
+        "Size gosterebilirim"
+      ],
+      "ru": [
+        "Она с левой стороны",
+        "Я могу показать вам"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 44,
+    "scenario": "direction",
+    "level": "hard",
+    "guest": "How can I get to the lobby?",
+    "guestHintRu": "Как пройти в лобби?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Take the elevator to floor zero",
+      "Go straight to the main hall"
+    ],
+    "translations": {
+      "tr": [
+        "Asansorle sifirinci kata inin",
+        "Ana salona dogru duz gidin"
+      ],
+      "ru": [
+        "Поднимитесь на лифте на нулевой этаж",
+        "Идите прямо к главному холлу"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 45,
+    "scenario": "direction",
+    "level": "medium",
+    "guest": "Is the elevator this way?",
+    "guestHintRu": "Лифт в этой стороне?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Yes, just ahead",
+      "Yes, on your right"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, biraz ileride",
+        "Evet, saginizda"
+      ],
+      "ru": [
+        "Да, чуть впереди",
+        "Да, справа от вас"
+      ]
+    },
+    "language": "en"
+  }
+]

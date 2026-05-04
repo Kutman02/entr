@@ -1,0 +1,56 @@
+[
+  {
+    "id": 72,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Menu getirebilir misiniz?",
+    "guestHintRu": "Можете принести меню?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Tabii, menuyu getiriyorum",
+      "Bir dakika lutfen"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, menuyu getiriyorum",
+        "Bir dakika lutfen"
+      ],
+      "ru": [
+        "Конечно, я несу меню",
+        "Одну минуту, пожалуйста"
+      ],
+      "en": [
+        "Sure, I am bringing the menu",
+        "One moment please"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 76,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Hesap alabilir miyiz?",
+    "guestHintRu": "Можно счет?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tabii, hesabi getiriyorum",
+      "Bir dakika lutfen"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, hesabi getiriyorum",
+        "Bir dakika lutfen"
+      ],
+      "ru": [
+        "Конечно, несу счет",
+        "Одну минуту, пожалуйста"
+      ],
+      "en": [
+        "Sure, I am bringing the bill",
+        "One moment please"
+      ]
+    },
+    "language": "tr"
+  }
+]

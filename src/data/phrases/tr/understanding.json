@@ -1,0 +1,29 @@
+[
+  {
+    "id": 77,
+    "scenario": "understanding",
+    "level": "hard",
+    "guest": "Yavas konusur musunuz?",
+    "guestHintRu": "Можете говорить медленнее?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Evet, daha yavas konusacagim",
+      "Tabii"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, daha yavas konusacagim",
+        "Tabii"
+      ],
+      "ru": [
+        "Да, я буду говорить медленнее",
+        "Конечно"
+      ],
+      "en": [
+        "Yes, I will speak more slowly",
+        "Of course"
+      ]
+    },
+    "language": "tr"
+  }
+]

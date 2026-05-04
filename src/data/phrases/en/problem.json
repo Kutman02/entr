@@ -1,0 +1,209 @@
+[
+  {
+    "id": 46,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "This is cold",
+    "guestHintRu": "Это холодное",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Sorry, I will change it",
+      "I will bring a hot one"
+    ],
+    "translations": {
+      "tr": [
+        "Uzgunum, degistirecegim",
+        "Sicak olanini getirecegim"
+      ],
+      "ru": [
+        "Извините, я заменю",
+        "Я принесу горячее"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 47,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "This is too salty",
+    "guestHintRu": "Это слишком соленое",
+    "guestEmotion": "conflict",
+    "answers": [
+      "I am sorry, I will replace it",
+      "I will ask the kitchen to remake it"
+    ],
+    "translations": {
+      "tr": [
+        "Uzgunum, degistirecegim",
+        "Mutfaga tekrar yapmasini soyleyecegim"
+      ],
+      "ru": [
+        "Мне очень жаль, я заменю",
+        "Я попрошу кухню переделать блюдо"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 48,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "This is the wrong order",
+    "guestHintRu": "Это неправильный заказ",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Sorry for the mistake",
+      "I will bring the correct order"
+    ],
+    "translations": {
+      "tr": [
+        "Hata icin ozur dilerim",
+        "Dogru siparisi getirecegim"
+      ],
+      "ru": [
+        "Извините за ошибку",
+        "Я принесу правильный заказ"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 49,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "We waited too long",
+    "guestHintRu": "Мы слишком долго ждали",
+    "guestEmotion": "conflict",
+    "answers": [
+      "I am very sorry for the delay",
+      "I will check your order immediately"
+    ],
+    "translations": {
+      "tr": [
+        "Gecikme icin cok uzgunum",
+        "Siparisi hemen kontrol edecegim"
+      ],
+      "ru": [
+        "Мне очень жаль за задержку",
+        "Я немедленно проверю ваш заказ"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 50,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "This plate is dirty",
+    "guestHintRu": "Эта тарелка грязная",
+    "guestEmotion": "conflict",
+    "answers": [
+      "I apologize, I will change it now",
+      "I will bring a clean plate"
+    ],
+    "translations": {
+      "tr": [
+        "Ozur dilerim, simdi degistirecegim",
+        "Temiz bir tabak getirecegim"
+      ],
+      "ru": [
+        "Прошу прощения, сейчас заменю",
+        "Я принесу чистую тарелку"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 51,
+    "scenario": "problem",
+    "level": "easy",
+    "guest": "No beer?",
+    "guestHintRu": "Нет пива?",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Sorry, it is finished",
+      "No more beer at the moment"
+    ],
+    "translations": {
+      "tr": [
+        "Uzgunum, bitti",
+        "Su an bira kalmadi"
+      ],
+      "ru": [
+        "Извините, закончилось",
+        "Сейчас пива больше нет"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 52,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "This glass is broken",
+    "guestHintRu": "Этот стакан разбит",
+    "guestEmotion": "conflict",
+    "answers": [
+      "I am sorry, I will replace it immediately",
+      "Please be careful, I will clean it now"
+    ],
+    "translations": {
+      "tr": [
+        "Uzgunum, hemen degistirecegim",
+        "Lutfen dikkatli olun, simdi temizleyecegim"
+      ],
+      "ru": [
+        "Извините, я сразу заменю",
+        "Пожалуйста, осторожно, я сейчас уберу"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 53,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "There is no spoon",
+    "guestHintRu": "Нет ложки",
+    "guestEmotion": "neutral",
+    "answers": [
+      "I will bring a spoon now",
+      "Sorry, one moment please"
+    ],
+    "translations": {
+      "tr": [
+        "Simdi kasik getirecegim",
+        "Ozur dilerim, bir dakika lutfen"
+      ],
+      "ru": [
+        "Я сейчас принесу ложку",
+        "Извините, одну минуту"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 54,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "The air conditioner is too cold",
+    "guestHintRu": "Кондиционер слишком холодный",
+    "guestEmotion": "conflict",
+    "answers": [
+      "I will inform technical service",
+      "I can move you to another table"
+    ],
+    "translations": {
+      "tr": [
+        "Teknik servise haber verecegim",
+        "Sizi baska masaya alabilirim"
+      ],
+      "ru": [
+        "Я сообщу технической службе",
+        "Я могу пересадить вас за другой стол"
+      ]
+    },
+    "language": "en"
+  }
+]

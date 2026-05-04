@@ -1,0 +1,163 @@
+[
+  {
+    "id": 62,
+    "scenario": "closing",
+    "level": "easy",
+    "guest": "Thank you",
+    "guestHintRu": "Спасибо",
+    "guestEmotion": "grateful",
+    "answers": [
+      "You're welcome",
+      "No problem"
+    ],
+    "translations": {
+      "tr": [
+        "Rica ederim",
+        "Sorun degil"
+      ],
+      "ru": [
+        "Пожалуйста",
+        "Без проблем"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 63,
+    "scenario": "closing",
+    "level": "easy",
+    "guest": "Thank you very much",
+    "guestHintRu": "Большое спасибо",
+    "guestEmotion": "grateful",
+    "answers": [
+      "My pleasure",
+      "You are very welcome"
+    ],
+    "translations": {
+      "tr": [
+        "Memnuniyetle",
+        "Her zaman bekleriz"
+      ],
+      "ru": [
+        "С удовольствием",
+        "Всегда рады вам"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 64,
+    "scenario": "closing",
+    "level": "easy",
+    "guest": "Everything was great",
+    "guestHintRu": "Все было отлично",
+    "guestEmotion": "grateful",
+    "answers": [
+      "Thank you, we are happy to hear that",
+      "Glad you enjoyed it"
+    ],
+    "translations": {
+      "tr": [
+        "Tesekkurler, bunu duymak bizi mutlu etti",
+        "Begendiginize sevindim"
+      ],
+      "ru": [
+        "Спасибо, нам приятно это слышать",
+        "Рад, что вам понравилось"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 65,
+    "scenario": "closing",
+    "level": "easy",
+    "guest": "We are finished",
+    "guestHintRu": "Мы закончили",
+    "guestEmotion": "grateful",
+    "answers": [
+      "I will clear the table",
+      "Thank you"
+    ],
+    "translations": {
+      "tr": [
+        "Masayi toplayacagim",
+        "Tesekkur ederim"
+      ],
+      "ru": [
+        "Я уберу со стола",
+        "Спасибо"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 66,
+    "scenario": "closing",
+    "level": "easy",
+    "guest": "Good night",
+    "guestHintRu": "Спокойной ночи",
+    "guestEmotion": "grateful",
+    "answers": [
+      "Good night",
+      "Have a nice evening"
+    ],
+    "translations": {
+      "tr": [
+        "Iyi geceler",
+        "Iyi aksamlar"
+      ],
+      "ru": [
+        "Спокойной ночи",
+        "Хорошего вечера"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 67,
+    "scenario": "closing",
+    "level": "easy",
+    "guest": "See you tomorrow",
+    "guestHintRu": "Увидимся завтра",
+    "guestEmotion": "grateful",
+    "answers": [
+      "See you tomorrow",
+      "We will be happy to serve you"
+    ],
+    "translations": {
+      "tr": [
+        "Yarin gorusuruz",
+        "Size hizmet etmekten memnun oluruz"
+      ],
+      "ru": [
+        "Увидимся завтра",
+        "Будем рады вас обслужить"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 68,
+    "scenario": "closing",
+    "level": "easy",
+    "guest": "Have a nice day",
+    "guestHintRu": "Хорошего дня",
+    "guestEmotion": "grateful",
+    "answers": [
+      "You too",
+      "Have a great day"
+    ],
+    "translations": {
+      "tr": [
+        "Size de",
+        "Iyi gunler"
+      ],
+      "ru": [
+        "И вам тоже",
+        "Хорошего дня"
+      ]
+    },
+    "language": "en"
+  }
+]

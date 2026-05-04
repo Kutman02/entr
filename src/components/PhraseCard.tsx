@@ -1,4 +1,5 @@
 import type { Phrase } from '../types/phrase'
+import { getSpeechLocaleByLanguage } from '../utils/phraseLanguage'
 import { speak } from '../utils/speech'
 import GuestLine from './GuestLine'
 import SpeakIconButton from './SpeakIconButton'
@@ -14,6 +15,12 @@ export default function PhraseCard({
 }: PhraseCardProps) {
 	const primaryAnswer = phrase.answers[0] ?? ''
 	const alternativeAnswers = phrase.answers.slice(1)
+	const speechLocale = getSpeechLocaleByLanguage(phrase.language)
+	const secondaryTranslationLabel = phrase.language === 'tr' ? 'EN' : 'TR'
+	const secondaryTranslations =
+		phrase.language === 'tr'
+			? (phrase.translations.en ?? phrase.translations.tr)
+			: phrase.translations.tr
 
 	return (
 		<article className="rounded-2xl border border-slate-200 bg-slate-50 p-4 sm:p-5">
@@ -34,8 +41,9 @@ export default function PhraseCard({
 					text={phrase.guest}
 					hintRu={phrase.guestHintRu}
 					emotion={phrase.guestEmotion}
+					language={phrase.language}
 					textClassName="text-2xl font-bold text-slate-900"
-					onSpeak={() => speak(phrase.guest, 'en-US')}
+					onSpeak={() => speak(phrase.guest, speechLocale)}
 				/>
 			</div>
 
@@ -46,7 +54,7 @@ export default function PhraseCard({
 				<div className="flex items-start gap-2">
 					<p className="text-xl font-semibold text-slate-900">{primaryAnswer}</p>
 					<SpeakIconButton
-						onSpeak={() => speak(primaryAnswer, 'en-US')}
+						onSpeak={() => speak(primaryAnswer, speechLocale)}
 						label="Play waiter phrase"
 					/>
 				</div>
@@ -74,9 +82,9 @@ export default function PhraseCard({
 						</span>
 					</p>
 					<p>
-						TR:{' '}
+						{secondaryTranslationLabel}:{' '}
 						<span className="font-medium text-slate-800">
-							{phrase.translations.tr.join(' / ')}
+							{secondaryTranslations.join(' / ')}
 						</span>
 					</p>
 				</div>

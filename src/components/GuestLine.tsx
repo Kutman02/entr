@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import { FiInfo } from 'react-icons/fi'
-import type { GuestEmotion } from '../types/phrase'
+import type { GuestEmotion, PhraseLanguage } from '../types/phrase'
 import { getEmotionMeta } from '../utils/guestEmotion'
+import { getPhraseLanguageMeta } from '../utils/phraseLanguage'
 import SpeakIconButton from './SpeakIconButton'
 
 interface GuestLineProps {
   text: string
   hintRu: string
   emotion: GuestEmotion
+  language?: PhraseLanguage
   textClassName?: string
   hintClassName?: string
   containerClassName?: string
@@ -18,6 +20,7 @@ export default function GuestLine({
   text,
   hintRu,
   emotion,
+  language,
   textClassName,
   hintClassName,
   containerClassName,
@@ -25,6 +28,7 @@ export default function GuestLine({
 }: GuestLineProps) {
   const [showHint, setShowHint] = useState(false)
   const emotionView = getEmotionMeta(emotion)
+  const languageView = language ? getPhraseLanguageMeta(language) : null
 
   return (
     <div className={containerClassName}>
@@ -32,6 +36,12 @@ export default function GuestLine({
         <span className="text-2xl leading-none" aria-hidden="true">
           {emotionView.emoji}
         </span>
+
+        {languageView ? (
+          <span className="rounded-full border border-slate-300 bg-white px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.16em] text-slate-700">
+            {languageView.flag} {languageView.code}
+          </span>
+        ) : null}
 
         <p className={textClassName ?? 'text-2xl font-bold text-slate-900'}>{text}</p>
 

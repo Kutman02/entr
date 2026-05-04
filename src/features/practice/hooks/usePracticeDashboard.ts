@@ -1,8 +1,12 @@
 import { useCallback, useMemo } from 'react'
 import { STORAGE_KEYS } from '../../../constants/storageKeys'
-import { levels, phrases, scenarios } from '../../../data/phrases'
+import { levels, phraseLanguages, phrases, scenarios } from '../../../data/phrases'
 import { useLocalStorageState } from '../../../hooks/useLocalStorageState'
-import type { DifficultyLevel, Scenario } from '../../../types/phrase'
+import type {
+  DifficultyLevel,
+  PhraseLanguage,
+  Scenario,
+} from '../../../types/phrase'
 import type {
   PracticeProgressState,
   PracticeResult,
@@ -17,6 +21,20 @@ import {
 export type ReactionWindow = 2 | 3
 export type ScenarioFilter = 'all' | Scenario
 export type LevelFilter = 'all' | DifficultyLevel
+export type LanguageFilter = 'all' | PhraseLanguage
+
+const languageLabels: Record<PhraseLanguage, string> = {
+  en: 'English 🇬🇧',
+  tr: 'Turkish 🇹🇷',
+}
+
+export const languageOptions: Array<{ value: LanguageFilter; label: string }> = [
+  { value: 'all', label: 'All languages' },
+  ...phraseLanguages.map((language) => ({
+    value: language,
+    label: languageLabels[language],
+  })),
+]
 
 export const scenarioOptions: Array<{ value: ScenarioFilter; label: string }> = [
   { value: 'all', label: 'All scenarios' },
@@ -48,6 +66,11 @@ export const usePracticeDashboard = () => {
     STORAGE_KEYS.practiceLevel,
     'all',
   )
+  const [activeLanguage, setActiveLanguage] =
+    useLocalStorageState<LanguageFilter>(
+      STORAGE_KEYS.practiceLanguage,
+      'all',
+    )
   const [reactionWindow, setReactionWindow] = useLocalStorageState<ReactionWindow>(
     STORAGE_KEYS.practiceReactionWindow,
     3,
@@ -66,10 +89,12 @@ export const usePracticeDashboard = () => {
       const matchesScenario =
         activeScenario === 'all' || phrase.scenario === activeScenario
       const matchesLevel = activeLevel === 'all' || phrase.level === activeLevel
+      const matchesLanguage =
+        activeLanguage === 'all' || phrase.language === activeLanguage
 
-      return matchesScenario && matchesLevel
+      return matchesScenario && matchesLevel && matchesLanguage
     })
-  }, [activeScenario, activeLevel])
+  }, [activeScenario, activeLevel, activeLanguage])
 
   const confidenceRate = useMemo(() => {
     return getConfidenceRate(progress)
@@ -97,6 +122,8 @@ export const usePracticeDashboard = () => {
     setActiveScenario,
     activeLevel,
     setActiveLevel,
+    activeLanguage,
+    setActiveLanguage,
     reactionWindow,
     setReactionWindow,
     randomOrderPref,

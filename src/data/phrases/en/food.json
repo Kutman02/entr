@@ -1,0 +1,209 @@
+[
+  {
+    "id": 22,
+    "scenario": "food",
+    "level": "easy",
+    "guest": "What soup do you have?",
+    "guestHintRu": "Какой суп у вас есть?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Today we have lentil soup",
+      "We have tomato soup too"
+    ],
+    "translations": {
+      "tr": [
+        "Bugun mercimek corbasi var",
+        "Domates corbasi da var"
+      ],
+      "ru": [
+        "Сегодня есть чечевичный суп",
+        "Также есть томатный суп"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 23,
+    "scenario": "food",
+    "level": "easy",
+    "guest": "Is this spicy?",
+    "guestHintRu": "Это острое?",
+    "guestEmotion": "polite",
+    "answers": [
+      "No, it is mild",
+      "A little spicy"
+    ],
+    "translations": {
+      "tr": [
+        "Hayir, hafif",
+        "Biraz acili"
+      ],
+      "ru": [
+        "Нет, это не острое",
+        "Немного острое"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 24,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "No pork please",
+    "guestHintRu": "Без свинины, пожалуйста",
+    "guestEmotion": "polite",
+    "answers": [
+      "Of course, no pork",
+      "I will bring chicken or fish"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, domuz eti yok",
+        "Tavuk veya balik getirecegim"
+      ],
+      "ru": [
+        "Конечно, без свинины",
+        "Я принесу курицу или рыбу"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 25,
+    "scenario": "food",
+    "level": "easy",
+    "guest": "Chicken or beef?",
+    "guestHintRu": "Курица или говядина?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Chicken please",
+      "Beef please"
+    ],
+    "translations": {
+      "tr": [
+        "Tavuk lutfen",
+        "Dana eti lutfen"
+      ],
+      "ru": [
+        "Курица, пожалуйста",
+        "Говядина, пожалуйста"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 26,
+    "scenario": "food",
+    "level": "easy",
+    "guest": "Is there fish today?",
+    "guestHintRu": "Сегодня есть рыба?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Yes, grilled fish is available",
+      "Yes, baked fish is available"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, izgara balik var",
+        "Evet, firin balik var"
+      ],
+      "ru": [
+        "Да, есть рыба на гриле",
+        "Да, есть запеченная рыба"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 27,
+    "scenario": "food",
+    "level": "easy",
+    "guest": "Can I get salad?",
+    "guestHintRu": "Можно салат?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Yes, I will bring salad",
+      "Sure, one salad"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, salata getirecegim",
+        "Tabii, bir salata"
+      ],
+      "ru": [
+        "Да, я принесу салат",
+        "Конечно, один салат"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 28,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "No gluten please",
+    "guestHintRu": "Без глютена, пожалуйста",
+    "guestEmotion": "polite",
+    "answers": [
+      "Understood, I will suggest gluten-free options",
+      "I will check with the kitchen"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, glutensiz secenekler onerecegim",
+        "Mutfakla kontrol edecegim"
+      ],
+      "ru": [
+        "Понял, предложу варианты без глютена",
+        "Я уточню на кухне"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 29,
+    "scenario": "food",
+    "level": "easy",
+    "guest": "More bread please",
+    "guestHintRu": "Еще хлеба, пожалуйста",
+    "guestEmotion": "polite",
+    "answers": [
+      "Sure, fresh bread coming",
+      "I will bring more bread"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, taze ekmek geliyor",
+        "Daha fazla ekmek getirecegim"
+      ],
+      "ru": [
+        "Конечно, свежий хлеб сейчас",
+        "Я принесу еще хлеб"
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": 30,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Dessert menu please",
+    "guestHintRu": "Меню десертов, пожалуйста",
+    "guestEmotion": "polite",
+    "answers": [
+      "Sure, here is the dessert menu",
+      "I will bring dessert menu now"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, tatli menusu burada",
+        "Tatli menusunu simdi getirecegim"
+      ],
+      "ru": [
+        "Конечно, вот меню десертов",
+        "Сейчас принесу меню десертов"
+      ]
+    },
+    "language": "en"
+  }
+]

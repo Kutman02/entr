@@ -1,0 +1,56 @@
+[
+  {
+    "id": 70,
+    "scenario": "drink",
+    "level": "hard",
+    "guest": "Iki cay lutfen",
+    "guestHintRu": "Два чая, пожалуйста",
+    "guestEmotion": "polite",
+    "answers": [
+      "Iki cay hemen geliyor",
+      "Tabii, iki cay"
+    ],
+    "translations": {
+      "tr": [
+        "Iki cay hemen geliyor",
+        "Tabii, iki cay"
+      ],
+      "ru": [
+        "Два чая сейчас будут",
+        "Конечно, два чая"
+      ],
+      "en": [
+        "Two teas are coming right away",
+        "Sure, two teas"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 71,
+    "scenario": "drink",
+    "level": "hard",
+    "guest": "Su alabilir miyim?",
+    "guestHintRu": "Можно воды?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Tabii, su getirecegim",
+      "Hemen su getiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, su getirecegim",
+        "Hemen su getiriyorum"
+      ],
+      "ru": [
+        "Конечно, я принесу воду",
+        "Сейчас принесу воду"
+      ],
+      "en": [
+        "Sure, I will bring water",
+        "I am bringing water right away"
+      ]
+    },
+    "language": "tr"
+  }
+]

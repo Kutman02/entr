@@ -3,6 +3,7 @@ import GuestLine from '../../components/GuestLine'
 import SpeakIconButton from '../../components/SpeakIconButton'
 import { getPhraseByGuestText } from '../../data/phrases'
 import { dialogues } from '../../data/dialogues'
+import { getSpeechLocaleByLanguage } from '../../utils/phraseLanguage'
 import { speak } from '../../utils/speech'
 
 export default function SimulationPage() {
@@ -153,7 +154,8 @@ function GuestMessage({ text }: GuestMessageProps) {
 			text={text}
 			hintRu={phrase.guestHintRu}
 			emotion={phrase.guestEmotion}
-			onSpeak={() => speak(text, 'en-US')}
+			language={phrase.language}
+			onSpeak={() => speak(text, getSpeechLocaleByLanguage(phrase.language))}
 			containerClassName="mt-2"
 			textClassName="text-lg font-semibold text-slate-900 sm:text-xl"
 			hintClassName="mt-2 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm font-medium text-amber-900"
