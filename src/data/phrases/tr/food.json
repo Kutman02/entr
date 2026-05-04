@@ -52,5 +52,545 @@
       ]
     },
     "language": "tr"
+  },
+  {
+    "id": 97,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Bu et medium-rare olacak",
+    "guestHintRu": "Это мясо должно быть medium-rare",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, medium-rare olarak geciyorum",
+      "Pisme derecesini mutfaga net iletiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, medium-rare olarak geciyorum",
+        "Pisme derecesini mutfaga net iletiyorum"
+      ],
+      "ru": [
+        "Понял, ставлю прожарку medium-rare",
+        "Четко передаю степень прожарки на кухню"
+      ],
+      "en": [
+        "Understood, I am entering medium-rare",
+        "I am clearly communicating the doneness to the kitchen"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 98,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Corbada tuz az olsun",
+    "guestHintRu": "В супе пусть будет меньше соли",
+    "guestEmotion": "polite",
+    "answers": [
+      "Tamam, az tuzlu olarak iletiyorum",
+      "Mutfaga notu hemen geciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, az tuzlu olarak iletiyorum",
+        "Mutfaga notu hemen geciyorum"
+      ],
+      "ru": [
+        "Хорошо, передаю как малосоленый",
+        "Сразу передаю заметку на кухню"
+      ],
+      "en": [
+        "Okay, I will mark it as low salt",
+        "I am passing the note to the kitchen now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 99,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Misafir sosu ayri istiyor",
+    "guestHintRu": "Гость хочет соус отдельно",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tabii, sosu ayri servis edecegim",
+      "Mutfaga sosu ayri notu dusuyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, sosu ayri servis edecegim",
+        "Mutfaga sosu ayri notu dusuyorum"
+      ],
+      "ru": [
+        "Конечно, подам соус отдельно",
+        "Передаю на кухню заметку о соусе отдельно"
+      ],
+      "en": [
+        "Sure, I will serve the sauce separately",
+        "I am adding a separate-sauce note for the kitchen"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 100,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Bu tabakta findik var mi",
+    "guestHintRu": "В этом блюде есть фундук?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Kontrol edip hemen bilgi verecegim",
+      "Alerjen bilgisini netlestiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Kontrol edip hemen bilgi verecegim",
+        "Alerjen bilgisini netlestiriyorum"
+      ],
+      "ru": [
+        "Проверю и сразу сообщу",
+        "Уточняю информацию по аллергенам"
+      ],
+      "en": [
+        "I will check and inform you right away",
+        "I am clarifying the allergen information"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 101,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Pilav yerine salata olabilir mi",
+    "guestHintRu": "Можно вместо риса салат?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Evet, garnituru salata yapabiliriz",
+      "Siparisi salata secenegiyle guncelliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, garnituru salata yapabiliriz",
+        "Siparisi salata secenegiyle guncelliyorum"
+      ],
+      "ru": [
+        "Да, гарнир можем заменить на салат",
+        "Обновляю заказ с вариантом салата"
+      ],
+      "en": [
+        "Yes, we can change the side dish to salad",
+        "I am updating the order with a salad option"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 102,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Sef, iki tabak vegan hazirlanacak",
+    "guestHintRu": "Шеф, нужно приготовить две веганские порции",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, iki vegan tabagi aciyorum",
+      "Vegan hazirlik icin mutfagi bilgilendiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, iki vegan tabagi aciyorum",
+        "Vegan hazirlik icin mutfagi bilgilendiriyorum"
+      ],
+      "ru": [
+        "Хорошо, открываю две веганские порции",
+        "Информирую кухню о веганской подготовке"
+      ],
+      "en": [
+        "Okay, I am entering two vegan dishes",
+        "I am informing the kitchen about vegan preparation"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 103,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Bu sipariste domuz urunu olmasin",
+    "guestHintRu": "В этом заказе не должно быть свинины",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, domuz urunsuz secenek sunuyorum",
+      "Mutfaga dini hassasiyet notunu geciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, domuz urunsuz secenek sunuyorum",
+        "Mutfaga dini hassasiyet notunu geciyorum"
+      ],
+      "ru": [
+        "Понял, предложу вариант без свинины",
+        "Передаю на кухню заметку о религиозном ограничении"
+      ],
+      "en": [
+        "Understood, I will offer a pork-free option",
+        "I am sending a dietary sensitivity note to the kitchen"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 104,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Steak bir dakika daha dinlensin",
+    "guestHintRu": "Пусть стейк отдохнет еще одну минуту",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, bir dakika daha bekletiyorum",
+      "Dogru servis icin sureyi takip ediyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, bir dakika daha bekletiyorum",
+        "Dogru servis icin sureyi takip ediyorum"
+      ],
+      "ru": [
+        "Хорошо, подержу еще одну минуту",
+        "Слежу за временем для правильной подачи"
+      ],
+      "en": [
+        "Okay, I will let it rest for one more minute",
+        "I am tracking the timing for proper service"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 140,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Hot station, bir steak well-done acil",
+    "guestHintRu": "Горячая станция, срочно один стейк well-done",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, well-done siparisini once aciyorum",
+      "Pisme suresini salona bildiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, well-done siparisini once aciyorum",
+        "Pisme suresini salona bildiriyorum"
+      ],
+      "ru": [
+        "Хорошо, ставлю well-done в приоритет",
+        "Сообщаю в зал время готовности"
+      ],
+      "en": [
+        "Okay, I am prioritizing the well-done steak",
+        "I am updating the floor with cook time"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 141,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Cold station, avokado bitmek uzere",
+    "guestHintRu": "Холодная станция, авокадо почти закончилось",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Stoku hemen kontrol edip takviye aciyorum",
+      "Menude gecici alternatif de onerecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Stoku hemen kontrol edip takviye aciyorum",
+        "Menude gecici alternatif de onerecegim"
+      ],
+      "ru": [
+        "Сразу проверяю остаток и запускаю пополнение",
+        "Также предложу временную альтернативу в меню"
+      ],
+      "en": [
+        "I am checking stock and opening replenishment now",
+        "I will also suggest a temporary menu alternative"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 142,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Pastry, glutensiz tatli secenegi var mi",
+    "guestHintRu": "Кондитерка, есть ли безглютеновый десерт?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Evet, glutensiz secenegi hemen sunuyorum",
+      "Icerik bilgisini net sekilde paylasacagim"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, glutensiz secenegi hemen sunuyorum",
+        "Icerik bilgisini net sekilde paylasacagim"
+      ],
+      "ru": [
+        "Да, сразу предложу безглютеновый вариант",
+        "Четко сообщу состав"
+      ],
+      "en": [
+        "Yes, I will offer a gluten-free dessert now",
+        "I will clearly share ingredient details"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 143,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Sef, sos kasesi eksik cikti",
+    "guestHintRu": "Шеф, соусник не вышел в подаче",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Haklisiniz, sosu hemen tamamliyorum",
+      "Eksigi telafi edip masaya cikariyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Haklisiniz, sosu hemen tamamliyorum",
+        "Eksigi telafi edip masaya cikariyorum"
+      ],
+      "ru": [
+        "Вы правы, сразу доукомплектую соус",
+        "Исправлю недочет и вынесу на стол"
+      ],
+      "en": [
+        "You are right, I will complete the sauce now",
+        "I will fix the miss and send it to the table"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 144,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Masa birde sogan ve sarimsak istemiyorlar",
+    "guestHintRu": "На столе 1 не хотят лук и чеснок",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Notu net girdim, sogan sarimsak kullanmiyoruz",
+      "Mutfaga ozel hazirlik talimati geciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Notu net girdim, sogan sarimsak kullanmiyoruz",
+        "Mutfaga ozel hazirlik talimati geciyorum"
+      ],
+      "ru": [
+        "Я четко внес пометку, лук и чеснок не используем",
+        "Передаю на кухню спец-инструкцию"
+      ],
+      "en": [
+        "I entered a clear note, no onion and no garlic",
+        "I am passing a special prep instruction to kitchen"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 145,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Masa ona cocuk menusu puresiz olacak",
+    "guestHintRu": "На стол 10 детское меню без пюре",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, cocuk menusunu puresiz aciyorum",
+      "Yanina uygun garnitur ekleyecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, cocuk menusunu puresiz aciyorum",
+        "Yanina uygun garnitur ekleyecegim"
+      ],
+      "ru": [
+        "Хорошо, открываю детское меню без пюре",
+        "Добавлю подходящий гарнир"
+      ],
+      "en": [
+        "Okay, I am entering the kids menu without mash",
+        "I will add a suitable side dish"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 146,
+    "scenario": "food",
+    "level": "easy",
+    "guest": "Bu burgerde peynir olmasin diye not dus",
+    "guestHintRu": "Сделай пометку: бургер без сыра",
+    "guestEmotion": "polite",
+    "answers": [
+      "Tamam, peynirsiz olarak isaretliyorum",
+      "Mutfaga ekstra not geciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, peynirsiz olarak isaretliyorum",
+        "Mutfaga ekstra not geciyorum"
+      ],
+      "ru": [
+        "Хорошо, отмечаю как без сыра",
+        "Передаю на кухню дополнительную пометку"
+      ],
+      "en": [
+        "Okay, I am marking it as no cheese",
+        "I am adding an extra note for the kitchen"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 147,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Balik tabagi icin limon sosu ayri",
+    "guestHintRu": "Для рыбного блюда лимонный соус отдельно",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tabii, limon sosunu ayri servis edecegim",
+      "Notu fish stationa simdi iletiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, limon sosunu ayri servis edecegim",
+        "Notu fish stationa simdi iletiyorum"
+      ],
+      "ru": [
+        "Конечно, лимонный соус подам отдельно",
+        "Сейчас передаю пометку на fish station"
+      ],
+      "en": [
+        "Sure, I will serve lemon sauce separately",
+        "I am sending the note to fish station now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 148,
+    "scenario": "food",
+    "level": "hard",
+    "guest": "Vegan bowl icin no-honey teyidi alalim",
+    "guestHintRu": "Для vegan bowl подтвердим: без меда",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, bal kullanmadan hazirliyoruz",
+      "Vegan standardina gore son kontrol yapiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, bal kullanmadan hazirliyoruz",
+        "Vegan standardina gore son kontrol yapiyorum"
+      ],
+      "ru": [
+        "Понял, готовим без использования меда",
+        "Делаю финальную проверку по веган-стандарту"
+      ],
+      "en": [
+        "Understood, we are preparing it without honey",
+        "I am doing a final vegan-standard check"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 149,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Pideyi dilimleyip paylasim icin gonderelim",
+    "guestHintRu": "Пиде нарежем и отправим для sharing",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, paylasim sunumuna gore dilimliyorum",
+      "Servis ekipmanini da birlikte hazirliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, paylasim sunumuna gore dilimliyorum",
+        "Servis ekipmanini da birlikte hazirliyorum"
+      ],
+      "ru": [
+        "Хорошо, нарезаю под формат sharing",
+        "Также подготовлю инвентарь для подачи"
+      ],
+      "en": [
+        "Okay, I am slicing it for sharing presentation",
+        "I am preparing service utensils together with it"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 150,
+    "scenario": "food",
+    "level": "medium",
+    "guest": "Masa alti dana yerine tavuk istiyor",
+    "guestHintRu": "Стол 6 хочет курицу вместо говядины",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, proteini tavuk olarak degistiriyorum",
+      "Fiyat farki varsa onceden bildirecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, proteini tavuk olarak degistiriyorum",
+        "Fiyat farki varsa onceden bildirecegim"
+      ],
+      "ru": [
+        "Хорошо, меняю белок на курицу",
+        "Если есть разница в цене, заранее сообщу"
+      ],
+      "en": [
+        "Okay, I am changing the protein to chicken",
+        "I will inform in advance if there is a price difference"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 151,
+    "scenario": "food",
+    "level": "easy",
+    "guest": "Corbanin yanina ekstra kruton gitsin",
+    "guestHintRu": "К супу добавьте дополнительные крутоны",
+    "guestEmotion": "polite",
+    "answers": [
+      "Tabii, ekstra krutonu hemen ekliyorum",
+      "Corbayla birlikte ayni anda cikaracagim"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, ekstra krutonu hemen ekliyorum",
+        "Corbayla birlikte ayni anda cikaracagim"
+      ],
+      "ru": [
+        "Конечно, сразу добавляю дополнительные крутоны",
+        "Вынесу одновременно с супом"
+      ],
+      "en": [
+        "Sure, I am adding extra croutons now",
+        "I will send them together with the soup"
+      ]
+    },
+    "language": "tr"
   }
 ]

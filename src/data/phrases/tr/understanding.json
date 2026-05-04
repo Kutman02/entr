@@ -25,5 +25,302 @@
       ]
     },
     "language": "tr"
+  },
+  {
+    "id": 114,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "Sef, tekrar eder misin anlayamadim",
+    "guestHintRu": "Шеф, повтори пожалуйста, я не понял",
+    "guestEmotion": "confused",
+    "answers": [
+      "Tabii, adim adim tekrar ediyorum",
+      "Daha acik sekilde anlatacagim"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, adim adim tekrar ediyorum",
+        "Daha acik sekilde anlatacagim"
+      ],
+      "ru": [
+        "Конечно, повторяю по шагам",
+        "Объясню более понятно"
+      ],
+      "en": [
+        "Sure, I am repeating step by step",
+        "I will explain more clearly"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 115,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "Bu notu Turkce yazar misin",
+    "guestHintRu": "Можешь написать эту заметку по-турецки?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Evet, notu hemen Turkce yaziyorum",
+      "Anlasilir sekilde kayda geciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, notu hemen Turkce yaziyorum",
+        "Anlasilir sekilde kayda geciyorum"
+      ],
+      "ru": [
+        "Да, сейчас напишу заметку на турецком",
+        "Запишу понятным образом"
+      ],
+      "en": [
+        "Yes, I am writing the note in Turkish now",
+        "I am recording it in a clear way"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 116,
+    "scenario": "understanding",
+    "level": "hard",
+    "guest": "Masa dokuz ne degisti, netlestirelim",
+    "guestHintRu": "Что изменилось по столу 9, давай уточним",
+    "guestEmotion": "confused",
+    "answers": [
+      "Tamam, degisikligi tek tek teyit edelim",
+      "Siparis notunu birlikte guncelleyelim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, degisikligi tek tek teyit edelim",
+        "Siparis notunu birlikte guncelleyelim"
+      ],
+      "ru": [
+        "Хорошо, давай подтвердим изменения по пунктам",
+        "Давай вместе обновим заметку заказа"
+      ],
+      "en": [
+        "Okay, let us confirm the changes one by one",
+        "Let us update the order note together"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 117,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "Oncelik hangi sipariste",
+    "guestHintRu": "Какой заказ в приоритете?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Onceligi mutfakla hemen netlestirecegim",
+      "Sirayi kontrol edip size bildirecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Onceligi mutfakla hemen netlestirecegim",
+        "Sirayi kontrol edip size bildirecegim"
+      ],
+      "ru": [
+        "Сразу уточню приоритет с кухней",
+        "Проверю очередь и сообщу вам"
+      ],
+      "en": [
+        "I will clarify priority with the kitchen immediately",
+        "I will check the sequence and tell you"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 118,
+    "scenario": "understanding",
+    "level": "hard",
+    "guest": "Bu kodu POS'ta nasil giriyoruz",
+    "guestHintRu": "Как вводим этот код в POS?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Gostereyim, kodu adim adim girelim",
+      "Birlikte girip dogrulama yapalim"
+    ],
+    "translations": {
+      "tr": [
+        "Gostereyim, kodu adim adim girelim",
+        "Birlikte girip dogrulama yapalim"
+      ],
+      "ru": [
+        "Покажу, давай введем код по шагам",
+        "Введем вместе и проверим"
+      ],
+      "en": [
+        "Let me show you, we can enter the code step by step",
+        "Let us enter it together and verify"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 170,
+    "scenario": "understanding",
+    "level": "easy",
+    "guest": "Sef, bu siparisi bir daha tekrar eder misin",
+    "guestHintRu": "Шеф, повторишь этот заказ еще раз?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Tabii, siparisi adim adim tekrarliyorum",
+      "Yanlislik olmamasi icin notu da gosteriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, siparisi adim adim tekrarliyorum",
+        "Yanlislik olmamasi icin notu da gosteriyorum"
+      ],
+      "ru": [
+        "Конечно, повторяю заказ шаг за шагом",
+        "Чтобы не было ошибки, показываю и заметку"
+      ],
+      "en": [
+        "Sure, I am repeating the order step by step",
+        "To avoid mistakes, I am also showing the note"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 171,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "Hot line, once hangi masayi cikariyoruz",
+    "guestHintRu": "Горячая линия, какой стол отдаем первым?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Oncelik sirasi masa on iki sonra masa bes",
+      "Cikis listesini panoda guncelliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Oncelik sirasi masa on iki sonra masa bes",
+        "Cikis listesini panoda guncelliyorum"
+      ],
+      "ru": [
+        "Приоритет: сначала стол 12, потом стол 5",
+        "Обновляю список выдачи на доске"
+      ],
+      "en": [
+        "Priority is table twelve, then table five",
+        "I am updating the pickup list on the board"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 172,
+    "scenario": "understanding",
+    "level": "hard",
+    "guest": "Bar, bu recete cl olarak mi ml olarak mi",
+    "guestHintRu": "Бар, этот рецепт идет в cl или ml?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Bu recete ml olcusuyle uygulanacak",
+      "Standart recete kartini hemen paylasiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Bu recete ml olcusuyle uygulanacak",
+        "Standart recete kartini hemen paylasiyorum"
+      ],
+      "ru": [
+        "Этот рецепт выполняем в ml",
+        "Сразу отправляю стандартную карту рецепта"
+      ],
+      "en": [
+        "This recipe must be executed in milliliters",
+        "I am sharing the standard recipe card now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 173,
+    "scenario": "understanding",
+    "level": "medium",
+    "guest": "Kasada indirim kodu nasil uygulanacak",
+    "guestHintRu": "Как применить скидочный код на кассе?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Kod odeme ekraninda kupon alanina girilecek",
+      "Islemden once tutari birlikte teyit edecegiz"
+    ],
+    "translations": {
+      "tr": [
+        "Kod odeme ekraninda kupon alanina girilecek",
+        "Islemden once tutari birlikte teyit edecegiz"
+      ],
+      "ru": [
+        "Код вводится в поле купона на экране оплаты",
+        "Перед операцией вместе подтвердим сумму"
+      ],
+      "en": [
+        "The code is entered in coupon field on payment screen",
+        "We will confirm the amount together before finalizing"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 174,
+    "scenario": "understanding",
+    "level": "hard",
+    "guest": "Pastry plating standardini tekrar gosterir misin",
+    "guestHintRu": "Покажешь снова стандарт plating в кондитерке?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Tabii, referans tabagi uzerinden anlatacagim",
+      "Kenar temizligi ve porsiyonu birlikte kontrol edecegiz"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, referans tabagi uzerinden anlatacagim",
+        "Kenar temizligi ve porsiyonu birlikte kontrol edecegiz"
+      ],
+      "ru": [
+        "Конечно, объясню на эталонной подаче",
+        "Проверим вместе чистоту края и порцию"
+      ],
+      "en": [
+        "Sure, I will explain using the reference plate",
+        "We will check rim cleanliness and portion together"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 175,
+    "scenario": "understanding",
+    "level": "hard",
+    "guest": "Bu alerjen protokolunu adim adim anlat",
+    "guestHintRu": "Объясни этот аллерген-протокол по шагам",
+    "guestEmotion": "confused",
+    "answers": [
+      "Ilk adim siparisi etiketlemek, ikinci adim capraz kontrol",
+      "Ucuncu adim servisten once son teyit almaktir"
+    ],
+    "translations": {
+      "tr": [
+        "Ilk adim siparisi etiketlemek, ikinci adim capraz kontrol",
+        "Ucuncu adim servisten once son teyit almaktir"
+      ],
+      "ru": [
+        "Первый шаг - маркировка заказа, второй - перекрестная проверка",
+        "Третий шаг - финальное подтверждение перед подачей"
+      ],
+      "en": [
+        "First step is labeling the order, second is cross-check",
+        "Third step is final confirmation before service"
+      ]
+    },
+    "language": "tr"
   }
 ]

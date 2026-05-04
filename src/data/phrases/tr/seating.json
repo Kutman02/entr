@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": 122,
+    "scenario": "seating",
+    "level": "medium",
+    "guest": "Masa altiyi pencere kenarina alalim mi",
+    "guestHintRu": "Пересадим стол 6 к окну?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Evet, pencere kenarina hazirliyorum",
+      "Tamam, masayi simdi kaydiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, pencere kenarina hazirliyorum",
+        "Tamam, masayi simdi kaydiriyorum"
+      ],
+      "ru": [
+        "Да, готовлю у окна",
+        "Хорошо, сейчас передвину стол"
+      ],
+      "en": [
+        "Yes, I am preparing it by the window",
+        "Okay, I am moving the table now"
+      ]
+    },
+    "language": "tr"
+  }
+]

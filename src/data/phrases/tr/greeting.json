@@ -25,5 +25,32 @@
       ]
     },
     "language": "tr"
+  },
+  {
+    "id": 121,
+    "scenario": "greeting",
+    "level": "easy",
+    "guest": "Gunaydin sef, bugun nasil gidiyor",
+    "guestHintRu": "Доброе утро, шеф, как сегодня идет смена?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Gunaydin, iyi gidiyor tesekkurler",
+      "Hos geldin, bugun yogunuz"
+    ],
+    "translations": {
+      "tr": [
+        "Gunaydin, iyi gidiyor tesekkurler",
+        "Hos geldin, bugun yogunuz"
+      ],
+      "ru": [
+        "Доброе утро, все идет хорошо, спасибо",
+        "Добро пожаловать, сегодня у нас загруженно"
+      ],
+      "en": [
+        "Good morning, it is going well, thank you",
+        "Welcome, we are busy today"
+      ]
+    },
+    "language": "tr"
   }
 ]

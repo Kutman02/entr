@@ -52,5 +52,842 @@
       ]
     },
     "language": "tr"
+  },
+  {
+    "id": 81,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Sef, masa on iki siparis bekliyor",
+    "guestHintRu": "Шеф, стол 12 ждет заказ",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, hemen mutfaga bildiriyorum",
+      "Siparisi hizlandiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, hemen mutfaga bildiriyorum",
+        "Siparisi hizlandiriyorum"
+      ],
+      "ru": [
+        "Понял, сразу передаю на кухню",
+        "Ускоряю заказ"
+      ],
+      "en": [
+        "Understood, I am informing the kitchen now",
+        "I am speeding up the order"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 82,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Bu tabak once ciksin, VIP masa",
+    "guestHintRu": "Это блюдо вынесите первым, VIP стол",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, bunu oncelikli cikariyoruz",
+      "Hemen servis edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, bunu oncelikli cikariyoruz",
+        "Hemen servis edecegim"
+      ],
+      "ru": [
+        "Хорошо, это выносим в приоритете",
+        "Сразу подам"
+      ],
+      "en": [
+        "Okay, we will send this out first",
+        "I will serve it immediately"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 83,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Masa sekize iki cocuk sandalyesi lazim",
+    "guestHintRu": "К столу 8 нужны два детских стульчика",
+    "guestEmotion": "polite",
+    "answers": [
+      "Hemen iki sandalye getiriyorum",
+      "Kurulumu simdi yapiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Hemen iki sandalye getiriyorum",
+        "Kurulumu simdi yapiyorum"
+      ],
+      "ru": [
+        "Сразу принесу два стульчика",
+        "Сейчас установлю"
+      ],
+      "en": [
+        "I will bring two chairs right away",
+        "I am setting them up now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 84,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Sef, bir misafirin gluten alerjisi var",
+    "guestHintRu": "Шеф, у гостя аллергия на глютен",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, glutensiz secenek sunacagim",
+      "Mutfagi hemen uyariyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, glutensiz secenek sunacagim",
+        "Mutfagi hemen uyariyorum"
+      ],
+      "ru": [
+        "Хорошо, предложу безглютеновый вариант",
+        "Сразу предупреждаю кухню"
+      ],
+      "en": [
+        "Okay, I will offer a gluten-free option",
+        "I am warning the kitchen now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 85,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Runner yok, servis gecikiyor",
+    "guestHintRu": "Нет раннера, сервис задерживается",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Ben destek oluyorum, servis basliyor",
+      "Tabaklari ben cikariyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Ben destek oluyorum, servis basliyor",
+        "Tabaklari ben cikariyorum"
+      ],
+      "ru": [
+        "Я подключаюсь, сервис начинаем",
+        "Я сам вынесу тарелки"
+      ],
+      "en": [
+        "I am helping, service is starting",
+        "I will take the plates out myself"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 86,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Bu masaya once icecek gitsin",
+    "guestHintRu": "На этот стол сначала отправьте напитки",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, icecekleri once cikariyorum",
+      "Bari hemen bilgilendiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, icecekleri once cikariyorum",
+        "Bari hemen bilgilendiriyorum"
+      ],
+      "ru": [
+        "Хорошо, сначала вынесу напитки",
+        "Сразу сообщаю бару"
+      ],
+      "en": [
+        "Okay, I will send drinks first",
+        "I am informing the bar immediately"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 87,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Masa bes split hesap istiyor",
+    "guestHintRu": "Стол 5 хочет раздельный счет",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, hesabi ayri ayri hazirlayacagim",
+      "POS'ta hemen boluyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, hesabi ayri ayri hazirlayacagim",
+        "POS'ta hemen boluyorum"
+      ],
+      "ru": [
+        "Хорошо, подготовлю раздельный счет",
+        "Сразу разделю в кассе"
+      ],
+      "en": [
+        "Okay, I will prepare separate bills",
+        "I am splitting it in POS right now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 88,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Kasa yogun, odemeleri hizlandiralim",
+    "guestHintRu": "Касса загружена, давайте ускорим оплаты",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, pos cihazini salon tarafina aliyorum",
+      "Odeme sirasini duzenliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, pos cihazini salon tarafina aliyorum",
+        "Odeme sirasini duzenliyorum"
+      ],
+      "ru": [
+        "Хорошо, переношу терминал в зал",
+        "Организую очередь оплат"
+      ],
+      "en": [
+        "Okay, I am moving the POS terminal to the hall",
+        "I am organizing the payment queue"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 89,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Masa on birde dogum gunu surprizi var",
+    "guestHintRu": "На столе 11 будет сюрприз ко дню рождения",
+    "guestEmotion": "polite",
+    "answers": [
+      "Tamam, pastayi zamaninda cikaracagim",
+      "Ekibi surpriz icin bilgilendiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, pastayi zamaninda cikaracagim",
+        "Ekibi surpriz icin bilgilendiriyorum"
+      ],
+      "ru": [
+        "Хорошо, вынесу торт вовремя",
+        "Информирую команду о сюрпризе"
+      ],
+      "en": [
+        "Okay, I will bring the cake on time",
+        "I am briefing the team for the surprise"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 90,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Sef, bu masaya sogansiz menu gerekiyor",
+    "guestHintRu": "Шеф, этому столу нужно меню без лука",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, sogansiz secenek hazirliyorum",
+      "Mutfaga notu hemen geciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, sogansiz secenek hazirliyorum",
+        "Mutfaga notu hemen geciyorum"
+      ],
+      "ru": [
+        "Понял, подготовлю вариант без лука",
+        "Сразу передаю заметку на кухню"
+      ],
+      "en": [
+        "Understood, I am preparing a no-onion option",
+        "I am passing the note to the kitchen now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 91,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Garson, masa uc refill istiyor",
+    "guestHintRu": "Официант, стол 3 просит долив",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, refill siparisini aciyorum",
+      "Hemen yenisini goturuyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, refill siparisini aciyorum",
+        "Hemen yenisini goturuyorum"
+      ],
+      "ru": [
+        "Хорошо, открываю заказ на долив",
+        "Сразу отнесу новый напиток"
+      ],
+      "en": [
+        "Okay, I am placing the refill order",
+        "I am taking a new one right away"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 92,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Lutfen pos cihazini getir",
+    "guestHintRu": "Пожалуйста, принеси терминал оплаты",
+    "guestEmotion": "polite",
+    "answers": [
+      "Hemen pos cihazini getiriyorum",
+      "Bir dakika, cihazla geliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Hemen pos cihazini getiriyorum",
+        "Bir dakika, cihazla geliyorum"
+      ],
+      "ru": [
+        "Сейчас принесу терминал",
+        "Одну минуту, иду с терминалом"
+      ],
+      "en": [
+        "I am bringing the POS terminal now",
+        "One moment, I am coming with the device"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 93,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Mutfakla salon arasinda iletisim kopuk",
+    "guestHintRu": "Между кухней и залом плохая коммуникация",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Haklisin, siparisleri tek tek teyit edecegim",
+      "Hemen koordinasyonu toparliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Haklisin, siparisleri tek tek teyit edecegim",
+        "Hemen koordinasyonu toparliyorum"
+      ],
+      "ru": [
+        "Ты прав, буду подтверждать заказы по одному",
+        "Сразу налаживаю координацию"
+      ],
+      "en": [
+        "You are right, I will confirm orders one by one",
+        "I am fixing coordination immediately"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 94,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Bu siparisi tekrar kontrol eder misin",
+    "guestHintRu": "Можешь еще раз проверить этот заказ?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tabii, siparisi simdi kontrol ediyorum",
+      "Notlari tekrar teyit edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Tabii, siparisi simdi kontrol ediyorum",
+        "Notlari tekrar teyit edecegim"
+      ],
+      "ru": [
+        "Конечно, сейчас проверяю заказ",
+        "Еще раз подтвержу все заметки"
+      ],
+      "en": [
+        "Sure, I am checking the order now",
+        "I will verify all notes again"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 95,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Sef, personel yemegi kacta hazir olacak",
+    "guestHintRu": "Шеф, во сколько будет готова еда для персонала?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Yaklasik on bes dakika sonra hazir olur",
+      "Hazir olunca hemen haber verecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Yaklasik on bes dakika sonra hazir olur",
+        "Hazir olunca hemen haber verecegim"
+      ],
+      "ru": [
+        "Будет готово примерно через 15 минут",
+        "Как только будет готово, сразу сообщу"
+      ],
+      "en": [
+        "It will be ready in about fifteen minutes",
+        "I will let you know as soon as it is ready"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 96,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Vardiya degisimi icin devir yapalim",
+    "guestHintRu": "Давай сделаем передачу смены",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, tum masalari tek tek devrediyorum",
+      "Notlari eksiksiz aktaracagim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, tum masalari tek tek devrediyorum",
+        "Notlari eksiksiz aktaracagim"
+      ],
+      "ru": [
+        "Хорошо, передаю все столы по очереди",
+        "Передам заметки без пропусков"
+      ],
+      "en": [
+        "Okay, I am handing over all tables one by one",
+        "I will transfer notes without missing anything"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 125,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Hot line, masa dokuz ana yemek hazir mi",
+    "guestHintRu": "Горячая линия, горячее для стола 9 готово?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Kontrol ediyorum, cikisa bir dakika kaldi",
+      "Hazir olur olmaz servisi aciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Kontrol ediyorum, cikisa bir dakika kaldi",
+        "Hazir olur olmaz servisi aciyorum"
+      ],
+      "ru": [
+        "Проверяю, до выхода осталась минута",
+        "Как только будет готово, сразу открываю подачу"
+      ],
+      "en": [
+        "I am checking, one minute left to send it",
+        "As soon as it is ready, I will start service"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 126,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Cold station, iki Caesar salata hemen lazim",
+    "guestHintRu": "Холодная станция, срочно нужны два Цезаря",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, iki Caesar siparisini oncelige aliyorum",
+      "Uc dakika icinde cikis verecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, iki Caesar siparisini oncelige aliyorum",
+        "Uc dakika icinde cikis verecegim"
+      ],
+      "ru": [
+        "Хорошо, ставлю два Цезаря в приоритет",
+        "Отдам в течение трех минут"
+      ],
+      "en": [
+        "Okay, I am prioritizing two Caesar salads",
+        "I will send them out within three minutes"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 127,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Pastry, bir tiramisu fire oldu, tekrar acalim",
+    "guestHintRu": "Кондитерка, один тирамису списан, давайте повторим",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, yeni tiramisu hemen hazirliyorum",
+      "Sunumu ayni standartta tekrar cikariyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, yeni tiramisu hemen hazirliyorum",
+        "Sunumu ayni standartta tekrar cikariyorum"
+      ],
+      "ru": [
+        "Понял, сразу готовлю новый тирамису",
+        "Повторно отдам с тем же стандартом подачи"
+      ],
+      "en": [
+        "Understood, I am preparing a new tiramisu now",
+        "I will resend it with the same plating standard"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 128,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Bar, masa dort mocktail once gitsin",
+    "guestHintRu": "Бар, на стол 4 моктейли отправьте первыми",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, mocktailleri oncelikli hazirliyorum",
+      "Runner ile hemen cikis yaptiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, mocktailleri oncelikli hazirliyorum",
+        "Runner ile hemen cikis yaptiriyorum"
+      ],
+      "ru": [
+        "Хорошо, готовлю моктейли в приоритете",
+        "Сразу отправляю через раннера"
+      ],
+      "en": [
+        "Okay, I am preparing the mocktails as priority",
+        "I am sending them out with the runner now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 129,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Runner, once VIP on ikiye cikalim",
+    "guestHintRu": "Раннер, сначала идем на VIP стол 12",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, rotayi VIP masaya ceviriyorum",
+      "Diger cikislari bir dakika tutuyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, rotayi VIP masaya ceviriyorum",
+        "Diger cikislari bir dakika tutuyorum"
+      ],
+      "ru": [
+        "Хорошо, разворачиваю маршрут к VIP столу",
+        "Остальные выходы придержу на минуту"
+      ],
+      "en": [
+        "Okay, I am switching route to the VIP table",
+        "I am holding other pickups for one minute"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 130,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Sef, alerjen etiketini tekrar kontrol edelim",
+    "guestHintRu": "Шеф, давайте еще раз проверим маркировку аллергенов",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Haklisiniz, etiketleri tek tek teyit ediyorum",
+      "Servisten once son kontrol yapacagim"
+    ],
+    "translations": {
+      "tr": [
+        "Haklisiniz, etiketleri tek tek teyit ediyorum",
+        "Servisten once son kontrol yapacagim"
+      ],
+      "ru": [
+        "Вы правы, проверяю этикетки по одной",
+        "Перед подачей сделаю финальную проверку"
+      ],
+      "en": [
+        "You are right, I am confirming labels one by one",
+        "I will do a final check before service"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 131,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Kasiyer, masa yediye iki ayri fis hazirla",
+    "guestHintRu": "Кассир, на стол 7 подготовь два отдельных чека",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, iki ayri fis olarak ayarliyorum",
+      "Odeme sirasinda karisiklik olmayacak"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, iki ayri fis olarak ayarliyorum",
+        "Odeme sirasinda karisiklik olmayacak"
+      ],
+      "ru": [
+        "Хорошо, настраиваю два отдельных чека",
+        "При оплате путаницы не будет"
+      ],
+      "en": [
+        "Okay, I am setting two separate receipts",
+        "There will be no confusion during payment"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 132,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Hostes, bekleme listesinde kim oncelikli",
+    "guestHintRu": "Хостес, кто в приоритете в листе ожидания?",
+    "guestEmotion": "polite",
+    "answers": [
+      "Sirayi kontrol edip sizi bilgilendiriyorum",
+      "Once rezervasyon saatine gore ilerliyoruz"
+    ],
+    "translations": {
+      "tr": [
+        "Sirayi kontrol edip sizi bilgilendiriyorum",
+        "Once rezervasyon saatine gore ilerliyoruz"
+      ],
+      "ru": [
+        "Проверяю очередь и сообщаю вам",
+        "Сначала идем по времени брони"
+      ],
+      "en": [
+        "I am checking the queue and informing you",
+        "We proceed by reservation time first"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 133,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Steward, temiz tabak seti bitti",
+    "guestHintRu": "Стюард, чистые тарелки закончились",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Hemen yeni set cikartiyorum",
+      "Servisi durdurmadan takviye yapacagim"
+    ],
+    "translations": {
+      "tr": [
+        "Hemen yeni set cikartiyorum",
+        "Servisi durdurmadan takviye yapacagim"
+      ],
+      "ru": [
+        "Сейчас вывожу новый комплект",
+        "Пополню без остановки сервиса"
+      ],
+      "en": [
+        "I am bringing a new set immediately",
+        "I will restock without stopping service"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 134,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Expediter, cikanlari tek tek anons et",
+    "guestHintRu": "Экспедитор, объявляй выходы по одному",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, her tabagi masasiyla anons edecegim",
+      "Yanlis cikisi onlemek icin ritmi dusuruyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, her tabagi masasiyla anons edecegim",
+        "Yanlis cikisi onlemek icin ritmi dusuruyorum"
+      ],
+      "ru": [
+        "Хорошо, буду объявлять каждую тарелку со столом",
+        "Снижаю темп, чтобы исключить ошибки"
+      ],
+      "en": [
+        "Okay, I will call each plate with its table number",
+        "I am slowing the pace to prevent wrong sends"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 135,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Sef, brunch istasyonunda yumurta kuyrugu var",
+    "guestHintRu": "Шеф, на бранч-станции очередь по яйцам",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Ek personel cekiyorum, kuyrugu acacagim",
+      "Siparisleri pisirme suresine gore siraliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Ek personel cekiyorum, kuyrugu acacagim",
+        "Siparisleri pisirme suresine gore siraliyorum"
+      ],
+      "ru": [
+        "Подтягиваю доп. сотрудника, разгружу очередь",
+        "Сортирую заказы по времени приготовления"
+      ],
+      "en": [
+        "I am assigning extra staff to clear the queue",
+        "I am sorting orders by cooking time"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 136,
+    "scenario": "service",
+    "level": "easy",
+    "guest": "Barback, buz takviyesi hemen gerekiyor",
+    "guestHintRu": "Барбек, срочно нужна добавка льда",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Hemen buz depodan getiriyorum",
+      "Bar istasyonunu iki dakika icinde dolduruyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Hemen buz depodan getiriyorum",
+        "Bar istasyonunu iki dakika icinde dolduruyorum"
+      ],
+      "ru": [
+        "Сразу несу лед со склада",
+        "Заполню барную станцию за две минуты"
+      ],
+      "en": [
+        "I am bringing ice from storage now",
+        "I will refill the bar station within two minutes"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 137,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Mutfak, personel yemegi on dakika ertelensin",
+    "guestHintRu": "Кухня, питание персонала отложим на 10 минут",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, servis pikten sonra mola verecegiz",
+      "Ekibi yeni saate gore bilgilendiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, servis pikten sonra mola verecegiz",
+        "Ekibi yeni saate gore bilgilendiriyorum"
+      ],
+      "ru": [
+        "Хорошо, перерыв после пика сервиса",
+        "Информирую команду о новом времени"
+      ],
+      "en": [
+        "Okay, we will take break after peak service",
+        "I am informing the team about the new time"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 138,
+    "scenario": "service",
+    "level": "medium",
+    "guest": "Floor lead, servis bolgesi degisiyor",
+    "guestHintRu": "Старший по залу, зона обслуживания меняется",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, personeli yeni bolgeye kaydiriyorum",
+      "Masalari tekrar paylastirip teyit aliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, personeli yeni bolgeye kaydiriyorum",
+        "Masalari tekrar paylastirip teyit aliyorum"
+      ],
+      "ru": [
+        "Понял, перенаправляю персонал в новую зону",
+        "Перераспределю столы и подтвержу"
+      ],
+      "en": [
+        "Understood, I am shifting staff to the new section",
+        "I will reassign tables and confirm"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 139,
+    "scenario": "service",
+    "level": "hard",
+    "guest": "Sef, gece menusu icin son call",
+    "guestHintRu": "Шеф, последний вызов по ночному меню",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, son siparisleri simdi kapatiyorum",
+      "Ekibe gece menusunun bittigini duyuruyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, son siparisleri simdi kapatiyorum",
+        "Ekibe gece menusunun bittigini duyuruyorum"
+      ],
+      "ru": [
+        "Хорошо, сейчас закрываю последние заказы",
+        "Объявляю команде, что ночное меню завершено"
+      ],
+      "en": [
+        "Okay, I am closing final orders now",
+        "I am announcing to the team that late-night menu is over"
+      ]
+    },
+    "language": "tr"
   }
 ]

@@ -52,5 +52,302 @@
       ]
     },
     "language": "tr"
+  },
+  {
+    "id": 105,
+    "scenario": "drink",
+    "level": "medium",
+    "guest": "Bar, iki latte ve bir cay acil",
+    "guestHintRu": "Бар, срочно два латте и один чай",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, acil olarak bari bilgilendiriyorum",
+      "Icecekleri oncelikli hazirlatiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, acil olarak bari bilgilendiriyorum",
+        "Icecekleri oncelikli hazirlatiyorum"
+      ],
+      "ru": [
+        "Хорошо, срочно информирую бар",
+        "Запускаю напитки в приоритет"
+      ],
+      "en": [
+        "Okay, I am urgently informing the bar",
+        "I am prioritizing those drinks"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 106,
+    "scenario": "drink",
+    "level": "hard",
+    "guest": "Bu kokteyl alkolsuz hazirlansin",
+    "guestHintRu": "Этот коктейль должен быть безалкогольным",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, alkolsuz versiyon hazirlatiyorum",
+      "Bara alkolsuz notunu iletiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, alkolsuz versiyon hazirlatiyorum",
+        "Bara alkolsuz notunu iletiyorum"
+      ],
+      "ru": [
+        "Понял, запускаю безалкогольную версию",
+        "Передаю в бар пометку без алкоголя"
+      ],
+      "en": [
+        "Understood, I am preparing the non-alcoholic version",
+        "I am sending a non-alcoholic note to the bar"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 107,
+    "scenario": "drink",
+    "level": "medium",
+    "guest": "Buzsuz limonata isterler",
+    "guestHintRu": "Они хотят лимонад без льда",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, buzsuz olarak servis edecegim",
+      "Bari buzsuz notuyla yonlendiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, buzsuz olarak servis edecegim",
+        "Bari buzsuz notuyla yonlendiriyorum"
+      ],
+      "ru": [
+        "Хорошо, подам без льда",
+        "Передаю в бар с пометкой без льда"
+      ],
+      "en": [
+        "Okay, I will serve it without ice",
+        "I am sending the order to the bar with no-ice note"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 152,
+    "scenario": "drink",
+    "level": "hard",
+    "guest": "Bar, bir espresso martini alkolsuz versiyonu mumkun mu",
+    "guestHintRu": "Бар, можно безалкогольную версию espresso martini?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Evet, alkolsuz receteyle hazirlayabiliriz",
+      "Lezzeti koruyup mocktail olarak sunacagim"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, alkolsuz receteyle hazirlayabiliriz",
+        "Lezzeti koruyup mocktail olarak sunacagim"
+      ],
+      "ru": [
+        "Да, можем приготовить по безалкогольному рецепту",
+        "Сохраню вкус и подам как моктейль"
+      ],
+      "en": [
+        "Yes, we can prepare it with a non-alcoholic recipe",
+        "I will keep the taste and serve it as a mocktail"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 153,
+    "scenario": "drink",
+    "level": "easy",
+    "guest": "Masa sekize buzsuz cola notu gectin mi",
+    "guestHintRu": "На стол 8 ты передал колу без льда?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Evet, buzsuz olarak girildi",
+      "Bara tekrar teyit veriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Evet, buzsuz olarak girildi",
+        "Bara tekrar teyit veriyorum"
+      ],
+      "ru": [
+        "Да, внесено как без льда",
+        "Еще раз подтверждаю бару"
+      ],
+      "en": [
+        "Yes, it was entered as no ice",
+        "I am reconfirming with the bar"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 154,
+    "scenario": "drink",
+    "level": "medium",
+    "guest": "Latteyi yulaf sutuyla yenile",
+    "guestHintRu": "Переделай латте на овсяном молоке",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, yulaf sutuyla yeniden hazirliyorum",
+      "Dogru sut secimini fisde isaretledim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, yulaf sutuyla yeniden hazirliyorum",
+        "Dogru sut secimini fisde isaretledim"
+      ],
+      "ru": [
+        "Хорошо, переделываю на овсяном молоке",
+        "Отметил правильный тип молока в чеке"
+      ],
+      "en": [
+        "Okay, I am remaking it with oat milk",
+        "I marked the correct milk choice in the ticket"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 155,
+    "scenario": "drink",
+    "level": "medium",
+    "guest": "Sef, sicak icecekler once ciksin",
+    "guestHintRu": "Шеф, горячие напитки пусть выйдут первыми",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, sicak icecekleri oncelikli aliyorum",
+      "Bari cikis sirasi icin bilgilendiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, sicak icecekleri oncelikli aliyorum",
+        "Bari cikis sirasi icin bilgilendiriyorum"
+      ],
+      "ru": [
+        "Хорошо, горячие напитки ставлю в приоритет",
+        "Информирую бар о порядке выхода"
+      ],
+      "en": [
+        "Okay, I am prioritizing hot drinks first",
+        "I am briefing the bar on send-out order"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 156,
+    "scenario": "drink",
+    "level": "easy",
+    "guest": "Barista, bir cappuccino ekstra sicak",
+    "guestHintRu": "Бариста, один капучино очень горячий",
+    "guestEmotion": "polite",
+    "answers": [
+      "Anladim, ekstra sicak olarak hazirliyorum",
+      "Sutumun sicakligini ozellikle kontrol edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, ekstra sicak olarak hazirliyorum",
+        "Sutumun sicakligini ozellikle kontrol edecegim"
+      ],
+      "ru": [
+        "Понял, готовлю с повышенной температурой",
+        "Отдельно проверю температуру молока"
+      ],
+      "en": [
+        "Understood, I am preparing it extra hot",
+        "I will specifically check the milk temperature"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 157,
+    "scenario": "drink",
+    "level": "medium",
+    "guest": "Pitcher limonata bitiyor, hemen yenile",
+    "guestHintRu": "Кувшин лимонада заканчивается, срочно пополни",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, yeni pitcher hazirliyorum",
+      "Serviste bosluk olmamasi icin hizli cikacagim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, yeni pitcher hazirliyorum",
+        "Serviste bosluk olmamasi icin hizli cikacagim"
+      ],
+      "ru": [
+        "Хорошо, готовлю новый кувшин",
+        "Выйду быстро, чтобы не было паузы в сервисе"
+      ],
+      "en": [
+        "Okay, I am preparing a new pitcher",
+        "I will send it fast to avoid service gaps"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 158,
+    "scenario": "drink",
+    "level": "easy",
+    "guest": "Masa ikiye iki su bir maden suyu",
+    "guestHintRu": "На стол 2: две воды и одна минералка",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, siparisi ayni sekilde aciyorum",
+      "Icecekleri tepsiyle hemen gonderiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, siparisi ayni sekilde aciyorum",
+        "Icecekleri tepsiyle hemen gonderiyorum"
+      ],
+      "ru": [
+        "Хорошо, открываю заказ именно так",
+        "Сразу отправляю напитки на подносе"
+      ],
+      "en": [
+        "Okay, I am entering the order exactly like that",
+        "I am sending the drinks on a tray right away"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 159,
+    "scenario": "drink",
+    "level": "hard",
+    "guest": "Happy hour bitmeden son kokteyl siparisini ac",
+    "guestHintRu": "До конца happy hour открой последний заказ на коктейли",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, kampanya suresinde siparisi aciyorum",
+      "Saati fisle birlikte teyit ediyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, kampanya suresinde siparisi aciyorum",
+        "Saati fisle birlikte teyit ediyorum"
+      ],
+      "ru": [
+        "Понял, открываю заказ в пределах акции",
+        "Подтверждаю время вместе с чеком"
+      ],
+      "en": [
+        "Understood, I am placing it within happy hour time",
+        "I am confirming the timestamp with the ticket"
+      ]
+    },
+    "language": "tr"
   }
 ]

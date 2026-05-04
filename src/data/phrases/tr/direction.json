@@ -25,5 +25,140 @@
       ]
     },
     "language": "tr"
+  },
+  {
+    "id": 119,
+    "scenario": "direction",
+    "level": "easy",
+    "guest": "Mutfak cikisi nerede",
+    "guestHintRu": "Где выход на кухню?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Koridorun sonunda solda",
+      "Sola donunce mutfak cikisini goreceksiniz"
+    ],
+    "translations": {
+      "tr": [
+        "Koridorun sonunda solda",
+        "Sola donunce mutfak cikisini goreceksiniz"
+      ],
+      "ru": [
+        "В конце коридора налево",
+        "Повернете налево и увидите выход на кухню"
+      ],
+      "en": [
+        "At the end of the corridor on the left",
+        "Turn left and you will see the kitchen exit"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 120,
+    "scenario": "direction",
+    "level": "medium",
+    "guest": "Depoya en kisa yol hangisi",
+    "guestHintRu": "Какой самый короткий путь к складу?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Asansorun yanindan duz gidin",
+      "Sag koridordan gidince depoya ulasirsiniz"
+    ],
+    "translations": {
+      "tr": [
+        "Asansorun yanindan duz gidin",
+        "Sag koridordan gidince depoya ulasirsiniz"
+      ],
+      "ru": [
+        "Идите прямо рядом с лифтом",
+        "Через правый коридор дойдете до склада"
+      ],
+      "en": [
+        "Go straight past the elevator",
+        "Take the right corridor and you will reach the storage room"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 176,
+    "scenario": "direction",
+    "level": "easy",
+    "guest": "Sef, garnisaj malzemeleri hangi rafa tasinacak",
+    "guestHintRu": "Шеф, на какую полку перенести гарниры?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Garnisajlar ust soguk rafina alinacak",
+      "Etiketleyip FIFO sirasina gore dizeriz"
+    ],
+    "translations": {
+      "tr": [
+        "Garnisajlar ust soguk rafina alinacak",
+        "Etiketleyip FIFO sirasina gore dizeriz"
+      ],
+      "ru": [
+        "Гарниры переносим на верхнюю холодную полку",
+        "Промаркируем и расставим по FIFO"
+      ],
+      "en": [
+        "Garnishes go to the upper cold shelf",
+        "We label and arrange them by FIFO order"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 177,
+    "scenario": "direction",
+    "level": "medium",
+    "guest": "Bar stoklarini arka depoya kim indirecek",
+    "guestHintRu": "Кто перенесет барные запасы на задний склад?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Barback ile birlikte simdi indiriyoruz",
+      "Stok sayimini bitirince teslim edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Barback ile birlikte simdi indiriyoruz",
+        "Stok sayimini bitirince teslim edecegim"
+      ],
+      "ru": [
+        "Сейчас переносим вместе с барбеком",
+        "После пересчета сдам остатки"
+      ],
+      "en": [
+        "We are moving them now with the barback",
+        "I will hand over after finishing stock count"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 178,
+    "scenario": "direction",
+    "level": "medium",
+    "guest": "Takeaway paketleme istasyonu nereye kaydi",
+    "guestHintRu": "Куда перенесли станцию упаковки takeaway?",
+    "guestEmotion": "confused",
+    "answers": [
+      "Yeni istasyon cikis kapisinin yaninda",
+      "Sizi oraya goturup duzeni gosterecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Yeni istasyon cikis kapisinin yaninda",
+        "Sizi oraya goturup duzeni gosterecegim"
+      ],
+      "ru": [
+        "Новая станция рядом с выходной дверью",
+        "Проведу вас туда и покажу порядок"
+      ],
+      "en": [
+        "The new station is next to the exit door",
+        "I will take you there and show the setup"
+      ]
+    },
+    "language": "tr"
   }
 ]

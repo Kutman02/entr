@@ -52,5 +52,113 @@
       ]
     },
     "language": "tr"
+  },
+  {
+    "id": 123,
+    "scenario": "closing",
+    "level": "medium",
+    "guest": "Vardiya bitince kisa toplanti yapalim",
+    "guestHintRu": "После смены давай сделаем короткое собрание",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, kapanistan sonra toplanalim",
+      "Notlari alip toplantiya geliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, kapanistan sonra toplanalim",
+        "Notlari alip toplantiya geliyorum"
+      ],
+      "ru": [
+        "Хорошо, соберемся после закрытия",
+        "Возьму заметки и подойду на собрание"
+      ],
+      "en": [
+        "Okay, let us meet after closing",
+        "I will bring notes and join the meeting"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 124,
+    "scenario": "closing",
+    "level": "medium",
+    "guest": "Kapanisa on dakika kaldi",
+    "guestHintRu": "До закрытия осталось десять минут",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Anladim, son kontrolleri yapiyorum",
+      "Kapanis hazirligini hemen tamamliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Anladim, son kontrolleri yapiyorum",
+        "Kapanis hazirligini hemen tamamliyorum"
+      ],
+      "ru": [
+        "Понял, делаю финальные проверки",
+        "Сразу завершаю подготовку к закрытию"
+      ],
+      "en": [
+        "Understood, I am doing final checks",
+        "I am finishing closing preparation now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 179,
+    "scenario": "closing",
+    "level": "medium",
+    "guest": "Kapanista mise en place listesini kim kontrol edecek",
+    "guestHintRu": "Кто на закрытии проверит список mise en place?",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Ben kontrol edip imza ile teslim edecegim",
+      "Eksikleri vardiya devrine not edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Ben kontrol edip imza ile teslim edecegim",
+        "Eksikleri vardiya devrine not edecegim"
+      ],
+      "ru": [
+        "Я проверю и сдам под подпись",
+        "Недочеты передам в заметках на смену"
+      ],
+      "en": [
+        "I will verify and hand it over with signature",
+        "I will note missing items for shift handover"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 180,
+    "scenario": "closing",
+    "level": "hard",
+    "guest": "Vardiya devrinde kritik notlari yazili birak",
+    "guestHintRu": "При передаче смены оставь критичные заметки письменно",
+    "guestEmotion": "neutral",
+    "answers": [
+      "Tamam, kritik notlari logbooka isliyorum",
+      "Sabah ekibine net teslim bilgisi birakacagim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, kritik notlari logbooka isliyorum",
+        "Sabah ekibine net teslim bilgisi birakacagim"
+      ],
+      "ru": [
+        "Хорошо, заношу критичные заметки в журнал",
+        "Оставлю четкую информацию для утренней смены"
+      ],
+      "en": [
+        "Okay, I am logging critical notes in the logbook",
+        "I will leave clear handover info for morning team"
+      ]
+    },
+    "language": "tr"
   }
 ]

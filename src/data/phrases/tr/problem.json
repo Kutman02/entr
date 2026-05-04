@@ -25,5 +25,437 @@
       ]
     },
     "language": "tr"
+  },
+  {
+    "id": 108,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Masa alti bu yemegi cok gec buldu",
+    "guestHintRu": "Стол 6 считает, что блюдо подали слишком поздно",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Ozur dilerim, durumu hemen telafi edecegim",
+      "Mutfaktan oncelik isteyip hizlandiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Ozur dilerim, durumu hemen telafi edecegim",
+        "Mutfaktan oncelik isteyip hizlandiriyorum"
+      ],
+      "ru": [
+        "Извините, сейчас исправлю ситуацию",
+        "Запрашиваю приоритет на кухне и ускоряю"
+      ],
+      "en": [
+        "I am sorry, I will fix this immediately",
+        "I am asking the kitchen for priority and speeding it up"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 109,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Bu siparis yanlis masaya gitmis",
+    "guestHintRu": "Этот заказ ушел не на тот стол",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Haklisiniz, dogru masaya hemen yonlendiriyorum",
+      "Ozur dilerim, siparisi yeniden duzenliyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Haklisiniz, dogru masaya hemen yonlendiriyorum",
+        "Ozur dilerim, siparisi yeniden duzenliyorum"
+      ],
+      "ru": [
+        "Вы правы, сразу направляю на правильный стол",
+        "Извините, сейчас заново оформляю заказ"
+      ],
+      "en": [
+        "You are right, I am redirecting it to the correct table now",
+        "Sorry, I am reorganizing the order now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 110,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "Corbanin ici ilik, sicak degil",
+    "guestHintRu": "Суп теплый, но не горячий",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Uzgunum, hemen sicak corba getirecegim",
+      "Mutfaga tekrar isitma notu geciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Uzgunum, hemen sicak corba getirecegim",
+        "Mutfaga tekrar isitma notu geciyorum"
+      ],
+      "ru": [
+        "Извините, сейчас принесу горячий суп",
+        "Передаю на кухню заметку о повторном подогреве"
+      ],
+      "en": [
+        "Sorry, I will bring a hot soup right away",
+        "I am sending a reheating note to the kitchen"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 111,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Misafir personelden sikayetci",
+    "guestHintRu": "Гость жалуется на персонал",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Durumu ciddiye aliyorum, hemen ilgilenecegim",
+      "Ozur dileyip sorunu simdi cozecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Durumu ciddiye aliyorum, hemen ilgilenecegim",
+        "Ozur dileyip sorunu simdi cozecegim"
+      ],
+      "ru": [
+        "Я отношусь к этому серьезно, сейчас разберусь",
+        "Извинюсь и решу проблему прямо сейчас"
+      ],
+      "en": [
+        "I am taking this seriously, I will handle it now",
+        "I will apologize and solve the issue right now"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 112,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "Bardakta catlak var",
+    "guestHintRu": "На стакане есть трещина",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Uzgunum, bardagi hemen degistiriyorum",
+      "Guvenli bardakla tekrar servis edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Uzgunum, bardagi hemen degistiriyorum",
+        "Guvenli bardakla tekrar servis edecegim"
+      ],
+      "ru": [
+        "Извините, сразу заменяю стакан",
+        "Подам заново в безопасном стакане"
+      ],
+      "en": [
+        "Sorry, I am replacing the glass immediately",
+        "I will re-serve it with a safe glass"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 113,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Sef, bu tabagi geri aliyoruz",
+    "guestHintRu": "Шеф, это блюдо возвращаем",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Tamam, tabagi geri alip yenisini hazirlayacagim",
+      "Nedeni mutfakta hemen kontrol edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, tabagi geri alip yenisini hazirlayacagim",
+        "Nedeni mutfakta hemen kontrol edecegim"
+      ],
+      "ru": [
+        "Хорошо, забираю блюдо и подготовлю новое",
+        "Сразу выясню причину на кухне"
+      ],
+      "en": [
+        "Okay, I will take it back and prepare a new one",
+        "I will check the reason in the kitchen right away"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 160,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Masa dokuz siparisi POSta dusmedi",
+    "guestHintRu": "Заказ стола 9 не прошел в POS",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Hemen manuel siparis acip mutfaga geciyorum",
+      "Ayni anda POS kaydini teknikle kontrol edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Hemen manuel siparis acip mutfaga geciyorum",
+        "Ayni anda POS kaydini teknikle kontrol edecegim"
+      ],
+      "ru": [
+        "Сразу открою заказ вручную и передам на кухню",
+        "Параллельно проверю POS с техником"
+      ],
+      "en": [
+        "I will open the order manually and send it to kitchen now",
+        "At the same time I will check POS with technical support"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 161,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Kitchen display dondu, biletler gorunmuyor",
+    "guestHintRu": "Кухонный дисплей завис, чеки не видны",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Yedek yaziciya gecip siparisleri akitiyorum",
+      "ITye ariza kodunu hemen iletiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Yedek yaziciya gecip siparisleri akitiyorum",
+        "ITye ariza kodunu hemen iletiyorum"
+      ],
+      "ru": [
+        "Перехожу на резервный принтер и веду поток заказов",
+        "Сразу передаю код ошибки в IT"
+      ],
+      "en": [
+        "I am switching to backup printer and keeping orders flowing",
+        "I am reporting the error code to IT immediately"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 162,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "Bar ticket printer kagit sikistirdi",
+    "guestHintRu": "В барном принтере зажевало бумагу",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Sikismayi acip yeni ruloyu takiyorum",
+      "Bu arada siparisleri elde takip edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Sikismayi acip yeni ruloyu takiyorum",
+        "Bu arada siparisleri elde takip edecegim"
+      ],
+      "ru": [
+        "Устраняю замятие и ставлю новый рулон",
+        "Пока что буду вести заказы вручную"
+      ],
+      "en": [
+        "I am clearing the jam and loading a new roll",
+        "Meanwhile I will track orders manually"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 163,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "Masa ucte yanlis garnitur gitti",
+    "guestHintRu": "На стол 3 ушел неправильный гарнир",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Ozur dilerim, dogru garnituru hemen cikariyorum",
+      "Yanlis tabagi geri alip mutfaga bildiriyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Ozur dilerim, dogru garnituru hemen cikariyorum",
+        "Yanlis tabagi geri alip mutfaga bildiriyorum"
+      ],
+      "ru": [
+        "Извините, правильный гарнир вынесу сразу",
+        "Неправильное блюдо забираю и передаю на кухню"
+      ],
+      "en": [
+        "Sorry, I am sending the correct side dish immediately",
+        "I am taking back the wrong plate and informing kitchen"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 164,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Alerjen notu fisde eksik yazilmis",
+    "guestHintRu": "Пометка об аллергене в чеке указана не полностью",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Hemen siparisi durdurup notu duzeltiyorum",
+      "Alerjen teyidi olmadan servis etmeyecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Hemen siparisi durdurup notu duzeltiyorum",
+        "Alerjen teyidi olmadan servis etmeyecegim"
+      ],
+      "ru": [
+        "Сразу останавливаю заказ и исправляю пометку",
+        "Без подтверждения аллергена подавать не буду"
+      ],
+      "en": [
+        "I am stopping the order and correcting the note now",
+        "I will not serve before allergen confirmation"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 165,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Pastryde firin sicakligi dengesiz",
+    "guestHintRu": "В кондитерке нестабильная температура печи",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Batchi durdurup kalibrasyon kontrolu yapiyorum",
+      "Gerekirse alternatif firina gecis yapacagim"
+    ],
+    "translations": {
+      "tr": [
+        "Batchi durdurup kalibrasyon kontrolu yapiyorum",
+        "Gerekirse alternatif firina gecis yapacagim"
+      ],
+      "ru": [
+        "Останавливаю партию и проверяю калибровку",
+        "При необходимости перейду на альтернативную печь"
+      ],
+      "en": [
+        "I am pausing the batch and checking calibration",
+        "If needed, I will switch to an alternative oven"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 166,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "Cold stationda marul kalitesi dusuk",
+    "guestHintRu": "На холодной станции качество салата низкое",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Sorunlu urunu ayirip yenisini aciyorum",
+      "Kalite standardina uymayani servise vermiyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Sorunlu urunu ayirip yenisini aciyorum",
+        "Kalite standardina uymayani servise vermiyorum"
+      ],
+      "ru": [
+        "Отделяю проблемный продукт и открываю новый",
+        "Не отправляю в сервис то, что не по стандарту"
+      ],
+      "en": [
+        "I am separating bad product and opening fresh stock",
+        "I am not sending anything below quality standard"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 167,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "Runner tepsiyi dusurdu, tekrar cikaralim",
+    "guestHintRu": "Раннер уронил поднос, давайте повторим подачу",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Tamam, siparisi yeniden aciyorum",
+      "Mutfak ve bara tekrar oncelik geciyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Tamam, siparisi yeniden aciyorum",
+        "Mutfak ve bara tekrar oncelik geciyorum"
+      ],
+      "ru": [
+        "Хорошо, открываю заказ заново",
+        "Передаю повторный приоритет на кухню и в бар"
+      ],
+      "en": [
+        "Okay, I am reopening the order",
+        "I am setting repeat priority for kitchen and bar"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 168,
+    "scenario": "problem",
+    "level": "hard",
+    "guest": "Masa onde odeme alindi ama fis basilmadi",
+    "guestHintRu": "С переднего стола оплату приняли, но чек не распечатался",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Hemen fisin kopyasini yeniden basiyorum",
+      "Muhasebe kaydini da ayni anda kontrol edecegim"
+    ],
+    "translations": {
+      "tr": [
+        "Hemen fisin kopyasini yeniden basiyorum",
+        "Muhasebe kaydini da ayni anda kontrol edecegim"
+      ],
+      "ru": [
+        "Сразу печатаю копию чека повторно",
+        "Одновременно проверю учетную запись"
+      ],
+      "en": [
+        "I am reprinting a copy of the receipt now",
+        "I will also verify accounting record at the same time"
+      ]
+    },
+    "language": "tr"
+  },
+  {
+    "id": 169,
+    "scenario": "problem",
+    "level": "medium",
+    "guest": "Takeaway pakette urun eksik",
+    "guestHintRu": "В заказе на вынос не хватает позиции",
+    "guestEmotion": "conflict",
+    "answers": [
+      "Ozur dilerim, eksik urunu hemen tamamliyorum",
+      "Paket kontrol listesini tekrar uyguluyorum"
+    ],
+    "translations": {
+      "tr": [
+        "Ozur dilerim, eksik urunu hemen tamamliyorum",
+        "Paket kontrol listesini tekrar uyguluyorum"
+      ],
+      "ru": [
+        "Извините, сейчас добавлю недостающую позицию",
+        "Повторно применяю чек-лист упаковки"
+      ],
+      "en": [
+        "Sorry, I am adding the missing item immediately",
+        "I am reapplying the packing checklist"
+      ]
+    },
+    "language": "tr"
   }
 ]
