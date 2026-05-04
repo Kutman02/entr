@@ -45,3 +45,10 @@ export const getModeByPath = (pathname: string): AppMode => {
 export const getPathByMode = (mode: AppMode): string => {
   return APP_NAV_ITEMS.find((item) => item.mode === mode)?.path ?? '/practice'
 }
+
+export const isAppMode = (value: unknown): value is AppMode => {
+  return (
+    typeof value === 'string' &&
+    APP_NAV_ITEMS.some((item) => item.mode === value)
+  )
+}

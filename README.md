@@ -71,3 +71,23 @@ export default defineConfig([
   },
 ])
 ```
+
+## PWA setup
+
+- The app includes a Web App Manifest at `public/manifest.webmanifest`.
+- Service worker is implemented in `public/sw.js`.
+- Registration logic is in `src/pwa/registerServiceWorker.ts`.
+- iOS/Android install icons are in `public/pwa-192.png`, `public/pwa-512.png`, and `public/apple-touch-icon.png`.
+
+### Update strategy
+
+- Each build gets a unique build id from Vite defines (`__APP_BUILD_ID__`).
+- Service worker is registered with `/sw.js?v=<build-id>` to force refresh on new deploys.
+- Old caches are automatically cleaned in the `activate` phase.
+- Waiting worker is promoted immediately (`SKIP_WAITING`) and client reloads once via `controllerchange`.
+
+### LocalStorage compatibility
+
+- Storage migration/sanitization runs on startup from `src/utils/storageMigration.ts`.
+- Corrupted or outdated persisted values are normalized to safe defaults.
+- `useLocalStorageState` removes invalid JSON and supports runtime validation.

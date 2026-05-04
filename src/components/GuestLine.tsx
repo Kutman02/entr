@@ -33,17 +33,9 @@ export default function GuestLine({
   return (
     <div className={containerClassName}>
       <div className="flex items-start gap-2">
-        <span className="text-2xl leading-none" aria-hidden="true">
-          {emotionView.emoji}
-        </span>
-
-        {languageView ? (
-          <span className="rounded-full border border-slate-300 bg-white px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.16em] text-slate-700">
-            {languageView.flag} {languageView.code}
-          </span>
-        ) : null}
-
-        <p className={textClassName ?? 'text-2xl font-bold text-slate-900'}>{text}</p>
+        <p className={`min-w-0 flex-1 ${textClassName ?? 'text-2xl font-bold text-slate-900'}`}>
+          {text}
+        </p>
 
         {onSpeak ? (
           <SpeakIconButton
@@ -53,15 +45,27 @@ export default function GuestLine({
           />
         ) : null}
 
-        <button
-          type="button"
-          onClick={() => setShowHint((previousState) => !previousState)}
-          className="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-full border border-amber-300 bg-amber-100 text-amber-800 transition hover:bg-amber-200"
-          aria-label="Show Russian hint"
-          title="Показать подсказку на русском"
-        >
-          <FiInfo className="h-4 w-4" aria-hidden="true" />
-        </button>
+        <div className="ml-auto flex shrink-0 items-center gap-2">
+          {languageView ? (
+            <span className="rounded-full border border-slate-300 bg-white px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.16em] text-slate-700">
+              {languageView.flag} {languageView.code}
+            </span>
+          ) : null}
+
+          <span className="text-2xl leading-none" aria-hidden="true">
+            {emotionView.emoji}
+          </span>
+
+          <button
+            type="button"
+            onClick={() => setShowHint((previousState) => !previousState)}
+            className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-amber-300 bg-amber-100 text-amber-800 transition hover:bg-amber-200"
+            aria-label="Show Russian hint"
+            title="Показать подсказку на русском"
+          >
+            <FiInfo className="h-4 w-4" aria-hidden="true" />
+          </button>
+        </div>
       </div>
 
       <p className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">

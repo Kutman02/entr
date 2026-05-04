@@ -3,6 +3,7 @@ import { STORAGE_KEYS } from './constants/storageKeys'
 import {
   DEFAULT_APP_MODE,
   getPathByMode,
+  isAppMode,
   type AppMode,
 } from './constants/navigation'
 import LearnPage from './features/learn/LearnPage'
@@ -15,6 +16,7 @@ function App() {
   const [savedMode] = useLocalStorageState<AppMode>(
     STORAGE_KEYS.appMode,
     DEFAULT_APP_MODE,
+    { validate: isAppMode },
   )
   const homePath = getPathByMode(savedMode)
 

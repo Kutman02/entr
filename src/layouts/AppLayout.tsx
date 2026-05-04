@@ -1,22 +1,26 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
-import { FiMenu, FiX } from 'react-icons/fi'
+import { FiDownload, FiMenu, FiX } from 'react-icons/fi'
 import AppBurgerMenu from '../components/AppBurgerMenu'
 import {
   APP_INFO,
   APP_NAV_ITEMS,
   DEFAULT_APP_MODE,
   getModeByPath,
+  isAppMode,
 } from '../constants/navigation'
 import { STORAGE_KEYS } from '../constants/storageKeys'
 import { useLocalStorageState } from '../hooks/useLocalStorageState'
+import { usePwaInstallPrompt } from '../hooks/usePwaInstallPrompt'
 
 export default function AppLayout() {
   const location = useLocation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { canInstall, install } = usePwaInstallPrompt()
   const [storedMode, setStoredMode] = useLocalStorageState(
     STORAGE_KEYS.appMode,
     DEFAULT_APP_MODE,
+    { validate: isAppMode },
   )
 
   const activeMode = useMemo(() => {
@@ -42,19 +46,37 @@ export default function AppLayout() {
               {APP_INFO.badge}
             </p>
 
-            <button
-              type="button"
-              onClick={() => setIsMenuOpen((previousState) => !previousState)}
-              className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 transition hover:border-cyan-400 hover:text-cyan-700"
-              aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-            >
-              {isMenuOpen ? (
-                <FiX className="h-4 w-4" aria-hidden="true" />
-              ) : (
-                <FiMenu className="h-4 w-4" aria-hidden="true" />
-              )}
-              Menu
-            </button>
+            <div className="flex items-center gap-2">
+              {canInstall ? (
+                <button
+                  type="button"
+                  onClick={() => {
+                    install().catch(() => {
+                      return undefined
+                    })
+                  }}
+                  className="inline-flex items-center gap-2 rounded-full border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-sm font-semibold text-emerald-800 transition hover:border-emerald-400 hover:bg-emerald-100"
+                  aria-label="Install app"
+                >
+                  <FiDownload className="h-4 w-4" aria-hidden="true" />
+                  Install
+                </button>
+              ) : null}
+
+              <button
+                type="button"
+                onClick={() => setIsMenuOpen((previousState) => !previousState)}
+                className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 transition hover:border-cyan-400 hover:text-cyan-700"
+                aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+              >
+                {isMenuOpen ? (
+                  <FiX className="h-4 w-4" aria-hidden="true" />
+                ) : (
+                  <FiMenu className="h-4 w-4" aria-hidden="true" />
+                )}
+                Menu
+              </button>
+            </div>
           </div>
 
           <h1 className="mt-3 text-3xl font-extrabold text-slate-900 sm:text-4xl">
