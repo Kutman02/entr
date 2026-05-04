@@ -1,4 +1,4 @@
-export type AppMode = 'learn' | 'practice' | 'simulation'
+export type AppMode = 'learn' | 'practice' | 'simulation' | 'vocabulary'
 
 export interface AppNavigationItem {
   mode: AppMode
@@ -34,6 +34,12 @@ export const APP_NAV_ITEMS: AppNavigationItem[] = [
     label: 'Симуляция',
     path: '/simulation',
     description: 'Короткие многошаговые диалоги обслуживания в отеле.',
+  },
+  {
+    mode: 'vocabulary',
+    label: 'Словарь',
+    path: '/vocabulary',
+    description: 'Слова и короткие фразы из ваших JSON с переводом на RU и TR.',
   },
 ]
 

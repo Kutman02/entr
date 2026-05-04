@@ -39,7 +39,7 @@ export default function GuestLine({
     <div className={containerClassName}>
       {roleLabel ? (
         <p className="mb-1 text-xs font-bold uppercase tracking-[0.12em] text-amber-700">
-          Персонаж: {roleLabel}
+          Обращение к: {roleLabel}
         </p>
       ) : null}
       <div className="flex flex-col gap-2 sm:flex-row sm:items-start">

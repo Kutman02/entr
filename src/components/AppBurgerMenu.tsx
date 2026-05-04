@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import {
   FiArrowRight,
+  FiBook,
   FiBookOpen,
   FiDownload,
   FiMessageCircle,
@@ -28,6 +29,7 @@ const modeIcons: Record<AppMode, IconType> = {
   learn: FiBookOpen,
   practice: FiZap,
   simulation: FiMessageCircle,
+  vocabulary: FiBook,
 }
 
 export default function AppBurgerMenu({

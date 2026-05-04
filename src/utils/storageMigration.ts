@@ -22,7 +22,12 @@ const allowedResults = new Set<PracticeResult>([
   'needsReview',
   'unrated',
 ])
-const allowedModes = new Set<AppMode>(['learn', 'practice', 'simulation'])
+const allowedModes = new Set<AppMode>([
+  'learn',
+  'practice',
+  'simulation',
+  'vocabulary',
+])
 
 const isRecord = (value: unknown): value is Record<string, unknown> => {
   return typeof value === 'object' && value !== null && !Array.isArray(value)

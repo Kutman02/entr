@@ -9,6 +9,7 @@ import {
 import LearnPage from './features/learn/LearnPage'
 import PracticePage from './features/practice/PracticePage'
 import SimulationPage from './features/simulation/SimulationPage'
+import VocabularyPage from './features/vocabulary/VocabularyPage'
 import { useLocalStorageState } from './hooks/useLocalStorageState'
 import AppLayout from './layouts/AppLayout'
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="learn" element={<LearnPage />} />
         <Route path="practice" element={<PracticePage />} />
         <Route path="simulation" element={<SimulationPage />} />
+        <Route path="vocabulary" element={<VocabularyPage />} />
         <Route path="*" element={<Navigate to={homePath} replace />} />
       </Route>
     </Routes>
